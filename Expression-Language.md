@@ -11,10 +11,10 @@ Prometheus provides a functional expression language that lets the user select a
 Data in Prometheus is stored as timeseries, which are uniquely identified by a metric name and a set of arbitrary label/value pairs. Each timeseries can have one or more data points attached to it. Data points are timestamp/value pairs.
 
 #### Metric name
-The metric name of a timeseries (e.g. "http_requests_total") specifies the general feature of a system that is measured. It may contain alpha-numeric characters, plus underscores and colons.
+The metric name of a timeseries (e.g. `http_requests_total`) specifies the general feature of a system that is measured. It may contain alpha-numeric characters, plus underscores and colons.
 
 #### Labels
-The label/value pairs attached to a timeseries add dimensions that allow later filtering and aggregation by these dimensions (e.g. "endpoint", "response_code"). Label keys are identifiers (alpha-numeric characters, plus underscores and colons), while their values may be arbitrary strings.
+The label/value pairs attached to a timeseries add dimensions that allow later filtering and aggregation by these dimensions (e.g. `endpoint`, `response_code`). Label keys are identifiers (alpha-numeric characters, plus underscores and colons), while their values may be arbitrary strings.
 
 #### Data points
 Each timeseries can have one or more data points attached to it, which are timestamp/value pairs. Values are always encoded as floating-point numbers (currently 32-bit precision).
