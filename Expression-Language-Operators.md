@@ -45,7 +45,7 @@ These logical/set binary operators are only defined between sample vectors:
 
 # Aggregation Operators
 
-Prometheus supports the following built-in aggregation operators that can be used to aggregate sample vector elements into a vector of fewer elements with aggregated values:
+Prometheus supports the following built-in aggregation operators that can be used to aggregate the elements of a single sample vector elements into a new vector of fewer elements with aggregated values:
 
 * `sum` (calculate sum over dimensions)
 * `min` (select minimum over dimensions)
