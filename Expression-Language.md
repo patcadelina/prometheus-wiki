@@ -30,6 +30,10 @@ In Prometheus' expression language, an expression or sub-expression can evaluate
 
 Depending on the use-case (e.g. when graphing vs. displaying the output of an expression), only some of these types are legal as the result from a user-specified expression. For example, an expression that returns a point vector is the only type that can be directly graphed.
 
+## Literals
+
+...
+
 ## Operators
 
 Prometheus supports many binary and aggregation operators. These are described in detail in the [[Expression Language Operators]] page.
