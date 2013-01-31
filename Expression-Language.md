@@ -25,14 +25,57 @@ In Prometheus' expression language, an expression or sub-expression can evaluate
 
 * string
 * scalar (float)
-* point vector (vector of single data points in time from multiple timeseries)
+* sample vector (vector of single data points in time from multiple timeseries)
 * range vector / matrix (vector of data point streams from multiple timeseries)
 
 Depending on the use-case (e.g. when graphing vs. displaying the output of an expression), only some of these types are legal as the result from a user-specified expression. For example, an expression that returns a point vector is the only type that can be directly graphed.
 
 ## Literals
 
-...
+### String Literals
+
+Strings may be specified as literals in single or double quotes.
+
+Example:
+
+    "this is a string"
+
+### Float Literals
+
+Scalar float values can be literally written as numbers of the form `[-](digits)[.(digits)]`.
+
+    -2.43
+
+### Sample Vector Literals
+
+Sample vector literals allow the selection of a set of timeseries: in the simplest form, only a metric name is specified. This results in a sample vector containing elements for all timeseries that have this metric name.
+
+This example selects all timeseries that have the "http_requests_total" metric name:
+
+    http_requests_total
+
+It is possible to filter these timeseries further by appending a set of labels to match in curly braces (`{}`).
+
+This example selects only those timeseries with the "http_requests_total" metric name that also have the `job` label set to `prometheus` and their `group` label set to `canary`:
+
+    http_requests_total{job="prometheus", group="canary"}
+
+### Range Vector Literals
+
+Range vector literals work like sample vector literals, except that a range duration is appended in square brackets (`[]`) at the end of the literal that specifies how far back in time values should be fetched for each resulting range vector element.
+
+Time durations are specified as a number, followed immediately by one of the following units:
+
+* `s` - seconds
+* `m` - minutes
+* `h` - hours
+* `d` - days
+* `w` - weeks
+* `y` - years
+
+In this example, we select all the values we have recorded within the last 5 minutes for all timeseries that have the metric name `http_requests_total` and a `job` label set to `prometheus`:
+
+    http_requests_total{job="prometheus"}[5m]
 
 ## Operators
 
