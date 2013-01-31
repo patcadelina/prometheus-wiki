@@ -54,14 +54,14 @@ Prometheus supports the following built-in aggregation operators that can be use
 
 These operators can either be used to aggregate over **all** label dimensions or preserve distinct dimensions by including a `by`-clause:
 
-`<aggr-op>(<vector expression>) [by (<label list>)]`
+    <aggr-op>(<vector expression>) [by (<label list>)]
 
 Example:
 
 If the metric `http_requests_total` had timeseries that fan out by `application`, `instance`, and `group` labels, we could calculate the total number of seen HTTP requests per application and group over all instances via:
 
-`sum(http_requests_total) by (application, group)`
+    sum(http_requests_total) by (application, group)
 
 If we are just interested in the total of HTTP requests we've seen in **all** applications, we could simply write:
 
-`sum(http_requests_total)`
+    sum(http_requests_total)
