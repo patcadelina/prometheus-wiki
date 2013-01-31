@@ -23,10 +23,10 @@ Each timeseries can have one or more data points attached to it, which are times
 
 In Prometheus' expression language, an expression or sub-expression can evaluate to one of four types:
 
-* string
-* scalar (float)
-* sample vector (vector of single data points in time from multiple timeseries)
-* range vector / matrix (vector of data point streams from multiple timeseries)
+* **string**
+* **scalar** - simple numeric float value
+* **sample vector** - vector of multiple timeseries, with one data point in time each
+* **range vector** - vector of multiple timeseries, containing a range of data points over time
 
 Depending on the use-case (e.g. when graphing vs. displaying the output of an expression), only some of these types are legal as the result from a user-specified expression. For example, an expression that returns a point vector is the only type that can be directly graphed.
 
