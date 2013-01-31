@@ -83,7 +83,7 @@ Prometheus supports many binary and aggregation operators. These are described i
 
 ## Functions
 
-Prometheus supports several binary and aggregation operators. These are described in detail in the [[Expression Language Functions]] page.
+Prometheus supports several functions to operate on data. These are described in detail in the [[Expression Language Functions]] page.
 
 ## Gotchas
 
