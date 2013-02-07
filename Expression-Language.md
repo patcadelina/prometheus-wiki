@@ -32,7 +32,7 @@ In Prometheus' expression language, an expression or sub-expression can evaluate
 * **sample vector** - vector of multiple timeseries, with one data point in time each
 * **range vector** - vector of multiple timeseries, containing a range of data points over time
 
-Depending on the use-case (e.g. when graphing vs. displaying the output of an expression), only some of these types are legal as the result from a user-specified expression. For example, an expression that returns a point vector is the only type that can be directly graphed.
+Depending on the use-case (e.g. when graphing vs. displaying the output of an expression), only some of these types are legal as the result from a user-specified expression. For example, an expression that returns a sample vector is the only type that can be directly graphed.
 
 ## Literals
 
