@@ -124,7 +124,7 @@ go run main.go -listeningAddress=:8081
 go run main.go -listeningAddress=:8082
 ```
 
-You should now have example targets listening on http://localhost:8080/metrics.json, http://localhost:8081/metrics.json, and http://localhost:8082/metrics.json.
+You should now have example targets listening on [[http://localhost:8080/metrics.json]], [[http://localhost:8081/metrics.json]], and [[http://localhost:8082/metrics.json]].
 
 ## Configuring Prometheus to Monitor the Sample Targets
 
