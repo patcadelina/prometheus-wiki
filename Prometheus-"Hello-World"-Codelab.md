@@ -62,15 +62,15 @@ mkdir -p /tmp/metrics
 ./prometheus.build -configFile=prometheus.conf
 ```
 
-Prometheus should start up and it should show a status page about itself at `http://localhost:9090/`. Give it a couple of seconds to start collecting data about itself from its own HTTP metrics endpoint.
+Prometheus should start up and it should show a status page about itself at [[http://localhost:9090/]]. Give it a couple of seconds to start collecting data about itself from its own HTTP metrics endpoint.
 
-You can also verify that Prometheus is serving metrics about itself by navigating to its metrics exposure endpoint: `http://localhost:9090/metrics.json`
+You can also verify that Prometheus is serving metrics about itself by navigating to its metrics exposure endpoint: [[http://localhost:9090/metrics.json]]
 
 ## Using the Expression Browser
 
-Let's try looking at some data that Prometheus has collected about itself. To use Prometheus' built-in expression browser, navigate to `http://localhost:9090/static/`
+Let's try looking at some data that Prometheus has collected about itself. To use Prometheus' built-in expression browser, navigate to [[http://localhost:9090/static/]]
 
-As you can gather from `http://localhost:9090/metrics.json`, one metric that Prometheus exports about itself is called `prometheus_metric_disk_latency_microseconds`. Go ahead and enter this into the expression browser:
+As you can gather from [[http://localhost:9090/metrics.json]], one metric that Prometheus exports about itself is called `prometheus_metric_disk_latency_microseconds`. Go ahead and enter this into the expression browser:
 
 ```
 prometheus_metric_disk_latency_microseconds
@@ -94,7 +94,7 @@ For further details about the expression language, see the [[Expression Language
 
 ## Using the Graphing Interface
 
-To graph expressions, navigate to `http://localhost:9090/static/graph.html`.
+To graph expressions, navigate to [[http://localhost:9090/static/graph.html]].
 
 For example, enter the following expression to graph all latency percentiles for `get_value_at_time` operations in Prometheus:
 
