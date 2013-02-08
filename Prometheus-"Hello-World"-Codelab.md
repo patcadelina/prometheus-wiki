@@ -128,4 +128,67 @@ You should now have example targets listening on [[http://localhost:8080/metrics
 
 ## Configuring Prometheus to Monitor the Sample Targets
 
-...
+Now we'll configure Prometheus to scrape these new targets. Let's group these three endpoints into a job we call `random-example`. However, imagine that the first two endpoints are production targets, while the third one represents a canary instance. To model this in Prometheus, we can add several groups of endpoints to a single job, adding extra labels to each group of targets. In this example, we'll add the `group="production"` label to the first group of targets, while adding `group="canary"` to the second.
+
+To achieve this, add the following job definition to your `prometheus.conf` and restart your Prometheus instance:
+
+```
+job {
+  name = "random-example"
+
+  targets {
+    // These endpoints are scraped via HTTP.
+    endpoints = [
+      "http://localhost:8080/metrics.json",
+      "http://localhost:8081/metrics.json"
+    ]
+    labels {
+      group = "production"
+    }
+  }
+  targets {
+    endpoints = [
+      "http://localhost:8082/metrics.json"
+    ]
+    labels {
+      group = "canary"
+    }
+  }
+}
+```
+
+Go to the expression browser and verify that Prometheus now has information about timeseries that these example endpoints expose, e.g. the `rpc_calls_total` metric.
+
+## Configure Rules For Aggregating Scraped Data into New Timeseries
+
+Manually entering expressions every you time you need them can get cumbersome and might also be slow to compute in some cases. Prometheus allows you to periodically record expressions into completely new timeseries via configured rules. Let's say we're interested in recording the per-second rate of `rpc_calls_total` averaged over all instances as measured over the last 5 minutes. We could write this as:
+
+```
+AVG(rate(rpc_calls_total[5m]))
+```
+
+To record this expression as a new timeseries called `rpc_calls_rate`, create a file with the following recording rule and save it as `prometheus.rules`:
+
+```
+rpc_calls_rate_mean = AVG(rate(rpc_calls_total[5m]))
+```
+
+To make Prometheus pick up this new rule, add a `rule_files` statement to the global configuration section in your `prometheus.conf`. The global section should now look like this:
+
+```
+// Global default settings.
+global {
+  scrape_interval = "15s"     // By default, scrape targets every 15 seconds.
+  evaluation_interval = "15s" // By default, evaluate rules every 15 seconds.
+
+  // Attach these extra labels to all timeseries collected by this Prometheus instance.
+  labels {
+    monitor = "codelab-monitor"
+  }
+  rule_files = [
+    "prometheus.rules" // Load and evaluate rules in this file every 'evaluation_interval' seconds.
+  ]
+}
+```
+
+Restart Prometheus with the new configuration and verify that a new timeseries with the metric name `rpc_calls_rate_mean` is now available by querying it through the expression browser or graphing it.
