@@ -68,7 +68,7 @@ You can also verify that Prometheus is serving metrics about itself by navigatin
 
 ## Using the Expression Browser
 
-Let's try looking at some data that Prometheus has collected about itself. To use Prometheus' built-in expression browser, navigate to `http://localhost:9090/`
+Let's try looking at some data that Prometheus has collected about itself. To use Prometheus' built-in expression browser, navigate to `http://localhost:9090/static/`
 
 As you can gather from `http://localhost:9090/metrics.json`, one metric that Prometheus exports about itself is called `prometheus_metric_disk_latency_microseconds`. Go ahead and enter this into the expression browser:
 
