@@ -54,7 +54,7 @@ job {
 To start Prometheus with your newly created configuration file, change to your Prometheus build directory and run:
 
 ```bash
-# By default, Prometheus stores its database in /tmp/metrics.
+# By default, Prometheus stores its database in /tmp/metrics (flag "-metricsStoragePath").
 # Create this directory if it doesn't exist yet:
 mkdir -p /tmp/metrics
 
