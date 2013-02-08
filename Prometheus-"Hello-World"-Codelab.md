@@ -1,6 +1,6 @@
 ## Overview
 
-This guide is a "Hello World"-style codelab for installing, configuring, and using Prometheus for a very simple example setup.
+This guide is a "Hello World"-style codelab for installing, configuring, and using Prometheus in a very simple example setup.
 
 ## Getting Prometheus
 
