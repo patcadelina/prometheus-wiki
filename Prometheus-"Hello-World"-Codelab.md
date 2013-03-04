@@ -136,8 +136,8 @@ To achieve this, add the following job definition to your `prometheus.conf` and 
 job {
   name = "random-example"
 
+  // The "production" targets for this job.
   targets {
-    // These endpoints are scraped via HTTP.
     endpoints = [
       "http://localhost:8080/metrics.json",
       "http://localhost:8081/metrics.json"
@@ -146,6 +146,7 @@ job {
       group = "production"
     }
   }
+  // The "canary" targets for this job.
   targets {
     endpoints = [
       "http://localhost:8082/metrics.json"
