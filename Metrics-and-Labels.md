@@ -1,5 +1,4 @@
-
-# Metrics
+## Metrics
 
 A single metric
 
@@ -19,7 +18,7 @@ A single metric
 * should name the thing-being-measured in singular form
  * foo_request_count rather than foo_requests
 
-# Labels
+## Labels
 
 Use labels to differentiate
 
