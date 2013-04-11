@@ -1,4 +1,4 @@
-The metric and label naming conventions presented in this document are not required for using Prometheus, but can serve as both a style-guide and collection of best practices. Individual organizations might want to approach e.g. naming conventions differently.
+The metric and label conventions presented in this document are not required for using Prometheus, but can serve as both a style-guide and collection of best practices. Individual organizations might want to approach e.g. naming conventions differently.
 
 ## Metrics
 
