@@ -21,7 +21,7 @@ The metric name of a timeseries (e.g. `http_requests_total`) specifies the gener
 The label/value pairs attached to a timeseries add dimensions that allow later filtering and aggregation by these dimensions (e.g. `endpoint`, `response_code`). Label keys are identifiers (alpha-numeric characters, plus underscores and colons), while their values may be arbitrary strings.
 
 #### Data points
-Each timeseries can have one or more data points attached to it, which are timestamp/value pairs. Values are always encoded as floating-point numbers (currently 32-bit precision).
+Each timeseries can have one or more data points attached to it, which are timestamp/value pairs. Values are always encoded as floating-point numbers (currently 64-bit precision).
 
 ## Expression Language Data Types
 
