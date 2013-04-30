@@ -21,12 +21,12 @@ Prometheus collects telemetry from monitored targets by scraping metrics HTTP en
 Though a Prometheus which collects only data about itself is not very useful in practice, it's a good example to get started. Save the following basic Prometheus configuration as a file named `prometheus.conf`:
 
 ```
-// Global default settings.
+# Global default settings.
 global: <
-  scrape_interval: "15s"     // By default, scrape targets every 15 seconds.
-  evaluation_interval: "15s" // By default, evaluate rules every 15 seconds.
+  scrape_interval: "15s"     # By default, scrape targets every 15 seconds.
+  evaluation_interval: "15s" # By default, evaluate rules every 15 seconds.
 
-  // Attach these extra labels to all timeseries collected by this Prometheus instance.
+  # Attach these extra labels to all timeseries collected by this Prometheus instance.
   labels: <
     label: <
       name: "monitor"
@@ -35,16 +35,16 @@ global: <
   >
 >
 
-// A job definition containing exactly one endpoint to scrape: Prometheus itself.
+# A job definition containing exactly one endpoint to scrape: Prometheus itself.
 job: <
-  // The job name is added as a label `job=<job-name>` to any timeseries scraped from this job.
+  # The job name is added as a label `job=<job-name>` to any timeseries scraped from this job.
   name: "prometheus"
-  // Override the global default and scrape targets from this job every 5 seconds.
+  # Override the global default and scrape targets from this job every 5 seconds.
   scrape_interval: "5s"
 
-  // Let's define a group of targets to scrape for this job. In this case, only one.
+  # Let's define a group of targets to scrape for this job. In this case, only one.
   target_group: <
-    // These endpoints are scraped via HTTP.
+    # These endpoints are scraped via HTTP.
     target: "http://localhost:9090/metrics.json"
   >
 >
@@ -139,7 +139,7 @@ To achieve this, add the following job definition to your `prometheus.conf` and 
 job: <
   name: "random-example"
 
-  // The "production" targets for this job.
+  # The "production" targets for this job.
   target_group: <
     target: "http://localhost:8080/metrics.json"
     target: "http://localhost:8081/metrics.json"
@@ -150,7 +150,7 @@ job: <
       >
     >
   >
-  // The "canary" targets for this job.
+  # The "canary" targets for this job.
   target_group: <
     target: "http://localhost:8082/metrics.json"
     labels: <
@@ -182,19 +182,19 @@ rpc_calls_rate_mean = avg(rate(rpc_calls_total[5m]))
 To make Prometheus pick up this new rule, add a `rule_files` statement to the global configuration section in your `prometheus.conf`. The global section should now look like this:
 
 ```
-// Global default settings.
+# Global default settings.
 global: <
-  scrape_interval: "15s"     // By default, scrape targets every 15 seconds.
-  evaluation_interval: "15s" // By default, evaluate rules every 15 seconds.
+  scrape_interval: "15s"     # By default, scrape targets every 15 seconds.
+  evaluation_interval: "15s" # By default, evaluate rules every 15 seconds.
 
-  // Attach these extra labels to all timeseries collected by this Prometheus instance.
+  # Attach these extra labels to all timeseries collected by this Prometheus instance.
   labels: <
     label: <
       name: "monitor"
       value: "codelab-monitor"
     >
   >
-  // Load and evaluate rules in this file every 'evaluation_interval' seconds. This field may be repeated.
+  # Load and evaluate rules in this file every 'evaluation_interval' seconds. This field may be repeated.
   rule_file "prometheus.rules"
 >
 ```
