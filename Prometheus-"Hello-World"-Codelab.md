@@ -20,7 +20,7 @@ Prometheus collects telemetry from monitored targets by scraping metrics HTTP en
 
 Though a Prometheus which collects only data about itself is not very useful in practice, it's a good example to get started. Save the following basic Prometheus configuration as a file named `prometheus.conf`:
 
-```proto
+```
 // Global default settings.
 global: <
   scrape_interval: "15s"     // By default, scrape targets every 15 seconds.
@@ -135,7 +135,7 @@ Now we'll configure Prometheus to scrape these new targets. Let's group these th
 
 To achieve this, add the following job definition to your `prometheus.conf` and restart your Prometheus instance:
 
-```proto
+```
 job: <
   name: "random-example"
 
@@ -181,7 +181,7 @@ rpc_calls_rate_mean = avg(rate(rpc_calls_total[5m]))
 
 To make Prometheus pick up this new rule, add a `rule_files` statement to the global configuration section in your `prometheus.conf`. The global section should now look like this:
 
-```proto
+```
 // Global default settings.
 global: <
   scrape_interval: "15s"     // By default, scrape targets every 15 seconds.
