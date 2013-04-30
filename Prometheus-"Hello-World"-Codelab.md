@@ -33,7 +33,7 @@ global: <
       value: "codelab-monitor"
     >
   >
-}
+>
 
 // A job definition containing exactly one endpoint to scrape: Prometheus itself.
 job: <
