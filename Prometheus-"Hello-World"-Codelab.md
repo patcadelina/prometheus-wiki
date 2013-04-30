@@ -22,32 +22,35 @@ Though a Prometheus which collects only data about itself is not very useful in 
 
 ```
 // Global default settings.
-global {
-  scrape_interval = "15s"     // By default, scrape targets every 15 seconds.
-  evaluation_interval = "15s" // By default, evaluate rules every 15 seconds.
+global: <
+  scrape_interval: "15s"     // By default, scrape targets every 15 seconds.
+  evaluation_interval: "15s" // By default, evaluate rules every 15 seconds.
 
   // Attach these extra labels to all timeseries collected by this Prometheus instance.
-  labels {
-    monitor = "codelab-monitor"
-  }
+  labels: <
+    label: <
+      name: "monitor"
+      value: "codelab-monitor"
+    >
+  >
 }
 
 // A job definition containing exactly one endpoint to scrape: Prometheus itself.
-job {
+job: <
   // The job name is added as a label `job=<job-name>` to any timeseries scraped from this job.
-  name = "prometheus"
+  name: "prometheus"
   // Override the global default and scrape targets from this job every 5 seconds.
-  scrape_interval = "5s"
+  scrape_interval: "5s"
 
   // Let's define a group of targets to scrape for this job. In this case, only one.
-  targets {
+  target_group: <
     // These endpoints are scraped via HTTP.
-    endpoints = [
-      "http://localhost:9090/metrics.json"
-    ]
-  }
-}
+    target: "http://localhost:9090/metrics.json"
+  >
+>
 ```
+
+As you might have noticed, Prometheus configuration is supplied in an ASCII form of protocol buffers. The protocol buffer schema definition has a complete documentation of all available configuration options: https://github.com/prometheus/prometheus/blob/master/config/config.proto
 
 ## Starting Prometheus
 
@@ -68,9 +71,9 @@ You can also verify that Prometheus is serving metrics about itself by navigatin
 
 ## Using the Expression Browser
 
-Let's try looking at some data that Prometheus has collected about itself. To use Prometheus' built-in expression browser, navigate to [[http://localhost:9090/static/]]
+Let's try looking at some data that Prometheus has collected about itself. To use Prometheus' built-in expression browser, navigate to [[http://localhost:9090/]] and choose the "Console" instead of the "Graph" tab.
 
-As you can gather from [[http://localhost:9090/metrics.json]], one metric that Prometheus exports about itself is called `prometheus_metric_disk_latency_microseconds`. Go ahead and enter this into the expression browser:
+As you can gather from [[http://localhost:9090/metrics.json]], one metric that Prometheus exports about itself is called `prometheus_metric_disk_latency_microseconds`. Go ahead and enter this into the expression console:
 
 ```
 prometheus_metric_disk_latency_microseconds
@@ -94,7 +97,7 @@ For further details about the expression language, see the [[Expression Language
 
 ## Using the Graphing Interface
 
-To graph expressions, navigate to [[http://localhost:9090/static/graph.html]].
+To graph expressions, navigate to [[http://localhost:9090/]] and use the "Graph" tab.
 
 For example, enter the following expression to graph all latency percentiles for `get_value_at_time` operations in Prometheus:
 
@@ -133,29 +136,31 @@ Now we'll configure Prometheus to scrape these new targets. Let's group these th
 To achieve this, add the following job definition to your `prometheus.conf` and restart your Prometheus instance:
 
 ```
-job {
-  name = "random-example"
+job: <
+  name: "random-example"
 
   // The "production" targets for this job.
-  targets {
-    endpoints = [
-      "http://localhost:8080/metrics.json",
-      "http://localhost:8081/metrics.json"
-    ]
-    labels {
-      group = "production"
-    }
-  }
+  target_group: <
+    target: "http://localhost:8080/metrics.json"
+    target: "http://localhost:8081/metrics.json"
+    labels: <
+      label: <
+        name: "group"
+        value: "production"
+      >
+    >
+  >
   // The "canary" targets for this job.
-  targets {
-    endpoints = [
-      "http://localhost:8082/metrics.json"
-    ]
-    labels {
-      group = "canary"
-    }
-  }
-}
+  target_group: <
+    target: "http://localhost:8082/metrics.json"
+    labels: <
+      label: <
+        name: "group"
+        value: "canary"
+      >
+    >
+  >
+>
 ```
 
 Go to the expression browser and verify that Prometheus now has information about timeseries that these example endpoints expose, e.g. the `rpc_calls_total` metric.
@@ -165,31 +170,33 @@ Go to the expression browser and verify that Prometheus now has information abou
 Manually entering expressions every you time you need them can get cumbersome and might also be slow to compute in some cases. Prometheus allows you to periodically record expressions into completely new timeseries via configured rules. Let's say we're interested in recording the per-second rate of `rpc_calls_total` averaged over all instances as measured over the last 5 minutes. We could write this as:
 
 ```
-AVG(rate(rpc_calls_total[5m]))
+avg(rate(rpc_calls_total[5m]))
 ```
 
 To record this expression as a new timeseries called `rpc_calls_rate`, create a file with the following recording rule and save it as `prometheus.rules`:
 
 ```
-rpc_calls_rate_mean = AVG(rate(rpc_calls_total[5m]))
+rpc_calls_rate_mean = avg(rate(rpc_calls_total[5m]))
 ```
 
 To make Prometheus pick up this new rule, add a `rule_files` statement to the global configuration section in your `prometheus.conf`. The global section should now look like this:
 
 ```
 // Global default settings.
-global {
-  scrape_interval = "15s"     // By default, scrape targets every 15 seconds.
-  evaluation_interval = "15s" // By default, evaluate rules every 15 seconds.
+global: <
+  scrape_interval: "15s"     // By default, scrape targets every 15 seconds.
+  evaluation_interval: "15s" // By default, evaluate rules every 15 seconds.
 
   // Attach these extra labels to all timeseries collected by this Prometheus instance.
-  labels {
-    monitor = "codelab-monitor"
-  }
-  rule_files = [
-    "prometheus.rules" // Load and evaluate rules in this file every 'evaluation_interval' seconds.
-  ]
-}
+  labels: <
+    label: <
+      name: "monitor"
+      value: "codelab-monitor"
+    >
+  >
+  // Load and evaluate rules in this file every 'evaluation_interval' seconds. This field may be repeated.
+  rule_file "prometheus.rules"
+>
 ```
 
 Restart Prometheus with the new configuration and verify that a new timeseries with the metric name `rpc_calls_rate_mean` is now available by querying it through the expression browser or graphing it.
