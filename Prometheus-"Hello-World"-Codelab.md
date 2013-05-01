@@ -195,7 +195,7 @@ global: <
     >
   >
   # Load and evaluate rules in this file every 'evaluation_interval' seconds. This field may be repeated.
-  rule_file "prometheus.rules"
+  rule_file: "prometheus.rules"
 >
 ```
 
