@@ -22,32 +22,32 @@ Though a Prometheus which collects only data about itself is not very useful in 
 
 ```
 # Global default settings.
-global: <
+global: {
   scrape_interval: "15s"     # By default, scrape targets every 15 seconds.
   evaluation_interval: "15s" # By default, evaluate rules every 15 seconds.
 
   # Attach these extra labels to all timeseries collected by this Prometheus instance.
-  labels: <
-    label: <
+  labels: {
+    label: {
       name: "monitor"
       value: "codelab-monitor"
-    >
-  >
->
+    }
+  }
+}
 
 # A job definition containing exactly one endpoint to scrape: Prometheus itself.
-job: <
-  # The job name is added as a label `job=<job-name>` to any timeseries scraped from this job.
+job: {
+  # The job name is added as a label `job={job-name}` to any timeseries scraped from this job.
   name: "prometheus"
   # Override the global default and scrape targets from this job every 5 seconds.
   scrape_interval: "5s"
 
   # Let's define a group of targets to scrape for this job. In this case, only one.
-  target_group: <
+  target_group: {
     # These endpoints are scraped via HTTP.
     target: "http://localhost:9090/metrics.json"
-  >
->
+  }
+}
 ```
 
 As you might have noticed, Prometheus configuration is supplied in an ASCII form of protocol buffers. The protocol buffer schema definition has a complete documentation of all available configuration options: https://github.com/prometheus/prometheus/blob/master/config/config.proto
@@ -136,31 +136,31 @@ Now we'll configure Prometheus to scrape these new targets. Let's group these th
 To achieve this, add the following job definition to your `prometheus.conf` and restart your Prometheus instance:
 
 ```
-job: <
+job: {
   name: "random-example"
 
   # The "production" targets for this job.
-  target_group: <
+  target_group: {
     target: "http://localhost:8080/metrics.json"
     target: "http://localhost:8081/metrics.json"
-    labels: <
-      label: <
+    labels: {
+      label: {
         name: "group"
         value: "production"
-      >
-    >
-  >
+      }
+    }
+  }
   # The "canary" targets for this job.
-  target_group: <
+  target_group: {
     target: "http://localhost:8082/metrics.json"
-    labels: <
-      label: <
+    labels: {
+      label: {
         name: "group"
         value: "canary"
-      >
-    >
-  >
->
+      }
+    }
+  }
+}
 ```
 
 Go to the expression browser and verify that Prometheus now has information about timeseries that these example endpoints expose, e.g. the `rpc_calls_total` metric.
@@ -183,20 +183,20 @@ To make Prometheus pick up this new rule, add a `rule_files` statement to the gl
 
 ```
 # Global default settings.
-global: <
+global: {
   scrape_interval: "15s"     # By default, scrape targets every 15 seconds.
   evaluation_interval: "15s" # By default, evaluate rules every 15 seconds.
 
   # Attach these extra labels to all timeseries collected by this Prometheus instance.
-  labels: <
-    label: <
+  labels: {
+    label: {
       name: "monitor"
       value: "codelab-monitor"
-    >
-  >
+    }
+  }
   # Load and evaluate rules in this file every 'evaluation_interval' seconds. This field may be repeated.
   rule_file: "prometheus.rules"
->
+}
 ```
 
 Restart Prometheus with the new configuration and verify that a new timeseries with the metric name `rpc_calls_rate_mean` is now available by querying it through the expression browser or graphing it.
