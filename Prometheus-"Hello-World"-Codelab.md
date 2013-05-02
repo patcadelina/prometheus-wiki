@@ -65,7 +65,7 @@ mkdir -p /tmp/metrics
 ./prometheus.build -configFile=prometheus.conf
 ```
 
-Prometheus should start up and it should show a status page about itself at [[http://localhost:9090/status]]. Give it a couple of seconds to start collecting data about itself from its own HTTP metrics endpoint.
+Prometheus should start up and it should show a status page about itself at [[http://localhost:9090]]. Give it a couple of seconds to start collecting data about itself from its own HTTP metrics endpoint.
 
 You can also verify that Prometheus is serving metrics about itself by navigating to its metrics exposure endpoint: [[http://localhost:9090/metrics.json]]
 
