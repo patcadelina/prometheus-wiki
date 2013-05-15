@@ -5,7 +5,8 @@ Besides commandline flags, Prometheus is configured mainly via a configuration f
 The configuration is loaded when Prometheus starts up and its subsections are propagated as appropriate to initialize Prometheus' subsystems.
 
 The configuration management code lives in https://github.com/prometheus/prometheus/tree/master/config.
-See also https://github.com/prometheus/prometheus/wiki/Configuration.
+
+See also [[Configuration]].
 
 ## Storage
 ### Tiers
