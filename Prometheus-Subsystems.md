@@ -29,8 +29,16 @@ TODO: explain samples database
 
 **Remote Storage**
 
+Remote storage integration is not implemented yet. This is planned for the near future.
+
 ### Write Path
+
+TODO: explain how a samples propagates through the tiers, how indexing happens, etc.
+
 ### Retrieval Path
+
+TODO: explain views (and need for them), operators, tiered read integration
+
 ### Storage Curation
 
 **Compaction**
