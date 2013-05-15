@@ -22,7 +22,7 @@ TODO: Update this when we have overlapping memory and disk arenas.
 
 **Disk**
 
-Prometheus' disk tier is implemented via a group of [LevelDB](http://en.wikipedia.org/wiki/LevelDB) databases. Since there is no complete Go implementation of LevelDB yet, a CGo-wrapped version of the [C++ LevelDB implemenation](https://code.google.com/p/leveldb/) is used.
+Prometheus' disk tier is implemented via a group of [LevelDB](http://en.wikipedia.org/wiki/LevelDB) databases. Since there is no complete Go implementation of LevelDB yet, a CGo-wrapped version of the [C++ LevelDB implementation](https://code.google.com/p/leveldb/) is used.
 
 TODO: explain index databases
 TODO: explain samples database
