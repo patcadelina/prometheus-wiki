@@ -1,0 +1,1 @@
+For now, see the Code Lab at https://github.com/prometheus/prometheus/wiki/Prometheus-"Hello-World"-Codelab for examples of how to configure Prometheus. The canonical definition of each configuration field is also contained in the protocol buffer schema definition at https://github.com/prometheus/prometheus/blob/master/config/config.proto.
