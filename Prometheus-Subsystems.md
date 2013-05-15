@@ -11,11 +11,11 @@ See also [[Configuration]].
 ## Storage
 ### Tiers
 
-Prometheus uses a tiered storage model to store and retrieve timeseries data. Samples are initially stored only in memory and are persisted to disk after a configured interval. In the future, samples will also be persisted to a third storage tier, comprised of a remote distributed timeseries database.
+Prometheus uses a tiered storage model to store and retrieve timeseries data. Samples are initially stored in memory and are later persisted to disk. In the future, samples will also be persisted to a third storage tier, comprised of a remote distributed timeseries database.
 
 **Memory**
 
-The in-memory storage arena is where new samples are stored first. For each distinct timeseries, it manages a skiplist of samples (using http://godoc.org/github.com/ryszard/goskiplist/skiplist), which allow efficient appends and lookups of data points. Samples older than a given age are persisted to disk storage at a configured interval and subsequently deleted from the in-memory storage.
+The in-memory storage arena is where new samples are stored first. For each distinct timeseries, it manages a skiplist of samples (using http://godoc.org/github.com/ryszard/goskiplist/skiplist), which allow efficient appends and lookups of data points. Samples older than a given age are persisted to the disk tier at a configured interval and subsequently deleted from the in-memory storage.
 
 TODO: Explain why the memory storage needs to exist.
 TODO: Update this when we have overlapping memory and disk arenas.
