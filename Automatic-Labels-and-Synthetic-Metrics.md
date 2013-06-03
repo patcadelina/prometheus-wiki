@@ -5,7 +5,7 @@ When Prometheus scrapes a target, it attaches some labels automatically to the s
 * `job`: The Prometheus job name from which the timeseries was scraped.
 * `instance`: The specific instance/endpoint of the job which was scraped.
 
-If either of these labels are already present in the scraped data, they are not replaced. Instead, Prometheus adds its own labels with `exporter_` prepended to the label name: `exporter_job` and `exporter_instance`.
+If either of these labels are already present in the scraped data, they are not replaced. Instead, Prometheus adds its own labels with `exporter_` prepended to the label name: `exporter_job` and `exporter_instance`. The same pattern holds true for any manually supplied base labels supplied for a target group.
 
 ## Synthetic Timeseries
 Prometheus also generates some timeseries internally which are not directly taken from the scraped data: 
