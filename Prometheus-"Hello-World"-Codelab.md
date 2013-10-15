@@ -45,7 +45,7 @@ job: {
   # Let's define a group of targets to scrape for this job. In this case, only one.
   target_group: {
     # These endpoints are scraped via HTTP.
-    target: "http://localhost:9090/metrics.json"
+    target: "http://localhost:9090/metrics"
   }
 }
 ```
@@ -67,13 +67,13 @@ mkdir -p /tmp/metrics
 
 Prometheus should start up and it should show a status page about itself at [[http://localhost:9090]]. Give it a couple of seconds to start collecting data about itself from its own HTTP metrics endpoint.
 
-You can also verify that Prometheus is serving metrics about itself by navigating to its metrics exposure endpoint: [[http://localhost:9090/metrics.json]]
+You can also verify that Prometheus is serving metrics about itself by navigating to its metrics exposure endpoint: [[http://localhost:9090/metrics]]
 
 ## Using the Expression Browser
 
 Let's try looking at some data that Prometheus has collected about itself. To use Prometheus' built-in expression browser, navigate to [[http://localhost:9090/]] and choose the "Console" instead of the "Graph" tab.
 
-As you can gather from [[http://localhost:9090/metrics.json]], one metric that Prometheus exports about itself is called `prometheus_metric_disk_latency_microseconds`. Go ahead and enter this into the expression console:
+As you can gather from [[http://localhost:9090/metrics]], one metric that Prometheus exports about itself is called `prometheus_metric_disk_latency_microseconds`. Go ahead and enter this into the expression console:
 
 ```
 prometheus_metric_disk_latency_microseconds
@@ -127,7 +127,7 @@ go run main.go -listeningAddress=:8081
 go run main.go -listeningAddress=:8082
 ```
 
-You should now have example targets listening on [[http://localhost:8080/metrics.json]], [[http://localhost:8081/metrics.json]], and [[http://localhost:8082/metrics.json]].
+You should now have example targets listening on [[http://localhost:8080/metrics]], [[http://localhost:8081/metrics]], and [[http://localhost:8082/metrics]].
 
 ## Configuring Prometheus to Monitor the Sample Targets
 
@@ -141,8 +141,8 @@ job: {
 
   # The "production" targets for this job.
   target_group: {
-    target: "http://localhost:8080/metrics.json"
-    target: "http://localhost:8081/metrics.json"
+    target: "http://localhost:8080/metrics"
+    target: "http://localhost:8081/metrics"
     labels: {
       label: {
         name: "group"
@@ -152,7 +152,7 @@ job: {
   }
   # The "canary" targets for this job.
   target_group: {
-    target: "http://localhost:8082/metrics.json"
+    target: "http://localhost:8082/metrics"
     labels: {
       label: {
         name: "group"
