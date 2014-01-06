@@ -57,7 +57,7 @@ These operators can either be used to aggregate over **all** label dimensions or
 
     <aggr-op>(<vector expression>) [by (<label list>)] [keeping_extra]
 
-By default, labels that are not listed in the `by` clause will be dropped from the result vector, even if their label values are identical between all elements of the vector. The `keeping_extra` clause allows to keep those extra labels.
+By default, labels that are not listed in the `by` clause will be dropped from the result vector, even if their label values are identical between all elements of the vector. The `keeping_extra` clause allows to keep those extra labels (labels that are identical between elements, but not in the `by` clause).
 
 Example:
 
