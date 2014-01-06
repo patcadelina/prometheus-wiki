@@ -32,7 +32,7 @@ rate(http_requests{job="api-server"}[5m])
 
 ## scalar()
 
-Given a single-element input vector, `scalar(v instant-vector)` returns the sample value of that single element. If the input vector doesn't have exactly one element, `scalar` will return `NaN`.
+Given a single-element input vector, `scalar(v instant-vector)` returns the sample value of that single element as a scalar. If the input vector doesn't have exactly one element, `scalar` will return `NaN`.
 
 ## sort()
 
