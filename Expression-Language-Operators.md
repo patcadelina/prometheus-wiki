@@ -51,10 +51,13 @@ Prometheus supports the following built-in aggregation operators that can be use
 * `min` (select minimum over dimensions)
 * `max` (select maximum over dimensions)
 * `avg` (calculate the average over dimensions)
+* `count` (count number of elements in the vector)
 
-These operators can either be used to aggregate over **all** label dimensions or preserve distinct dimensions by including a `by`-clause:
+These operators can either be used to aggregate over **all** label dimensions or preserve distinct dimensions by including a `by`-clause.
 
-    <aggr-op>(<vector expression>) [by (<label list>)]
+    <aggr-op>(<vector expression>) [by (<label list>)] [keeping_extra]
+
+By default, labels that are not listed in the `by` clause will be dropped from the result vector, even if their label values are identical between all elements of the vector. The `keeping_extra` clause allows to keep those extra labels.
 
 Example:
 
