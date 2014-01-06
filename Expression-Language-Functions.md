@@ -2,16 +2,6 @@
 
 `time()` returns the number of seconds since January 1, 1970 UTC.
 
-## count()
-
-`count(v sample-vector)` returns the number of elements (timeseries) in a sample vector `v` as a scalar value.
-
-Example which returns the number of timeseries with the metric name `http_requests` and the `job` label set to `api-server`:
-
-```
-count(http_requests{job="api-server"})
-```
-
 ## delta()
 
 `delta(v range-vector, counter bool)` calculates the difference between the first and last value of each timeseries element in a range vector `v`, returning a sample vector with the given deltas and equivalent labels. If `counter` is set to `1` (`true`), the timeseries in the range vector are treated as monotonically increasing counters. Breaks in monotonicity (such as counter resets due to target restarts) are automatically adjusted for. Setting `counter` to `0` (`false`) turns this behavior off.
@@ -39,3 +29,15 @@ Example call which returns the per-second rate of HTTP requests as measured over
 ```
 rate(http_requests{job="api-server"}[5m])
 ```
+
+## scalar()
+
+Given a single-element input vector, `scalar(v instant-vector)` returns the sample value of that single element. If the input vector doesn't have exactly one element, `scalar` will return `NaN`.
+
+## sort()
+
+`sort(v instant-vector)` returns vector elements sorted by their sample values, in ascending order.
+
+## sort_desc()
+
+Same as `sort`, but sorts in descending order.
