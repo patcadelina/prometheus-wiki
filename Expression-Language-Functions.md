@@ -2,6 +2,10 @@
 
 `time()` returns the number of seconds since January 1, 1970 UTC.
 
+## count_scalar()
+
+`count_scalar(v instant-vector)` returns the number of elements in a timeseries vector as a scalar. This is in contrast to the `count()` aggregation operator, which always returns a vector (an empty one if the input vector is empty) and allows grouping by labels via a `by` clause.
+
 ## delta()
 
 `delta(v range-vector, counter bool)` calculates the difference between the first and last value of each timeseries element in a range vector `v`, returning a sample vector with the given deltas and equivalent labels. If `counter` is set to `1` (`true`), the timeseries in the range vector are treated as monotonically increasing counters. Breaks in monotonicity (such as counter resets due to target restarts) are automatically adjusted for. Setting `counter` to `0` (`false`) turns this behavior off.
