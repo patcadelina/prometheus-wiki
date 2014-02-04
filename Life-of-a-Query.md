@@ -28,6 +28,7 @@ https://github.com/prometheus/prometheus/blob/master/web/api/query.go#L74
 The expression parsing is realized via Yacc- and Lex-style parsers, defined here:
 
 https://github.com/prometheus/prometheus/blob/master/rules/lexer.l
+
 https://github.com/prometheus/prometheus/blob/master/rules/parser.y
 
 These get automatically translated into Go code (with appended `.go` ending). The resulting parser takes a query language expression as an input, constructs an abstract syntax tree (AST) and returns a reference to the root node of the AST.
