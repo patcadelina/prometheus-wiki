@@ -44,7 +44,10 @@ https://github.com/prometheus/prometheus/blob/master/rules/ast/query_analyzer.go
 https://github.com/prometheus/prometheus/blob/master/rules/ast/persistence_adapter.go
 
 ## View Building
-TODO
+After the query analyzer passes the view building request to the storage, requests get queued before they are executed. This avoids disk thrashing by limiting the parallelism of any concurrent view building requests. The view building queue is then served by the `TieredStorage.renderView()` method, which iterates through all desired fingerprints and their ranges. For each fingerprint/range combination, it extracts the necessary samples either from memory (if present) or from disk. It then copies the extracted sample ranges into a new view object, which stores all preloaded data in memory for later consumption. This view is then passed back to the query analysis and evaluation layer.
+
+https://github.com/prometheus/prometheus/blob/master/storage/metric/tiered.go#L197
+https://github.com/prometheus/prometheus/blob/master/storage/metric/tiered.go#L378
 
 ## Query Evaluation
 Each node in the AST has an `Eval()` method to evaluate its result value: usually, nodes will evaluate themselves by evaluating their child nodes recursively, up until the leaf nodes, which are direct references to groups of timeseries (`http_requests{code="200"}`), function calls (`time()`), or scalar literals (like `23`). In the case of timeseries references like `http_requests{code="200"}` the view adapter built in the previous step is used to retrieve the actual data from memory. Inner AST nodes can then aggregate or otherwise modify the results of the leaf nodes, until the final query result is returned by the `Eval()` method of the AST's root node. This result is either a scalar value (like `23`), a vector of timeseries instants (for each timeseries, a single value at a specific time), or a vector of timeseries ranges (for each timeseries, a range of values over time).
