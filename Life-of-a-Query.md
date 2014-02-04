@@ -18,7 +18,7 @@ https://github.com/prometheus/prometheus/blob/master/web/static/js/graph.js
 https://github.com/prometheus/prometheus/blob/master/web/templates/graph.html
 
 ## Web API
-Prometheus' web API layer takes incoming query requests and starts processing them. Itdoes some sanity and bounds checking on the query parameters and asks the AST (abstract syntax tree) layer to parse the provided expression. It then asks that layer to execute the expression against the local timeseries storage.
+Prometheus' web API layer takes incoming query requests and starts processing them. It performs some sanity and bounds checking on the query parameters and asks the AST (abstract syntax tree) layer to parse the provided expression. It then asks that layer to execute the expression against the local timeseries storage.
 
 Range query code:
 
