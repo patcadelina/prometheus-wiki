@@ -11,9 +11,9 @@ Binary arithmetic operators are defined between scalar/scalar, vector/scalar, an
 
 **Between two scalars**, the behavior is obvious: they evaluate to another scalar that is the result of the operator applied to both scalar operands.
 
-**Between a sample vector and a scalar**, the operator is applied to the value of every data sample in the vector. E.g. if a timeseries sample vector is multiplied by 2, the result is another vector in which every data sample of the original vector is multiplied by 2.
+**Between an instant vector and a scalar**, the operator is applied to the value of every data sample in the vector. E.g. if a timeseries instant vector is multiplied by 2, the result is another vector in which every sample value of the original vector is multiplied by 2.
 
-**Between two sample vectors**, a binary arithmetic operator only applies to vector elements that have identical sets of labels between the two vectors. Vector elements that don't find an exact label match on the other side get dropped from the result. The metric name of the result vector is carried over from the left hand side of the expression.
+**Between two instant vectors**, a binary arithmetic operator only applies to vector elements that have identical sets of labels between the two vectors. Vector elements that don't find an exact label match on the other side get dropped from the result. The metric name of the result vector is carried over from the left hand side of the expression.
 
 ## Comparison / Filter Binary Operators
 
@@ -28,13 +28,13 @@ Comparison/filters operators are defined between scalar/scalar, vector/scalar, a
 
 **Between two scalars**, these operators result in another scalar that is either `0` (`false`) or `1` (`true`), depending on the comparison result.
 
-**Between a sample vector and a scalar**, these operators are applied to the value of every data sample in the vector, and vector elements between which the comparison result is `false` get dropped from the result vector.
+**Between an instant vector and a scalar**, these operators are applied to the value of every data sample in the vector, and vector elements between which the comparison result is `false` get dropped from the result vector.
 
-**Between two sample vectors**, these operators behave as a filter: They apply to vector elements that have identical sets of labels between the two vectors. Vector elements for which the expression evaluates to `false` or which don't find an exact label match on the other side of the expression get dropped from the result, while the others get carried over into a result vector with their original (left-hand-side) metric names and data values.
+**Between two instant vectors**, these operators behave as a filter: They apply to vector elements that have identical sets of labels between the two vectors. Vector elements for which the expression evaluates to `false` or which don't find an exact label match on the other side of the expression get dropped from the result, while the others get carried over into a result vector with their original (left-hand-side) metric names and data values.
 
 # Logical/Set Binary Operators
 
-These logical/set binary operators are only defined between sample vectors:
+These logical/set binary operators are only defined between instant vectors:
 
 * `and` (intersection)
 * `or` (union)
@@ -45,7 +45,7 @@ These logical/set binary operators are only defined between sample vectors:
 
 # Aggregation Operators
 
-Prometheus supports the following built-in aggregation operators that can be used to aggregate the elements of a single sample vector, resulting in a new vector of fewer elements with aggregated values:
+Prometheus supports the following built-in aggregation operators that can be used to aggregate the elements of a single instant vector, resulting in a new vector of fewer elements with aggregated values:
 
 * `sum` (calculate sum over dimensions)
 * `min` (select minimum over dimensions)
