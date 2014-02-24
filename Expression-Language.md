@@ -1,5 +1,3 @@
-# Prometheus Expression Language
-
 ## Overview
 
 Prometheus provides a functional expression language that lets the user select and aggregate timeseries data in real-time. The result of an expression can either be shown as a graph, viewed as data in the expression browser, or consumed and further processed by external systems via the HTTP API.
