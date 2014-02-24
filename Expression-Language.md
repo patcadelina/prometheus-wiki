@@ -26,11 +26,11 @@ Each timeseries can have one or more data points attached to it, which are times
 In Prometheus' expression language, an expression or sub-expression can evaluate to one of four types:
 
 * **string**
-* **scalar** - simple numeric float value
-* **sample vector** - vector of multiple timeseries, with one data point in time each
-* **range vector** - vector of multiple timeseries, containing a range of data points over time
+* **scalar** - simple numeric floating point value
+* **instant vector** - vector of multiple timeseries, containing a single sample for each timeseries, with all samples sharing the same (instant) timestamp
+* **range vector** - vector of multiple timeseries, containing a range of data points over time for each timeseries
 
-Depending on the use-case (e.g. when graphing vs. displaying the output of an expression), only some of these types are legal as the result from a user-specified expression. For example, an expression that returns a sample vector is the only type that can be directly graphed.
+Depending on the use-case (e.g. when graphing vs. displaying the output of an expression), only some of these types are legal as the result from a user-specified expression. For example, an expression that returns an instant vector is the only type that can be directly graphed.
 
 ## Literals
 
@@ -66,7 +66,7 @@ This example selects only those timeseries with the "http_requests_total" metric
 
 ### Range Vector Selectors
 
-Range vector literals work like sample vector literals, except that they select a range of samples back from the current instant. Syntactically, a range duration is appended in square brackets (`[]`) at the end of a vector selector to specify how far back in time values should be fetched for each resulting range vector element.
+Range vector literals work like instant vector literals, except that they select a range of samples back from the current instant. Syntactically, a range duration is appended in square brackets (`[]`) at the end of a vector selector to specify how far back in time values should be fetched for each resulting range vector element.
 
 Time durations are specified as a number, followed immediately by one of the following units:
 
