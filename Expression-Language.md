@@ -48,9 +48,11 @@ Scalar float values can be literally written as numbers of the form `[-](digits)
 
     -2.43
 
-### Sample Vector Literals
+## Timeseries Selectors
 
-Sample vector literals allow the selection of a set of timeseries: in the simplest form, only a metric name is specified. This results in a sample vector containing elements for all timeseries that have this metric name.
+### Instant Vector Selectors
+
+Instant vector selectors allow the selection of a set of timeseries and a single sample value for each at a given timestamp (instant): in the simplest form, only a metric name is specified. This results in an instant vector containing elements for all timeseries that have this metric name.
 
 This example selects all timeseries that have the "http_requests_total" metric name:
 
@@ -62,9 +64,9 @@ This example selects only those timeseries with the "http_requests_total" metric
 
     http_requests_total{job="prometheus", group="canary"}
 
-### Range Vector Literals
+### Range Vector Selectors
 
-Range vector literals work like sample vector literals, except that a range duration is appended in square brackets (`[]`) at the end of the literal that specifies how far back in time values should be fetched for each resulting range vector element.
+Range vector literals work like sample vector literals, except that they select a range of samples back from the current instant. Syntactically, a range duration is appended in square brackets (`[]`) at the end of a vector selector to specify how far back in time values should be fetched for each resulting range vector element.
 
 Time durations are specified as a number, followed immediately by one of the following units:
 
