@@ -10,7 +10,7 @@ To add a new recording rule, add a line of the following syntax to your rule fil
 
 Some examples:
 
-    // Saving the per-job HTTP request rate as a new set of timeseries:
+    // Saving the per-job HTTP request count as a new set of timeseries:
     job:api_http_requests_total:sum = sum(api_http_requests_total) by (job)
 
     // Drop or rewrite labels in the result timeseries:
