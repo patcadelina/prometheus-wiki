@@ -1,6 +1,16 @@
 ## Configuring Rules
 Prometheus supports two types of rules which may be configured and then evaluated at regular intervals: recording rules and alerting rules. To include rules in Prometheus, create a file containing the necessary rule statements and have Prometheus load the file via the `rule_files` field in the [Prometheus configuration](https://github.com/prometheus/prometheus/blob/master/config/config.proto).
 
+## Syntax-Checking Rules
+To quickly check whether a rule file is syntactically correct without starting a Prometheus server, install and use Prometheus' `rule_checker` tool:
+
+    go install github.com/prometheus/prometheus/tools/rule_checker
+    rule_checker -ruleFile=/path/to/example.rules
+
+When the file is syntactically valid, the checker prints a textual representation of the parsed rules and then exits with an `0` return status.
+
+If there are any syntax errors, it prints an error message and exits with a `255` return status.
+
 ## Recording Rules
 Recording rules allow you to precompute frequently needed or computationally expensive expressions and save their result as a new set of timeseries. Querying the precomputed result will then often be much faster than executing the original expression every time it is needed. This is especially useful for dashboards, which need to query the same expression repeatedly every time they refresh.
 
