@@ -4,11 +4,13 @@ Prometheus supports two types of rules which may be configured and then evaluate
 ## Syntax-Checking Rules
 To quickly check whether a rule file is syntactically correct without starting a Prometheus server, install and run Prometheus' `rule_checker` tool:
 
-    # If $GOPATH/github.com/prometheus/prometheus already exists, update it first:
-    # go get -u github.com/prometheus/prometheus
+```bash
+# If $GOPATH/github.com/prometheus/prometheus already exists, update it first:
+go get -u github.com/prometheus/prometheus
 
-    go install github.com/prometheus/prometheus/tools/rule_checker
-    rule_checker -ruleFile=/path/to/example.rules
+go install github.com/prometheus/prometheus/tools/rule_checker
+rule_checker -ruleFile=/path/to/example.rules
+```
 
 When the file is syntactically valid, the checker prints a textual representation of the parsed rules and then exits with an `0` return status.
 
