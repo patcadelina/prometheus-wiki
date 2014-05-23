@@ -18,15 +18,18 @@ A metric name
  * bytes of data transfer
  * instantaneous resource usage as a percentage
 
+As a rule of thumb, if you sum() or avg() over all dimensions of a given metric it should be meaningful (though not necessarily useful). If it isn't meaningful, split it up. For example having the capacity of various queues in the metric is good, mixing the capacity of a queue with the number of elements is not.
+
 ## Labels
 
 Use labels to differentiate
 
 * class of thing-being-measured
  * `api_http_requests_total` - differentiate request types: `type={create,update,delete}`
- * `api_request_duration_nanoseconds` - differentiate request stages: `stage={extract,transform,load,overall}`
+ * `api_request_duration_nanoseconds` - differentiate request stages: `stage={extract,transform,load}`
 * result of an operation
  * `processor_request_{total,duration_milliseconds}`: differentiate outcome: `result={success,failure}`
 
 Remember that every unique (label, value) pair represents a new axis of cardinality for 
 the associated metric, which can dramatically increase the amount of data stored.
+
