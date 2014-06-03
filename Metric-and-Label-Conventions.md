@@ -18,7 +18,7 @@ A metric name
  * bytes of data transfer
  * instantaneous resource usage as a percentage
 
-As a rule of thumb, if you sum() or avg() over all dimensions of a given metric, the result should be meaningful (though not necessarily useful). If it isn't meaningful, split it up into multiple metrics. For example, having the capacity of various queues in the metric is good, mixing the capacity of a queue with the number of elements is not.
+As a rule of thumb, if you `sum()` or `avg()` over all dimensions of a given metric, the result should be meaningful (though not necessarily useful). If it isn't meaningful, split it up into multiple metrics. For example, having the capacity of various queues in the metric is good, mixing the capacity of a queue with the number of elements is not.
 
 ## Labels
 
