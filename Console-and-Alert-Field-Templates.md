@@ -20,7 +20,8 @@ If you're a first time user looking for simple consoles [PromDash](https://githu
 
 ## Simple iteration
 
-This displays a list hosts, and whether they're up````
+This displays a list hosts, and whether they're up
+````
 {{ range query "up" }}
   {{ .Labels.instance }} {{ .Labels.Value }}
 {{ end }}
