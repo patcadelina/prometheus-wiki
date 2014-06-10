@@ -18,9 +18,9 @@ If you're a first time user looking for simple consoles [PromDash](https://githu
       DESCRIPTION "{{$labels.instance}} of job {{$labels.job}} has been down for more than 5 minutes."
 
 
-## Display a list hosts and whether they're up
+## Simple iteration
 
-````
+This displays a list hosts, and whether they're up````
 {{ range query "up" }}
   {{ .Labels.instance }} {{ .Labels.Value }}
 {{ end }}
@@ -38,7 +38,7 @@ If you're a first time user looking for simple consoles [PromDash](https://githu
 
 Go and go's templating language are both strongly typed, so you have to check that samples were returned to avoid an execution error. This could happen if a scrape/rule evaluation hasn't run yet, or a host was down for example.
 
-## Display one value based on console url parameters
+## Using console url parameters
 
 ````
 {{ with printf "node_memory_MemTotal{job='node',instance='%s'}" .Params.instance | query }}
