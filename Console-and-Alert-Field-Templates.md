@@ -145,7 +145,9 @@ Humanizing functions are intended to produce reasonable output for consumptions 
 ## Others
 | Name          | Arguments     | Returns |    Notes    |
 | ------------- | ------------- | ------- | ----------- |
-| args          | []interface{} | map[string]interface{} | This converts a list of objects to a map with names arg0, arg1 etc. It's intended to allow multiple arguments to be passed to templates |
+| args          | []interface{} | map[string]interface{} | This converts a list of objects to a map with keys arg0, arg1 etc. This is intended to allow multiple arguments to be passed to templates |
+
+`interface{}` in Go is similar to a void pointer in C.
 
 # Template Type Differences
 
