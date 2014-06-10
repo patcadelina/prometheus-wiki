@@ -18,6 +18,8 @@ If you're a first time user looking for simple consoles [PromDash](https://githu
       DESCRIPTION "{{$labels.instance}} of job {{$labels.job}} has been down for more than 5 minutes."
 
 
+Alert field templates will be executed for every rule iteration for every alert that fires, so keep any queries and templates lightweight. If you've a need for more complicated templates for alerts, it's better to link to a console.
+
 ## Simple iteration
 
 This displays a list hosts, and whether they're up
@@ -73,6 +75,23 @@ Here we iterate over the network devices, then for each of them display the netw
 
 As the range doesn't specify a variable, `.Params.instance` isn't available inside the loop as `.` is now the loop variable.
 
+## Basic templates
+
+There's support for defining templates that you can reuse, this is particularly powerful when using with console library support allowing you to share templates across consoles.
+````
+{{define "myTemplate"}}do something{{end}}
+{{template "MyTemplate"}}
+````
+
+## Templates with multiple arguments
+
+Templates are limited to one argument, the `args` function can be used to wrap multiple arguments.
+````
+{{define "myMultiArgTemplate"}}First argument: {{.arg0}} Second argument: {{.arg1}}{{end}}
+{{template "myMultiArgTemplate" (args 1 2)}}
+````
+
+
 # Functions
 
 In addition to the [default functions](http://golang.org/pkg/text/template/#hdr-Functions) provided by go templating, prometheus provides functions to make writing templates easier.
@@ -121,20 +140,29 @@ Humanizing functions are intended to produce reasonable output for consumptions 
 | title         | string        | string  | [strings.Title](http://golang.org/pkg/strings/#Title), capitalises first character of each word|
 | match         | pattern, text | boolean | [regexp.MatchString](http://golang.org/pkg/regexp/#MatchString) Tests for a regexp match |
 | reReplaceAll  | pattern, replacement, text | string | [Regexp.ReplaceAllString](http://golang.org/pkg/regexp/#Regexp.ReplaceAllString) Regexp substitution |
+| safeHtml      | string        | string  | Marks string as HTML not requiring auto-escaping |
 
+## Others
+| Name          | Arguments     | Returns |    Notes    |
+| ------------- | ------------- | ------- | ----------- |
+| args          | []interface{} | map[string]interface{} | This converts a list of objects to a map with names arg0, arg1 etc. It's intended to allow multiple arguments to be passed to templates |
 
-# Template Context
+# Template Type Differences
 
-Each of the places templates provide different information that can be used to parameterise your template.
+Each of the types templates provide different information that can be used to parameterise your template, and have a few other differences
 
 ## Alert Field Templates
 
 `.Value` and `.Labels` contain the alert value and labels. They're also exposed as the `$value` and `$labels` variables for convenience.
 
-Keep in mind that alert field templates will be executed for every rule iteration for every alert that fires, so keep any queries and templates lightweight. If you've a need for more complicated templates for alerts, it's better to link to a console.
-
 ## Console Templates
 
-Consoles are exposed on `/consoles/`, and sourced from the directory pointed to by the `-consoleTemplates` flag.
+Consoles are exposed on `/consoles/`, and sourced from the directory pointed to by the `-consoleTemplates` flag. 
+
+Console templates are rendered with [html/template](http://golang.org/pkg/html/template/), which provides auto-escaping. To bypass the auto-escaping use the `safe*` functions.
 
 URL parameters are available as a map in `.Params`. If you need to support multiple url parameters by the same name, `.RawParams` is a map of the list values for each parameter.
+
+Consoles also have access to all the templates (i.e. things defined with `{{define "templateName"}}...{{end}}` found in `*.lib` files in the directory pointed to by the `-consoleLibraries` flag. As this is a shared namespace, you should take care to avoid clashing with other users. Template names beginning with `prom`, `_prom`, and `__` are reserved for use by Prometheus.
+
+
