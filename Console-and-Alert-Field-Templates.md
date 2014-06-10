@@ -77,7 +77,7 @@ As the range doesn't specify a variable, `.Params.instance` isn't available insi
 
 ## Basic templates
 
-There's support for defining templates that you can reuse, this is particularly powerful when using with console library support allowing you to share templates across consoles.
+There's support for defining templates that you can reuse. This is particularly powerful when combined with console library support, allowing you to share templates across consoles.
 ````
 {{define "myTemplate"}}do something{{end}}
 {{template "MyTemplate"}}
