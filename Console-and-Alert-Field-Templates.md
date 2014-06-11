@@ -130,6 +130,7 @@ The `__name__` label is the name of the metric.
 | ------------- | --------------| --------| --------- |
 | humanize      | number        | string  | Converts a number to a more readable format, using Metric Prefixes 
 | humanize1024  | number        | string  | Like `humanize`, but uses 1024 as the base rather than 1000 |
+| humanizeDuration | number        | string  | Converts a duration in seconds to a more readable format. |
 
 Humanizing functions are intended to produce reasonable output for consumptions by humans, and are not guaranteed to return the same results between versions.
 
@@ -140,12 +141,12 @@ Humanizing functions are intended to produce reasonable output for consumptions 
 | title         | string        | string  | [strings.Title](http://golang.org/pkg/strings/#Title), capitalises first character of each word|
 | match         | pattern, text | boolean | [regexp.MatchString](http://golang.org/pkg/regexp/#MatchString) Tests for a regexp match |
 | reReplaceAll  | pattern, replacement, text | string | [Regexp.ReplaceAllString](http://golang.org/pkg/regexp/#Regexp.ReplaceAllString) Regexp substitution |
-| safeHtml      | string        | string  | Marks string as HTML not requiring auto-escaping |
 
 ## Others
 | Name          | Arguments     | Returns |    Notes    |
 | ------------- | ------------- | ------- | ----------- |
 | args          | []interface{} | map[string]interface{} | This converts a list of objects to a map with keys arg0, arg1 etc. This is intended to allow multiple arguments to be passed to templates |
+| safeHtml      | string        | string  | Marks string as HTML not requiring auto-escaping |
 
 `interface{}` in Go is similar to a void pointer in C.
 
