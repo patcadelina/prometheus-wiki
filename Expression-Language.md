@@ -54,15 +54,26 @@ Scalar float values can be literally written as numbers of the form `[-](digits)
 
 Instant vector selectors allow the selection of a set of timeseries and a single sample value for each at a given timestamp (instant): in the simplest form, only a metric name is specified. This results in an instant vector containing elements for all timeseries that have this metric name.
 
-This example selects all timeseries that have the "http_requests_total" metric name:
+This example selects all timeseries that have the `http_requests_total` metric name:
 
     http_requests_total
 
 It is possible to filter these timeseries further by appending a set of labels to match in curly braces (`{}`).
 
-This example selects only those timeseries with the "http_requests_total" metric name that also have the `job` label set to `prometheus` and their `group` label set to `canary`:
+This example selects only those timeseries with the `http_requests_total` metric name that also have the `job` label set to `prometheus` and their `group` label set to `canary`:
 
-    http_requests_total{job="prometheus", group="canary"}
+    http_requests_total{job="prometheus",group="canary"}
+
+It is also possible to negatively match a label value, or to match label values again regular expressions. The following label matching operators exist:
+
+* `=`: Select labels that are exactly equal to the provided string.
+* `!=`: Select labels that are not equal to the provided string.
+* `=~`: Select labels that regex-match the provided string (or substring).
+* `!~`: Select labels that do not regex-match the provided string (or substring).
+
+For example, this selects all `http_requests_total` timeseries for `staging`, `testing`, and `development` environments and HTTP methods other than `GET`.
+
+    http_requests_total{environment=~"staging|testing|development",method!="GET"}
 
 ### Range Vector Selectors
 
