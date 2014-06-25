@@ -12,7 +12,8 @@ A metric name
 * should have a units suffix
  * `api_http_request_latency_ms`
  * `node_memory_usage_bytes`
- * `api_http_requests_total` (for a count)
+ * `api_http_requests_total` (for an accumulating count)
+ * ``
 * should represent the same logical thing-being-measured
  * request duration
  * bytes of data transfer
