@@ -141,6 +141,9 @@ Humanizing functions are intended to produce reasonable output for consumptions 
 | title         | string        | string  | [strings.Title](http://golang.org/pkg/strings/#Title), capitalises first character of each word|
 | match         | pattern, text | boolean | [regexp.MatchString](http://golang.org/pkg/regexp/#MatchString) Tests for a regexp match |
 | reReplaceAll  | pattern, replacement, text | string | [Regexp.ReplaceAllString](http://golang.org/pkg/regexp/#Regexp.ReplaceAllString) Regexp substitution |
+| graphLink  | expr | string | Returns path to graph view on /graph for the expression |
+| tableLink  | expr | string | Returns path to tabular view on /graph for the expression |
+
 
 ## Others
 | Name          | Arguments     | Returns |    Notes    |
