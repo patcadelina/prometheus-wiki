@@ -169,6 +169,6 @@ Console templates are rendered with [html/template](http://golang.org/pkg/html/t
 
 URL parameters are available as a map in `.Params`. If you need to support multiple url parameters by the same name, `.RawParams` is a map of the list values for each parameter. The URL path is available in `.Path`, excluding the `/consoles/` prefix.
 
-Consoles also have access to all the templates (i.e. things defined with `{{define "templateName"}}...{{end}}` found in `*.lib` files in the directory pointed to by the `-consoleLibraries` flag. As this is a shared namespace, you should take care to avoid clashing with other users. Template names beginning with `prom`, `_prom`, and `__` are reserved for use by Prometheus.
+Consoles also have access to all the templates (i.e. things defined with `{{define "templateName"}}...{{end}}` found in `*.lib` files in the directory pointed to by the `-consoleLibraries` flag. As this is a shared namespace, you should take care to avoid clashing with other users. Template names beginning with `prom`, `_prom`, and `__` are reserved for use by Prometheus, as are the functions listed above.
 
 
