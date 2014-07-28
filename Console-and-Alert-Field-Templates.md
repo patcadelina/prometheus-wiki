@@ -149,6 +149,7 @@ Humanizing functions are intended to produce reasonable output for consumptions 
 | Name          | Arguments     | Returns |    Notes    |
 | ------------- | ------------- | ------- | ----------- |
 | args          | []interface{} | map[string]interface{} | This converts a list of objects to a map with keys arg0, arg1 etc. This is intended to allow multiple arguments to be passed to templates |
+| tmpl          | string, []interface{} | nothing  | Like the built in `template`, but allows non-literals as the template name. Note that the result is assumed to be safe, and won't be auto-escaped. Only available in consoles. |
 | safeHtml      | string        | string  | Marks string as HTML not requiring auto-escaping |
 
 `interface{}` in Go is similar to a void pointer in C.
