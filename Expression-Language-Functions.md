@@ -46,7 +46,7 @@ Given a single-element input vector, `scalar(v instant-vector)` returns the samp
 
 Same as `sort`, but sorts in descending order.
 
-## ..._over_time(): Aggregating values within series over time:
+## *_over_time(): Aggregating values within series over time:
 
 The following functions allow aggregating each series of a given range vector over time and return an instant vector with per-series aggregation results:
 
