@@ -24,7 +24,7 @@ delta(cpu_temp_celsius{host="zeus"}[2h], 0)
 
 ## drop_common_labels()
 
-`drop_common_labels(instant-vector)` drops all label-name/label-value pairs that are common to all series in the input vector.
+`drop_common_labels(instant-vector)` drops all labels that have the same name and value across all series in the input vector.
 
 ## rate()
 
