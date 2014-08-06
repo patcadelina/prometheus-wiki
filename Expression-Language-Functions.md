@@ -1,6 +1,6 @@
-## time()
+## abs()
 
-`time()` returns the number of seconds since January 1, 1970 UTC. Note that this doesn't actually return the current time, but the time at which the expression is to be evaluated.
+`abs(v vector)` returns the input vector with all sample values converted to their absolute value.
 
 ## count_scalar()
 
@@ -21,6 +21,10 @@ Example which returns the difference in CPU temperature between now and 2 hours 
 ```
 delta(cpu_temp_celsius{host="zeus"}[2h], 0)
 ```
+
+## drop_common_labels()
+
+`drop_common_labels(instant-vector)` drops all label-name/label-value pairs that are common to all series in the input vector.
 
 ## rate()
 
@@ -46,6 +50,10 @@ Given a single-element input vector, `scalar(v instant-vector)` returns the samp
 
 Same as `sort`, but sorts in descending order.
 
+## time()
+
+`time()` returns the number of seconds since January 1, 1970 UTC. Note that this doesn't actually return the current time, but the time at which the expression is to be evaluated.
+
 ## *_over_time(): Aggregating values within series over time:
 
 The following functions allow aggregating each series of a given range vector over time and return an instant vector with per-series aggregation results:
@@ -55,3 +63,9 @@ The following functions allow aggregating each series of a given range vector ov
 - `max_over_time(range-vector)`: the maximum value of all points under the specified interval.
 - `sum_over_time(range-vector)`: the sum of all values under the specified interval.
 - `count_over_time(range-vector)`: the count of all values under the specified interval.
+
+## topk() / bottomk()
+
+`topk(k integer, v instant-vector)` returns the `k` largest elements of `v` by sample value.
+
+`bottomk(k integer, v instant-vector` returns the `k` smallest elements of `v` by sample value.
