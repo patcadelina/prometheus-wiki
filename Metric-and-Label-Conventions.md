@@ -28,8 +28,6 @@ Use labels to differentiate
 * class of thing-being-measured
  * `api_http_requests_total` - differentiate request types: `type={create,update,delete}`
  * `api_request_duration_nanoseconds` - differentiate request stages: `stage={extract,transform,load}`
-* result of an operation
- * `processor_request_{total,duration_milliseconds}`: differentiate outcome: `result={success,failure}`
 
 Remember that every unique (label, value) pair represents a new axis of cardinality for 
 the associated metric, which can dramatically increase the amount of data stored.
