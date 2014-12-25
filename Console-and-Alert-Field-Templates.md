@@ -2,8 +2,6 @@ Prometheus has support for templating in both the summary/description field of a
 
 If you're a first time user looking for simple consoles [PromDash](https://github.com/prometheus/promdash) is a good place to start, as while console templates are more powerful there's also a steeper learning curve.
 
-**N.B.** Templates are a new feature that is being actively developed, and the API is subject to change.
-
 # Examples
 
 ## Simple alert field templates
