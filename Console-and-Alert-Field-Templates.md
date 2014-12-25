@@ -130,7 +130,7 @@ The `__name__` label is the name of the metric.
 | humanize1024  | number        | string  | Like `humanize`, but uses 1024 as the base rather than 1000 |
 | humanizeDuration | number        | string  | Converts a duration in seconds to a more readable format. |
 
-Humanizing functions are intended to produce reasonable output for consumptions by humans, and are not guaranteed to return the same results between versions.
+Humanizing functions are intended to produce reasonable output for consumption by humans, and are not guaranteed to return the same results between versions.
 
 ## Strings
 
