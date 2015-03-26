@@ -12,3 +12,4 @@
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
 * 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
 * 9106 - [CloudWatch exporter](http://github.com/prometheus/cloudwatch_exporter)
+* 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
