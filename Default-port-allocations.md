@@ -13,6 +13,6 @@
 * 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
 * 9106 - [CloudWatch exporter](http://github.com/prometheus/cloudwatch_exporter)
 * 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
-* 9108 - Graphite exporter, metrics WIP - brian-brazil
-* 9109 - Graphite exporter, ingestion WIP - brian-brazil
+* 9108 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Metrics
+* 9109 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Ingestion
 * 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
