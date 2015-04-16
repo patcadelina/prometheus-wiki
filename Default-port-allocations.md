@@ -7,7 +7,7 @@
 ## Exporters starting at 9100
 * 9100 - [Node exporter](http://github.com/prometheus/node_exporter)
 * 9101 - [HAProxy exporter](http://github.com/prometheus/haproxy_exporter)
-* 9102 - [StatsD bridge](http://github.com/prometheus/statsd_bridge)
+* 9102 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Metrics
 * 9103 - [Collectd exporter](http://github.com/prometheus/collectd_exporter)
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
 * 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
@@ -15,3 +15,4 @@
 * 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
 * 9108 - Graphite exporter, metrics WIP - brian-brazil
 * 9109 - Graphite exporter, ingestion WIP - brian-brazil
+* 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
