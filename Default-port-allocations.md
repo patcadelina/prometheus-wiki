@@ -15,5 +15,6 @@
 * 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
 * 9108 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Metrics
 * 9109 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Ingestion
-* 9110 - [Ping exporter](/discordianfish/ping_exporter)
+* 9110 - [Blackbox prober](/discordianfish/blackbox_prober)
+* 9111 - [Expvar exporter](/docker-infra/expvar_exporter)
 * 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
