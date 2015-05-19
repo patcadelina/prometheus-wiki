@@ -17,4 +17,5 @@
 * 9109 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Ingestion
 * 9110 - [Blackbox prober](/discordianfish/blackbox_prober)
 * 9111 - [Expvar exporter](/docker-infra/expvar_exporter)
+* 9112 - [Heka Output Plugin](/docker-infra/heka-prometheus-output)
 * 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
