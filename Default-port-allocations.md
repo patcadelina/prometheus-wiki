@@ -19,4 +19,5 @@
 * 9111 - [Expvar exporter](/docker-infra/expvar_exporter)
 * 9112 - [Heka Output Plugin](/docker-infra/heka-prometheus-output)
 * 9113 - [Nginx exporter](/discordianfish/nginx_exporter)
+* 9114 - [Elasticsearch exporter](/docker-infra/elasticsearch_exporter)
 * 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
