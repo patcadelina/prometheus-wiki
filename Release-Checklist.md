@@ -1,0 +1,19 @@
+The following instructions describe how to cut a new release of Prometheus when the release version is the HEAD of the `master` branch. The process for cutting bugfix releases based off the latest stable release (non-HEAD) is not clearly defined yet.
+
+1. Consider updating all or some of the vendored dependencies before the
+   release. Make sure that https://github.com/prometheus/client_golang is
+   vendored at a release version.
+1. Create a PR that updates the `CHANGELOG.md` along with the `version/VERSION` file and get it merged.
+1. Run `make tag` to tag the new release and push it to GitHub.
+1. Head to https://github.com/prometheus/prometheus/releases and create a new release for the pushed tag.
+1. Attach the relevant changelog excerpt to the release on GitHub.
+1. Build `linux-amd64`, `linux-386`, and `darwin-amd64` binaries via `make tarball` and attach them to the release. Please note that this still needs some manual care, as cross-compiling is not yet supported by the Makefile.
+1. Update the `stable` branch to point to the new release (to tag the latest release image on https://registry.hub.docker.com/u/prom/prometheus/):
+
+   ```bash
+   git branch -f stable <new-release-tag>
+   git push origin stable
+   ```
+
+1. Merge any release-specific documentation changes in https://github.com/prometheus/docs (changes that are only applicable to the next release should be kept in a `next-release` branch there).
+1. Announce the release on the mailing list and on Twitter.
