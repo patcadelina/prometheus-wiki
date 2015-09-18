@@ -4,7 +4,13 @@ The following instructions describe how to cut a new release of Prometheus when 
    release. Make sure that https://github.com/prometheus/client_golang is
    vendored at a release version.
 1. Create a PR that updates the `CHANGELOG.md` along with the `version/VERSION` file and get it merged.
-1. Run `make tag` to tag the new release and push it to GitHub.
+1. Tag the new release and push the tag to GitHub:
+
+   ```bash
+   git tag $VERSION
+   git push --tags
+   ```
+
 1. Head to https://github.com/prometheus/prometheus/releases and create a new release for the pushed tag.
 1. Attach the relevant changelog excerpt to the release on GitHub.
 1. Build `linux-amd64`, `linux-386`, and `darwin-amd64` binaries via `make tarball` and attach them to the release. Please note that this still needs some manual care, as cross-compiling is not yet supported by the Makefile.
