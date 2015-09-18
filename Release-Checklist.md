@@ -21,5 +21,6 @@ The following instructions describe how to cut a new release of Prometheus when 
    git push origin stable
    ```
 
+1. Head to https://hub.docker.com/r/prom/prometheus/~/settings/automated-builds/ and create an automated build association for the new tag. Then, click "Trigger a build".
 1. Merge any release-specific documentation changes in https://github.com/prometheus/docs (changes that are only applicable to the next release should be kept in a `next-release` branch there).
 1. Announce the release on the mailing list and on Twitter.
