@@ -23,4 +23,7 @@
 * 9115 - Blackbox exporter - Reserved Brian
 * 9116 - [SNMP exporter](http://github.com/prometheus/snmp_exporter)
 
+* 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
+* 9123 - [RethinkDB exporter](https://github.com/oliver006/rethinkdb_exporter)
 * 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
+
