@@ -7,7 +7,7 @@
 ## Exporters starting at 9100
 * 9100 - [Node exporter](http://github.com/prometheus/node_exporter)
 * 9101 - [HAProxy exporter](http://github.com/prometheus/haproxy_exporter)
-* 9102 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Metrics
+* 9102 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Metrics
 * 9103 - [Collectd exporter](http://github.com/prometheus/collectd_exporter)
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
 * 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
@@ -29,5 +29,5 @@
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
 * 9122 - UNUSED
 * 9123 - [RethinkDB exporter](https://github.com/oliver006/rethinkdb_exporter)
-* 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
+* 9125 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Ingestion
 * 9126 - [New Relic exporter](https://github.com/jfindley/newrelic_exporter)
