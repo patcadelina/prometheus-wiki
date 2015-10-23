@@ -23,6 +23,9 @@
 * 9115 - [Blackbox exporter](http://github.com/prometheus/black_exporter)
 * 9116 - [SNMP exporter](http://github.com/prometheus/snmp_exporter)
 * 9117 - [Apache exporter](https://github.com/neezgee/apache_exporter)
+* 9118 - UNUSED
+* 9119 - UNUSED
+* 9120 - UNUSED
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
 * 9123 - [RethinkDB exporter](https://github.com/oliver006/rethinkdb_exporter)
 * 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
