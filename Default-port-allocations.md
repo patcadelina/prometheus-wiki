@@ -20,7 +20,7 @@
 * 9112 - [Heka Output Plugin](/docker-infra/heka-prometheus-output)
 * 9113 - [Nginx exporter](/discordianfish/nginx_exporter)
 * 9114 - [Elasticsearch exporter](/docker-infra/elasticsearch_exporter)
-* 9115 - Blackbox exporter - Reserved Brian
+* 9115 - [Blackbox exporter](http://github.com/prometheus/black_exporter)
 * 9116 - [SNMP exporter](http://github.com/prometheus/snmp_exporter)
 
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
