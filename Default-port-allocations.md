@@ -27,6 +27,7 @@
 * 9119 - UNUSED
 * 9120 - UNUSED
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
+* 9122 - UNUSED
 * 9123 - [RethinkDB exporter](https://github.com/oliver006/rethinkdb_exporter)
 * 9125 - [StatsD bridge](http://github.com/prometheus/statsd_bridge): Ingestion
 * 9126 - [New Relic exporter](https://github.com/jfindley/newrelic_exporter)
