@@ -7,13 +7,21 @@ The following instructions describe how to cut a new release of Prometheus when 
 1. Tag the new release and push the tag to GitHub:
 
    ```bash
-   git tag $VERSION
+   git tag $(cat version/VERSION)
    git push --tags
    ```
 
 1. Head to https://github.com/prometheus/prometheus/releases and create a new release for the pushed tag.
 1. Attach the relevant changelog excerpt to the release on GitHub.
-1. Build `linux-amd64`, `linux-386`, and `darwin-amd64` binaries via `make tarball` and attach them to the release. Please note that this still needs some manual care, as cross-compiling is not yet supported by the Makefile.
+1. Build `linux-amd64`, `linux-386`, and `darwin-amd64` binaries, pack them into tarballs, and attach them to the release. Please note that this needs manual care for now, see [issue #1265](https://github.com/prometheus/prometheus/issues/1265). The following shell commands give you an idea about the necessary steps:
+
+   ```bash
+   export GOOS=linux # or darwin
+   export GOARCH=amd64 # or 386
+   make build
+   tar --transform "s,^,prometheus-$(cat version/VERSION).$GOOS-$GOARCH/,S" -czf prometheus-$(cat version/VERSION).$GOOS-$GOARCH.tar.gz prometheus promtool consoles console_libraries
+   ```
+
 1. Update the `stable` branch to point to the new release (to tag the latest release image on https://registry.hub.docker.com/u/prom/prometheus/):
 
    ```bash
