@@ -31,4 +31,4 @@
 * 9123 - [RethinkDB exporter](https://github.com/oliver006/rethinkdb_exporter)
 * 9125 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Ingestion
 * 9126 - [New Relic exporter](https://github.com/jfindley/newrelic_exporter)
-* 9127 - PgBouncer exporter (Work in progress)
+* 9127 - [PgBouncer exporter](http://git.cbaines.net/prometheus-pgbouncer-exporter/)
