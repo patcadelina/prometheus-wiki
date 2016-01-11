@@ -25,7 +25,7 @@
 * 9117 - [Apache exporter](https://github.com/neezgee/apache_exporter)
 * 9118 - UNUSED
 * 9119 - UNUSED
-* 9120 - UNUSED
+* 9120 - [PowerDNS exporter](https://github.com/janeczku/powerdns_exporter)
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
 * 9122 - UNUSED
 * 9123 - [RethinkDB exporter](https://github.com/oliver006/rethinkdb_exporter)
