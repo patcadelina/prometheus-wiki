@@ -23,7 +23,7 @@
 * 9115 - [Blackbox exporter](http://github.com/prometheus/black_exporter)
 * 9116 - [SNMP exporter](http://github.com/prometheus/snmp_exporter)
 * 9117 - [Apache exporter](https://github.com/neezgee/apache_exporter)
-* 9118 - Jenkins exporter - Brian
+* 9118 - [Jenkins exporter](https://github.com/RobustPerception/python_examples/tree/master/jenkins_exporter)
 * 9119 - UNUSED
 * 9120 - [PowerDNS exporter](https://github.com/janeczku/powerdns_exporter)
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
