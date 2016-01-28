@@ -24,7 +24,7 @@
 * 9116 - [SNMP exporter](http://github.com/prometheus/snmp_exporter)
 * 9117 - [Apache exporter](https://github.com/neezgee/apache_exporter)
 * 9118 - [Jenkins exporter](https://github.com/RobustPerception/python_examples/tree/master/jenkins_exporter)
-* 9119 - UNUSED
+* 9119 - [BIND exporter](https://github.com/digitalocean/bind_exporter)
 * 9120 - [PowerDNS exporter](https://github.com/janeczku/powerdns_exporter)
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
 * 9122 - UNUSED
