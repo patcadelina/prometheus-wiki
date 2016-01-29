@@ -32,3 +32,4 @@
 * 9125 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Ingestion
 * 9126 - [New Relic exporter](https://github.com/jfindley/newrelic_exporter)
 * 9127 - [PgBouncer exporter](http://git.cbaines.net/prometheus-pgbouncer-exporter/)
+* 9128 - [Ceph exporter](https://github.com/digitalocean/ceph_exporter/)
