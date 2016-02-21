@@ -35,3 +35,4 @@
 * 9128 - [Ceph exporter](https://github.com/digitalocean/ceph_exporter/)
 * 9129 - HAProxy Log exporter (WIP)
 * 9130 - [UniFi exporter](https://github.com/mdlayher/unifi_exporter)
+* 9131 - [Varnish exporter](https://github.com/jonnenauha/prometheus_varnish_exporter)
