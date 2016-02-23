@@ -33,6 +33,6 @@
 * 9126 - [New Relic exporter](https://github.com/jfindley/newrelic_exporter)
 * 9127 - [PgBouncer exporter](http://git.cbaines.net/prometheus-pgbouncer-exporter/)
 * 9128 - [Ceph exporter](https://github.com/digitalocean/ceph_exporter/)
-* 9129 - HAProxy Log exporter (WIP)
+* 9129 - [HAProxy Log exporter](http://git.cbaines.net/prometheus-haproxy-log-exporter/)
 * 9130 - [UniFi exporter](https://github.com/mdlayher/unifi_exporter)
 * 9131 - [Varnish exporter](https://github.com/jonnenauha/prometheus_varnish_exporter)
