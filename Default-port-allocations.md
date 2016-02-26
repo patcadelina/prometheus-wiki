@@ -36,3 +36,4 @@
 * 9129 - [HAProxy Log exporter](http://git.cbaines.net/prometheus-haproxy-log-exporter/)
 * 9130 - [UniFi exporter](https://github.com/mdlayher/unifi_exporter)
 * 9131 - [Varnish exporter](https://github.com/jonnenauha/prometheus_varnish_exporter)
+* 9132 - [EdgeMAX exporter](https://github.com/mdlayher/edgemax_exporter)
