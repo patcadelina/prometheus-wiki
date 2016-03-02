@@ -38,3 +38,4 @@
 * 9131 - [Varnish exporter](https://github.com/jonnenauha/prometheus_varnish_exporter)
 * 9132 - [EdgeMAX exporter](https://github.com/mdlayher/edgemax_exporter)
 * 9133 - [Fritz!Box exporter](https://github.com/ndecker/fritzbox_exporter)
+* 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
