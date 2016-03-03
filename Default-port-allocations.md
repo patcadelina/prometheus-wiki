@@ -39,3 +39,4 @@
 * 9132 - [EdgeMAX exporter](https://github.com/mdlayher/edgemax_exporter)
 * 9133 - [Fritz!Box exporter](https://github.com/ndecker/fritzbox_exporter)
 * 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
+* 9135 - [rTorrent exporter](https://github.com/mdlayher/rtorrent_exporter)
