@@ -41,3 +41,4 @@
 * 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
 * 9135 - [rTorrent exporter](https://github.com/mdlayher/rtorrent_exporter)
 * 9136 - [Passenger exporter](https://github.com/soundcloud/passenger_exporter)
+* 9137 - [Fitbit exporter](https://github.com/mdlayher/fitbit_exporter)
