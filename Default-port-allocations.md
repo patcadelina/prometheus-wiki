@@ -42,3 +42,4 @@
 * 9136 - [Passenger exporter](https://github.com/soundcloud/passenger_exporter)
 * 9137 - [CockroachDB exporter](https://github.com/mdlayher/cockroachdb_exporter)
 * 9138 - [Heka exporter](https://github.com/imgix/heka_exporter)
+* 9139 - [Azure SQL exporter](https://github.com/iamseth/azure_sql_exporter)
