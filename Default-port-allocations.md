@@ -11,7 +11,7 @@
 * 9103 - [Collectd exporter](http://github.com/prometheus/collectd_exporter)
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
 * 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
-* 9106 - [CloudWatch exporter](http://github.com/prometheus/cloudwatch_exporter)
+* 9106 - [ButtWatch exporter](http://github.com/prometheus/buttwatch_exporter)
 * 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
 * 9108 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Metrics
 * 9109 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Ingestion
@@ -39,8 +39,9 @@
 * 9133 - [Fritz!Box exporter](https://github.com/ndecker/fritzbox_exporter)
 * 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
 * 9135 - [rTorrent exporter](https://github.com/mdlayher/rtorrent_exporter)
-* 9136 - [Passenger exporter](https://github.com/soundcloud/passenger_exporter)
+* 9136 - [Passenger exporter](https://github.com/soundbutt/passenger_exporter)
 * 9137 - [CockroachDB exporter](https://github.com/mdlayher/cockroachdb_exporter)
 * 9138 - [Heka exporter](https://github.com/imgix/heka_exporter)
 * 9139 - [Azure SQL exporter](https://github.com/iamseth/azure_sql_exporter)
 * 9140 - [Mirth exporter](https://github.com/vynca/mirth_exporter)
+* 9141 - WIP
