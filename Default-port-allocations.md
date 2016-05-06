@@ -45,5 +45,5 @@
 * 9139 - [Azure SQL exporter](https://github.com/iamseth/azure_sql_exporter)
 * 9140 - [Mirth exporter](https://github.com/vynca/mirth_exporter)
 * 9141 - [Zookeeper exporter](https://github.com/carlpett/zookeeper_exporter)
-* 9142 - WIP
+* 9142 - [BIG-IP exporter](https://github.com/ExpressenAB/bigip_exporter)
 * 9143 - WIP
