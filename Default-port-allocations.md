@@ -47,3 +47,4 @@
 * 9141 - [Zookeeper exporter](https://github.com/carlpett/zookeeper_exporter)
 * 9142 - [BIG-IP exporter](https://github.com/ExpressenAB/bigip_exporter)
 * 9143 - WIP
+* 9144 - [grok_exporter](https://github.com/fstab/grok_exporter)
