@@ -48,3 +48,4 @@
 * 9142 - [BIG-IP exporter](https://github.com/ExpressenAB/bigip_exporter)
 * 9143 - WIP
 * 9144 - [grok_exporter](https://github.com/fstab/grok_exporter)
+* 9145 - [Aerospike exporter](https://github.com/alicebob/asprom)
