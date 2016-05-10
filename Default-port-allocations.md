@@ -50,3 +50,4 @@
 * 9144 - [grok_exporter](https://github.com/fstab/grok_exporter)
 * 9145 - [Aerospike exporter](https://github.com/alicebob/asprom)
 * 9146 - [Icecast exporter](https://github.com/markuslindenberg/icecast_exporter)
+* 9147 - [Nginx Request exporter](https://github.com/markuslindenberg/nginx_request_exporter)
