@@ -11,7 +11,7 @@
 * 9103 - [Collectd exporter](http://github.com/prometheus/collectd_exporter)
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
 * 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
-* 9106 - [ButtWatch exporter](https://github.com/prometheus/buttwatch_exporter)
+* 9106 - [CloudWatch exporter](https://github.com/prometheus/cloudwatch_exporter)
 * 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
 * 9108 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Metrics
 * 9109 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Ingestion
@@ -57,5 +57,4 @@
 * 9151 - [Varnish Request exporter](https://github.com/stigsb/varnish_request_exporter)
 * 9152 - [Command runner exporter](https://github.com/tomwilkie/prom-run)
 * 9153 - [Mandrill Exporter](https://github.com/hypoport/mandrill-prometheus-exporter)
-* 9154 - WIP
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
