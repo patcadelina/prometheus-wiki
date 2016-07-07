@@ -57,4 +57,5 @@
 * 9151 - [Varnish Request exporter](https://github.com/stigsb/varnish_request_exporter)
 * 9152 - [Command runner exporter](https://github.com/tomwilkie/prom-run)
 * 9153 - [Mandrill Exporter](https://github.com/hypoport/mandrill-prometheus-exporter)
+* 9154 - Postfix Exporter (WIP)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
