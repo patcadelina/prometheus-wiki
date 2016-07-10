@@ -59,4 +59,5 @@
 * 9153 - [Mandrill Exporter](https://github.com/hypoport/mandrill-prometheus-exporter)
 * 9154 - Postfix Exporter (WIP)
 * 9155 - [vSphere Exporter](https://github.com/brandonweeks/vsphere_exporter)
+* 9156 - [WebDriver Exporter](https://github.com/mattbostock/webdriver_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
