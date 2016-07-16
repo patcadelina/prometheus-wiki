@@ -9,7 +9,7 @@ your new release or create a `release-x.x` branch.
 Make sure you bump the version in the `VERSION` file and update the changelog.
 
 Prometheus projects follow the [Semantic Versioning](http://semver.org/) as our versioning strategy.
-So please use the `vx.x.x` pattern for stable release or `vx.x.x-rc.x` for pre-release.
+So please use the `vx.x.x` pattern for stable release or `vx.x.x-rc.x` for pre-release, but don't put the `v` in the `VERSION` file.
 
 ## Draft the new release
 
