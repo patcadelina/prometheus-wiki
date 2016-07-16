@@ -1,7 +1,4 @@
 
-
-# HOWTO cut a new release
-
 ## Prepare your release
 
 `@TODO`
