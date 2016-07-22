@@ -20,7 +20,7 @@ There is two way to draft your new release:
 You can use the commandline to push the tag representing your release.
 
 ```bash
-$ git tag -a vx.x.x
+$ git tag -a vx.x.x -m 'vx.x.x'
 $ git push --tags
 ```
 Signed tag with a GPG key is appreciated, so if you have added a GPG key to your Github account using the following [procedure](https://help.github.com/articles/generating-a-gpg-key/), you can replace the `-a` flag by `-s` flag of the `git tag` command to sign it with your key.
