@@ -60,6 +60,6 @@
 * 9154 - Postfix Exporter (WIP)
 * 9155 - [vSphere Exporter](https://github.com/brandonweeks/vsphere_exporter)
 * 9156 - [WebDriver Exporter](https://github.com/mattbostock/webdriver_exporter)
-* 9157 - IBM MQ exporter (WIP)
+* 9157 - [IBM MQ exporter](https://github.com/ibm-messaging/mq-golang)
 * 9158 - Greenplum Exporter (WIP)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
