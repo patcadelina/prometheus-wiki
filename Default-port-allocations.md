@@ -62,4 +62,5 @@
 * 9156 - [WebDriver Exporter](https://github.com/mattbostock/webdriver_exporter)
 * 9157 - [IBM MQ exporter](https://github.com/ibm-messaging/mq-golang)
 * 9158 - Greenplum Exporter (WIP)
+* 9159 - Syslogstash Exporter (WIP)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
