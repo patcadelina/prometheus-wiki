@@ -63,6 +63,6 @@
 * 9157 - [IBM MQ exporter](https://github.com/ibm-messaging/mq-golang)
 * 9158 - Greenplum Exporter (WIP)
 * 9159 - Syslogstash Exporter (WIP)
-* 9160 - Apache Flink Exporter (WIP) 
+* 9160 - [Apache Flink Exporter](https://github.com/matsumana/flink_exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
