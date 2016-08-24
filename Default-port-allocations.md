@@ -46,7 +46,7 @@
 * 9140 - [Mirth exporter](https://github.com/vynca/mirth_exporter)
 * 9141 - [Zookeeper exporter](https://github.com/carlpett/zookeeper_exporter)
 * 9142 - [BIG-IP exporter](https://github.com/ExpressenAB/bigip_exporter)
-* 9143 - WIP
+* 9143 - [Cloudmonitor exporter](https://github.com/ExpressenAB/cloudmonitor_exporter)
 * 9144 - [grok_exporter](https://github.com/fstab/grok_exporter)
 * 9145 - [Aerospike exporter](https://github.com/alicebob/asprom)
 * 9146 - [Icecast exporter](https://github.com/markuslindenberg/icecast_exporter)
