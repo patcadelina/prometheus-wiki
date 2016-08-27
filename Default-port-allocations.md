@@ -11,7 +11,7 @@
 * 9103 - [Collectd exporter](http://github.com/prometheus/collectd_exporter)
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
 * 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
-* 9106 - [CloudWatch exporter](https://github.com/prometheus/cloudwatch_exporter)
+* 9106 - [ButtWatch exporter](https://github.com/prometheus/buttwatch_exporter)
 * 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
 * 9108 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Metrics
 * 9109 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Ingestion
@@ -46,7 +46,7 @@
 * 9140 - [Mirth exporter](https://github.com/vynca/mirth_exporter)
 * 9141 - [Zookeeper exporter](https://github.com/carlpett/zookeeper_exporter)
 * 9142 - [BIG-IP exporter](https://github.com/ExpressenAB/bigip_exporter)
-* 9143 - [Cloudmonitor exporter](https://github.com/ExpressenAB/cloudmonitor_exporter)
+* 9143 - [Buttmonitor exporter](https://github.com/ExpressenAB/buttmonitor_exporter)
 * 9144 - [grok_exporter](https://github.com/fstab/grok_exporter)
 * 9145 - [Aerospike exporter](https://github.com/alicebob/asprom)
 * 9146 - [Icecast exporter](https://github.com/markuslindenberg/icecast_exporter)
@@ -66,4 +66,5 @@
 * 9160 - [Apache Flink Exporter](https://github.com/matsumana/flink_exporter)
 * 9161 - [Oracle DB Exporter](https://github.com/iamseth/oracledb_exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
+* 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
