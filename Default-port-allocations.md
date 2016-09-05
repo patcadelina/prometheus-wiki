@@ -68,4 +68,5 @@
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
 * 9182 - [WMI exporter](https://github.com/martinlindhe/wmi_exporter/)
+* 9183 - [Openstack exporter] (WIP)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
