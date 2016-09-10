@@ -73,4 +73,5 @@
 * 9182 - [WMI exporter](https://github.com/martinlindhe/wmi_exporter/)
 * 9183 - Openstack exporter (WIP)
 * 9184 - Sonatype Nexus exporter (WIP)
+* 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
