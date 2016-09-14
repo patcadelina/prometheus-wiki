@@ -67,6 +67,7 @@
 * 9161 - [Oracle DB Exporter](https://github.com/iamseth/oracledb_exporter)
 * 9162 - [apcupsd exporter](https://github.com/mdlayher/apcupsd_exporter)
 * 9163 - [zgres exporter](https://github.com/jinty/zgres/blob/master/zgres/prometheus.py)
+* 9164 - [s6_exporter](https://github.com/imgix/s6_exporter)
 * 9170 - [Docker Hub Exporter](https://github.com/infinityworksltd/docker-hub-exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
