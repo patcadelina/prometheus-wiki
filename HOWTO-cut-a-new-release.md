@@ -1,41 +1,56 @@
+These instructions are currently valid for the Prometheus server, i.e. the [prometheus/prometheus repository](https://github.com/prometheus/prometheus). Applicability to other Prometheus repositories depends on the current state of each repository. We aspire to use release procedures as similar as possible.
+
+## Branch management and versioning strategy
+
+We use [Semantic Versioning](http://semver.org/).
+
+We maintain a separate branch for each minor release, named `release-<major>.<minor>`, e.g. `release-1.1`, `release-2.0`. The `stable` branch is supposed to point to the latest stable release.
+
+The usual flow is to merge new features and changes into the master branch and to merge bug fixes into the latest release branch. Bug fixes are then merged into master from the latest release branch. The master branch should always contain all commits from the latest release branch.
+
+If a bug fix got accidentally merged into master, cherry-pick commits have to be created in the latest release branch, which then have to be merged back into master. Try to avoid that situation.
+
+Maintaining the release branches for older minor releases happens on a best effort basis. 
 
 ## Prepare your release
 
-`@TODO`
+For a patch release, work in the branch of the minor release you want to patch.
 
-Depending of the git workflow used for the repository, you might just use the state of master for 
-your new release or create a `release-x.x` branch.
+For a new major or minor release, create the corresponding release branch based on the master branch.
 
-Make sure you bump the version in the `VERSION` file and update the changelog.
-
-Prometheus projects follow the [Semantic Versioning](http://semver.org/) as our versioning strategy.
-So please use the `vx.x.x` pattern for stable release or `vx.x.x-rc.x` for pre-release, but don't put the `v` in the `VERSION` file.
+Bump the version in the `VERSION` file and update `CHANGELOG.md`. It's usually a good idea to do this in a proper PR as this gives others the opportunity to chime in on the release in general and on the addition to the changelog in particular.
 
 ## Draft the new release
 
-There is two way to draft your new release:
+Tag the new release with a tag named `v<major>.<minor>.<patch>`, e.g. `v2.1.3`. Note the `v` prefix.
 
-* Tag manually your version
-
-You can use the commandline to push the tag representing your release.
+You can do the tagging on the commandline:
 
 ```bash
-$ git tag -a vx.x.x -m 'vx.x.x'
+$ git tag -a vx.y.z -m 'vx.y.z'
 $ git push --tags
 ```
 Signed tag with a GPG key is appreciated, so if you have added a GPG key to your Github account using the following [procedure](https://help.github.com/articles/generating-a-gpg-key/), you can replace the `-a` flag by `-s` flag of the `git tag` command to sign it with your key.
 
-At this moment, the release process through CircleCI will be triggered for this tag.
-You must create a Github Release using the UI for this tag otherwise CircleCI will not be able to upload tarballs for this tag.
-Go to the releases page of the project, click on the `Draft a new release` button and select the tag you just pushed.
-Usually we entitle this release like this `vx.x.x / Y-m-d`.
-You can also put the changelog for this version in the description.
+Once a tag is created, the release process through CircleCI will be triggered for this tag.
+You must create a Github Release using the UI for this tag otherwise CircleCI will not be able to upload tarballs for this tag. Also, you must create the Github Release using a Github user that has granted access rights to CircleCI. If you have not or cannot grant those rights to your personal account, you can log in as `prombot` in an anonymous tag.
 
-* Use the Github UI
+Go to the releases page of the project, click on the _Draft a new release_ button and select the tag you just pushed. The title of the release is formatted `x.y.z / YYYY-MM-DD`. Add the relevant part of `CHANGELOG.md` as description.
 
-You can also create the tag + Github release through the Github UI by going to the releases page and then click on the `Draft a new release` button and enter your tag version.
-Usually we entitle this release like this `vx.x.x / Y-m-d`.
-You can also put the changelog for this version in the description.
-
+You can also create the tag and the Github release in one go through the Github UI by going to the releases page and then click on the `Draft a new release` button and enter your tag version.
 
 Now all you can do is to wait for tarballs to be uploaded to the Github release and Docker images to be pushed to the Docker Hub and Quay.io.
+
+## Wrapping up
+
+If the release has happened in the latest release branch, merge the changes into master and point the `stable` branch to the new release.
+
+Once the binaries have been uploaded, announce the release on `prometheus-developers@googlegroups.com`. Start the subject with `[ANN]`. Check out previous announcement mails for inspiration.
+
+## Pre-releases
+
+For risky or invasive changes, you might want to cut a pre-release or release candidate. The following changes to the above procedures apply:
+* In line with [Semantic Versioning](http://semver.org/), append something like `-rc1` to the version (with the corresponding changes to the tag name, the release name etc.).
+* Tick the _This is a pre-release_ box when drafting the release in the Github UI.
+* Do not point the `stable` branch to your release tag.
+* Still update `CHANGELOG.md`, but when you cut the final release later, merge all the changes from the pre-releases into the one final update.
