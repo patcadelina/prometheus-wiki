@@ -76,5 +76,6 @@
 * 9183 - Openstack exporter (WIP)
 * 9184 - Sonatype Nexus exporter (WIP)
 * 9185 - [Kafka topic exporter](https://github.com/ogibayashi/kafka-topic-exporter)
+* 9186 - [Cloud Foundry Firehose exporter](https://github.com/cloudfoundry-community/firehose_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
