@@ -78,5 +78,6 @@
 * 9185 - [Kafka topic exporter](https://github.com/ogibayashi/kafka-topic-exporter)
 * 9186 - [Cloud Foundry Firehose exporter](https://github.com/cloudfoundry-community/firehose_exporter)
 * 9187 - PostgreSQL exporter (WIP)
+* 9188 - EnterpriseDB Enterprise Failover Manager exporter (WIP)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
