@@ -20,6 +20,8 @@ For a new major or minor release, create the corresponding release branch based 
 
 Bump the version in the `VERSION` file and update `CHANGELOG.md`. It's usually a good idea to do this in a proper PR as this gives others the opportunity to chime in on the release in general and on the addition to the changelog in particular.
 
+Note that `CHANGELOG.md` should only document changes relevant to users of Prometheus, including external API changes, performance improvements, and new features. Do not document changes of internal interfaces, code refactorings and clean-ups, changes to the build process, … Whoever is interested in those is supposed to look at the Git commit history.
+
 ## Draft the new release
 
 Tag the new release with a tag named `v<major>.<minor>.<patch>`, e.g. `v2.1.3`. Note the `v` prefix.
