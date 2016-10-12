@@ -68,6 +68,7 @@
 * 9162 - [apcupsd exporter](https://github.com/mdlayher/apcupsd_exporter)
 * 9163 - [zgres exporter](https://github.com/jinty/zgres/blob/master/zgres/prometheus.py)
 * 9164 - [s6_exporter](https://github.com/imgix/s6_exporter)
+* 9165 - [lmsensors exporter](https://github.com/mdlayher/lmsensors_exporter)
 * 9170 - [Docker Hub Exporter](https://github.com/infinityworksltd/docker-hub-exporter)
 * 9171 - [GitHub Exporter](https://github.com/infinityworksltd/github-exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
