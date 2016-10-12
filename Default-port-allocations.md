@@ -81,5 +81,6 @@
 * 9188 - EnterpriseDB Enterprise Failover Manager exporter (WIP)
 * 9189 - Glusterfs exporter
 * 9190 - [BOSH exporter](https://github.com/cloudfoundry-community/bosh_exporter)
+* 9191 - [netflow exporter](https://github.com/paihu/netflow_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
