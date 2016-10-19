@@ -74,7 +74,7 @@
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
 * 9182 - [WMI exporter](https://github.com/martinlindhe/wmi_exporter/)
-* 9183 - Openstack exporter (WIP)
+* 9183 - [Openstack exporter](https://github.com/CanonicalLtd/prometheus-openstack-exporter) (WIP)
 * 9184 - Sonatype Nexus exporter (WIP)
 * 9185 - [Kafka topic exporter](https://github.com/ogibayashi/kafka-topic-exporter)
 * 9186 - [Cloud Foundry Firehose exporter](https://github.com/cloudfoundry-community/firehose_exporter)
