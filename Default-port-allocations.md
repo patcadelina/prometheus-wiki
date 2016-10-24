@@ -84,6 +84,6 @@
 * 9190 - [BOSH exporter](https://github.com/cloudfoundry-community/bosh_exporter)
 * 9191 - [netflow exporter](https://github.com/paihu/netflow_exporter)
 * 9192 - [ceph_exporter](https://github.com/jcollie/ceph_exporter)
-* 9195 - MaxScale
+* 9195 - [MaxScale exporter](https://github.com/skord/maxscale_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
