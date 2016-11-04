@@ -10,7 +10,7 @@
 * 9102 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Metrics
 * 9103 - [Collectd exporter](http://github.com/prometheus/collectd_exporter)
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
-* 9105 - [Mesos exporter](http://github.com/prometheus/mesos_exporter)
+* 9105 - [Mesos exporter](http://github.com/mesosphere/mesos_exporter)
 * 9106 - [CloudWatch exporter](https://github.com/prometheus/cloudwatch_exporter)
 * 9107 - [Consul exporter](http://github.com/prometheus/consul_exporter)
 * 9108 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Metrics
