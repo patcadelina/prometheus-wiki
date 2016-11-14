@@ -88,5 +88,6 @@
 * 9195 - [MaxScale exporter](https://github.com/skord/maxscale_exporter)
 * 9196 - [UPnP Internet Gateway Device exporter](https://github.com/yrro/igd-exporter)
 * 9197 - [Google's mtail log data extractor](https://github.com/google/mtail)
+* 9199 - [Cloudflare exporter](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
