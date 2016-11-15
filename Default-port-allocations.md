@@ -17,6 +17,7 @@
 * 9109 - [Graphite exporter](http://github.com/prometheus/graphite_exporter): Ingestion
 * 9110 - [Blackbox prober](/discordianfish/blackbox_prober) : DEPRECATED
 * 9111 - [Expvar exporter](/docker-infra/expvar_exporter)
+* 9112 - [promacct: pcap-based network traffic accounting](https://github.com/kumina/promacct)
 * 9113 - [Nginx exporter](/discordianfish/nginx_exporter)
 * 9114 - [Elasticsearch exporter](https://github.com/ewr/elasticsearch_exporter)
 * 9115 - [Blackbox exporter](http://github.com/prometheus/blackbox_exporter)
