@@ -92,6 +92,7 @@
 * 9197 - [Google's mtail log data extractor](https://github.com/google/mtail)
 * 9198 - [Logstash exporter](https://github.com/DagensNyheter/logstash_exporter)
 * 9199 - [Cloudflare exporter](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
+* 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 9225 - [mailexporter](https://github.com/cherti/mailexporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
