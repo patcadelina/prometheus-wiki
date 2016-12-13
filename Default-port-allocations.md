@@ -96,4 +96,5 @@
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 9225 - [mailexporter](https://github.com/cherti/mailexporter)
 * 9226 - [allas](https://github.com/johto/allas)
+* 9227 - proc_exporter (WIP)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
