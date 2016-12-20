@@ -98,4 +98,5 @@
 * 9225 - [mailexporter](https://github.com/cherti/mailexporter)
 * 9226 - [allas](https://github.com/johto/allas)
 * 9227 - [proc_exporter](https://github.com/arnarg/proc_exporter)
+* 9228 - [supervisor_exporter](https://github.com/prometheus/supervisor_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
