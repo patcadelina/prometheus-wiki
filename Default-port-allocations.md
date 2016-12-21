@@ -29,7 +29,7 @@
 * 9121 - [Redis exporter](https://github.com/oliver006/redis_exporter)
 * 9122 - [InfluxDB exporter](https://github.com/prometheus/influxdb_exporter)
 * 9123 - [RethinkDB exporter](https://github.com/oliver006/rethinkdb_exporter)
-* 9124 - [FreeBSD sysctl exporter](https://reviews.freebsd.org/D8792)
+* 9124 - [FreeBSD sysctl exporter](https://svnweb.freebsd.org/base/head/usr.sbin/prometheus_sysctl_exporter/)
 * 9125 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Ingestion
 * 9126 - [New Relic exporter](https://github.com/jfindley/newrelic_exporter)
 * 9127 - [PgBouncer exporter](http://git.cbaines.net/prometheus-pgbouncer-exporter/)
