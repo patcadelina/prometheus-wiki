@@ -75,6 +75,7 @@
 * 9170 - [Docker Hub Exporter](https://github.com/infinityworksltd/docker-hub-exporter)
 * 9171 - [GitHub Exporter](https://github.com/infinityworksltd/github-exporter)
 * 9172 - [Script Exporter](https://github.com/adhocteam/script_exporter)
+* 9173 - [Rancher Exporter](https://github.com/infinityworksltd/prometheus-rancher-exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
 * 9182 - [WMI exporter](https://github.com/martinlindhe/wmi_exporter/)
