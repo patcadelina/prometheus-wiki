@@ -72,6 +72,7 @@
 * 9164 - [s6_exporter](https://github.com/imgix/s6_exporter)
 * 9165 - [lmsensors exporter](https://github.com/mdlayher/lmsensors_exporter)
 * 9166 - [Dovecot exporter](https://github.com/kumina/dovecot_exporter)
+* 9169 - [Lustre exporter](https://github.com/joehandzik/lustre_exporter)
 * 9170 - [Docker Hub Exporter](https://github.com/infinityworksltd/docker-hub-exporter)
 * 9171 - [GitHub Exporter](https://github.com/infinityworksltd/github-exporter)
 * 9172 - [Script Exporter](https://github.com/adhocteam/script_exporter)
