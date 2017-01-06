@@ -105,5 +105,6 @@
 * 9228 - [supervisor_exporter](https://github.com/prometheus/supervisor_exporter)
 * 9229 - [gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse)
 * 9230 - [Network UPS Tools exporter](https://github.com/dominikh/go-nut/tree/master/cmd/nut_exporter)
+* 9231 - Solr exporter (WIP)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
