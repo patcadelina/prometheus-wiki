@@ -73,6 +73,7 @@
 * 9165 - [lmsensors exporter](https://github.com/mdlayher/lmsensors_exporter)
 * 9166 - [Dovecot exporter](https://github.com/kumina/dovecot_exporter)
 * 9167 - [Unbound exporter](https://github.com/kumina/unbound_exporter)
+* 9168 - [gitlab-monitor](https://gitlab.com/gitlab-org/gitlab-monitor/)
 * 9169 - [Lustre exporter](https://github.com/joehandzik/lustre_exporter)
 * 9170 - [Docker Hub Exporter](https://github.com/infinityworksltd/docker-hub-exporter)
 * 9171 - [GitHub Exporter](https://github.com/infinityworksltd/github-exporter)
