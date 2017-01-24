@@ -100,6 +100,7 @@
 * 9199 - [Cloudflare exporter](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
 * 9200 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
+* 9223 - BladePSGI exporter (WIP)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
 * 9225 - [mailexporter](https://github.com/cherti/mailexporter)
 * 9226 - [allas](https://github.com/johto/allas)
