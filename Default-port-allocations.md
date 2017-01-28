@@ -111,6 +111,7 @@
 * 9229 - [gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse)
 * 9230 - [Network UPS Tools exporter](https://github.com/dominikh/go-nut/tree/master/cmd/nut_exporter)
 * 9231 - Solr exporter (WIP)
+* 9232 - [Osquery exporter](https://github.com/zwopir/osquery_exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
