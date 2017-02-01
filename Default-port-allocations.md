@@ -100,7 +100,8 @@
 * 9198 - [Logstash exporter](https://github.com/DagensNyheter/logstash_exporter)
 * 9199 - [Cloudflare exporter](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
 * 9200 - UNALLOCATED (to avoid collision with Elasticsearch)
-* 9201 <-- ***Next free port***
+* 9201 - Remote storage bridge example code
+* 9202 <-- ***Next free port***
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
