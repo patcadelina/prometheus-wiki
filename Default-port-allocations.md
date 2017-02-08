@@ -102,7 +102,7 @@
 * 9199 - [Cloudflare exporter](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
 * 9200 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9201 - Remote storage bridge example code
-* 9202 - Pacemaker exporter (WIP)
+* 9202 - [Pacemaker exporter](https://github.com/marcan/pacemaker-exporter)
 * 9203 <-- ***Next free port***
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
