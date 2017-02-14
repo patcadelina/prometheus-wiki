@@ -103,7 +103,8 @@
 * 9200 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9201 - Remote storage bridge example code
 * 9202 - [Pacemaker exporter](https://github.com/marcan/pacemaker-exporter)
-* 9203 <-- ***Next free port***
+* 9203 - [Domain Exporter](https://github.com/shift/domain_exporter)
+* 9204 <-- ***Next free port***
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
