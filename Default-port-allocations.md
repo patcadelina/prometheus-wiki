@@ -105,7 +105,8 @@
 * 9202 - [Pacemaker exporter](https://github.com/marcan/pacemaker-exporter)
 * 9203 - [Domain Exporter](https://github.com/shift/domain_exporter)
 * 9204 - [PCSensor TEMPer exporter](https://github.com/yrro/temper-exporter)
-* 9205 <-- ***Next free port***
+* 9205 - [Nextcloud exporter](https://github.com/xperimental/nextcloud-exporter)
+* 9206 <-- ***Next free port***
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
