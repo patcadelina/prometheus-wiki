@@ -106,7 +106,10 @@
 * 9203 - [Domain Exporter](https://github.com/shift/domain_exporter)
 * 9204 - [PCSensor TEMPer exporter](https://github.com/yrro/temper-exporter)
 * 9205 - [Nextcloud exporter](https://github.com/xperimental/nextcloud-exporter)
-* 9206 <-- ***Next free port***
+* 9206 - [Elasticsearch exporter](https://github.com/braedon/prometheus-es-exporter) (queries and cluster metrics)
+* 9207 - [MySQL exporter](https://github.com/braedon/prometheus-mysql-exporter) (queries)
+* 9208 - [Kafka Consumer Group exporter](https://github.com/braedon/prometheus-kafka-consumer-group-exporter)
+* 9209 <-- ***Next free port***
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
