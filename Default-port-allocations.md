@@ -122,7 +122,7 @@
 * 9231 - Solr exporter (WIP)
 * 9232 - [Osquery exporter](https://github.com/zwopir/osquery_exporter)
 * 9233 - [mgmt exporter](https://github.com/purpleidea/mgmt)
-* 9234 - [mosquitto exporter](https://github.com/sapcc/mosquitto)
+* 9234 - [mosquitto exporter](https://github.com/sapcc/mosquitto-exporter)
 * 9235 - [gitlab-pages exporter](https://gitlab.com/gitlab-org/gitlab-pages/)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
