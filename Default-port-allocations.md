@@ -111,7 +111,8 @@
 * 9208 - [Kafka Consumer Group exporter](https://github.com/braedon/prometheus-kafka-consumer-group-exporter)
 * 9209 - Wowza Streaming Engine exporter (WIP)
 * 9210 - [Netatmo exporter](https://github.com/xperimental/netatmo-exporter)
-* 9211 <-- ***Next free port***
+* 9211 - Nefario metrics
+* 9212 <-- ***Next free port***
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
