@@ -80,7 +80,7 @@
 * 9172 - [Script Exporter](https://github.com/adhocteam/script_exporter)
 * 9173 - [Rancher Exporter](https://github.com/infinityworksltd/prometheus-rancher-exporter)
 * 9174 - [Docker-Cloud Exporter](https://github.com/infinityworksltd/docker-cloud-exporter)
-* 9175 - [Saltstack exporter](https://github.com/DagensNyheter/saltstack_exporter)
+* 9175 - [Saltstack exporter](https://github.com/BonnierNews/saltstack_exporter)
 * 9176 - [OpenVPN exporter](https://github.com/kumina/openvpn_exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
@@ -99,7 +99,7 @@
 * 9195 - [MaxScale exporter](https://github.com/skord/maxscale_exporter)
 * 9196 - [UPnP Internet Gateway Device exporter](https://github.com/yrro/igd-exporter)
 * 9197 - [Google's mtail log data extractor](https://github.com/google/mtail)
-* 9198 - [Logstash exporter](https://github.com/DagensNyheter/logstash_exporter)
+* 9198 - [Logstash exporter](https://github.com/BonnierNews/logstash_exporter)
 * 9199 - [Cloudflare exporter](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
 * 9200 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9201 - Remote storage bridge example code
