@@ -132,8 +132,6 @@
 * 9235 - [gitlab-pages exporter](https://gitlab.com/gitlab-org/gitlab-pages/)
 * 9236 - [gitlab gitaly exporter](https://gitlab.com/gitlab-org/gitaly)
 * 9237 <-- ***Next free port***
-
-
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
