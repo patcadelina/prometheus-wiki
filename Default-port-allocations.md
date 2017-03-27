@@ -115,7 +115,7 @@
 * 9211 - Nefario metrics
 * 9212 - [DigitalOcean Exporter](https://github.com/metalmatze/digitalocean_exporter)
 * 9213 - [Custom Exporter](https://github.com/orange-cloudfoundry/custom_exporter)
-* 9214 <-- ***Next free port***
+* 9214 - [MQTT Blackbox Exporter](https://github.com/inovex/mqtt_blackbox_exporter)
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
