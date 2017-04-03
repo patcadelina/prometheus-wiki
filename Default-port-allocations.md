@@ -82,7 +82,6 @@
 * 9174 - [Docker-Cloud Exporter](https://github.com/infinityworksltd/docker-cloud-exporter)
 * 9175 - [Saltstack exporter](https://github.com/BonnierNews/saltstack_exporter)
 * 9176 - [OpenVPN exporter](https://github.com/kumina/openvpn_exporter)
-* 9177 - [Linux LVM exporter](https://github.com/kumina/lvm_exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
 * 9182 - [WMI exporter](https://github.com/martinlindhe/wmi_exporter/)
