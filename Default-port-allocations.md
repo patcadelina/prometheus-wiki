@@ -1,3 +1,5 @@
+See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for why this exists.
+
 ## Core components starting at 9090
 * 9090 - Prometheus server
 * 9091 - Pushgateway
