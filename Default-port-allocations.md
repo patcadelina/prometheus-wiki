@@ -99,6 +99,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9191 - [netflow exporter](https://github.com/paihu/netflow_exporter)
 * 9192 - [ceph_exporter](https://github.com/jcollie/ceph_exporter)
 * 9193 - [Cloud Foundry exporter](https://github.com/cloudfoundry-community/cf_exporter)
+* 9194 - [BOSH TSDB exporter](https://github.com/cloudfoundry-community/bosh_tsdb_exporter)
 * 9195 - [MaxScale exporter](https://github.com/skord/maxscale_exporter)
 * 9196 - [UPnP Internet Gateway Device exporter](https://github.com/yrro/igd-exporter)
 * 9197 - [Google's mtail log data extractor](https://github.com/google/mtail)
