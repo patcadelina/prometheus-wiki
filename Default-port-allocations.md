@@ -143,7 +143,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9240 - [Tinyproxy exporter](https://github.com/igzivkov/tinyproxy_exporter)
 * 9241 - [ArangoDB Exporter](https://gitlab.com/flare/arangodb-exporter)
 * 9242 - [JMX exporter](https://github.com/prometheus/jmx_exporter)
-* 9243 <-- ***Next free port***
+* 9243 - [Chef Compliance exporter](https://github.com/contino/chef_compliance_exporter)
+* 9244 <-- ***Next free port***
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
