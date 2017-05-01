@@ -86,6 +86,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9176 - [OpenVPN exporter](https://github.com/kumina/openvpn_exporter)
 * 9177 - [libvirt exporter](https://github.com/kumina/libvirt_exporter)
 * 9178 - [Stream exporter](https://github.com/carlpett/stream_exporter)
+* 9179 - [Shield exporter](https://github.com/cloudfoundry-community/shield_exporter)
 * 9180 - [ScyllaDB exporter](https://github.com/scylladb/scylla)
 * 9181 - [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter)
 * 9182 - [WMI exporter](https://github.com/martinlindhe/wmi_exporter/)
