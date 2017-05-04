@@ -147,7 +147,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9244 - [Gauge exporter for Faucet SDN controller](https://github.com/REANNZ/faucet/)
 * 9245 - [Naemon / Nagios Exporter](https://github.com/Griesbacher/Iapetos)
 * 9246 - [SmartPi](https://github.com/nDenerserve/SmartPi)
-* 9247 - <-- ***Next free port***
+* 9247 - [Sphinx] (coming soon)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
