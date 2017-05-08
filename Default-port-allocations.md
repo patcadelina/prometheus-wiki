@@ -150,7 +150,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9247 - [Sphinx] (coming soon)
 * 9248 - [Queue-It] (coming soon)
 * 9249 - [Apache Flink Metrics Reporter] (coming soon)
-* 9250 <- next available port
+* 9250 - [OpenTSDB Exporter](https://github.com/cloudflare/opentsdb_exporter)
+* 9251 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
