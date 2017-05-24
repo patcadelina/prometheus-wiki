@@ -142,7 +142,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9239 - [Surfboard Exporter](https://github.com/ipstatic/surfboard_exporter)
 * 9240 - [Tinyproxy exporter](https://github.com/igzivkov/tinyproxy_exporter)
 * 9241 - [ArangoDB Exporter](https://gitlab.com/flare/arangodb-exporter)
-* 9242 - <- port available
+* 9242 - [Ceph RADOSGW Usage Exporter](https://github.com/blemmenes/radosgw_usage_exporter)
 * 9243 - [Chef Compliance exporter](https://github.com/contino/chef_compliance_exporter)
 * 9244 - [Gauge exporter for Faucet SDN controller](https://github.com/REANNZ/faucet/)
 * 9245 - [Naemon / Nagios Exporter](https://github.com/Griesbacher/Iapetos)
