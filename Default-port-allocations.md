@@ -155,7 +155,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9252 - [GitLab Runner Exporter](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner)
 * 9253 - [PHP-FPM exporter](https://github.com/JamesBarwell/phpfpm_exporter)
 * 9254 - [Kafka Burrow exporter](https://github.com/jirwin/burrow_exporter)
-* 9255 <- next available port
+* 9255 - [Google Stackdriver exporter](https://github.com/frodenas/stackdriver_exporter)
+* 9256 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
