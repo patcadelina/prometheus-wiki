@@ -162,3 +162,4 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
+* 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
