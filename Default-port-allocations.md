@@ -158,7 +158,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9255 - [Google Stackdriver exporter](https://github.com/frodenas/stackdriver_exporter)
 * 9256 - [td-agent exporter](https://github.com/matsumana/td-agent_exporter)
 * 9257 - [S.M.A.R.T. exporter] (coming soon)
-* 9258 <- next available port
+* 9258 - [Hello Sense Exporter](https://github.com/xperimental/hello-exporter)
+* 9259 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
