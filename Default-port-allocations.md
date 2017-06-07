@@ -131,7 +131,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9228 - [supervisor_exporter](https://github.com/prometheus/supervisor_exporter)
 * 9229 - [gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse)
 * 9230 - [Network UPS Tools exporter](https://github.com/dominikh/go-nut/tree/master/cmd/nut_exporter)
-* 9231 - Solr exporter (WIP)
+* 9231 - [Solr exporter](https://github.com/noony/prometheus-solr-exporter)
 * 9232 - [Osquery exporter](https://github.com/zwopir/osquery_exporter)
 * 9233 - [mgmt exporter](https://github.com/purpleidea/mgmt)
 * 9234 - [mosquitto exporter](https://github.com/sapcc/mosquitto-exporter)
