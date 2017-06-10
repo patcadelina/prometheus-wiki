@@ -164,7 +164,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9260 - [Buildkite Exporter](https://github.com/smithamax/buildkite_exporter)
 * 9261 - [Grafana exporter](https://github.com/frodenas/grafana_exporter)
 * 9262 - [Bloomsky exporter](https://github.com/krazylek/bloomsky-prometheus-exporter)
-* 9263 <- next available port
+* 9263 - [VMWare Guest exporter](https://github.com/ncabatoff/vmwareguest-exporter)
+* 9264 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
