@@ -166,7 +166,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9262 - [Bloomsky exporter](https://github.com/krazylek/bloomsky-prometheus-exporter)
 * 9263 - [VMWare Guest exporter](https://github.com/ncabatoff/vmwareguest-exporter)
 * 9264 - [Nest exporter](https://github.com/jcollie/nest_exporter)
-* 9265 - [weather exporter](https://github.com/celliott/weather_exporter)
+* 9265 - [Weather exporter](https://github.com/celliott/weather_exporter) - uses Dark Sky API
 * 9266 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
