@@ -1,4 +1,4 @@
-See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for why this exists.
+See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for why this exists. Integrations other than exporters (e.g. adopters, webhooks) may also be listed here.
 
 ## Core components starting at 9090
 * 9090 - Prometheus server
@@ -169,7 +169,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9265 - [Weather exporter](https://github.com/celliott/weather_exporter) - uses Dark Sky API
 * 9266 - [OpenHAB exporter](https://github.com/jcollie/openhab_exporter)
 * 9267 - [Nagios Livestatus Exporter](https://github.com/m-lab/prometheus-nagios-exporter)
-* 9268 <- next available port
+* 9268 - Crate.io adapter
+* 9269 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
