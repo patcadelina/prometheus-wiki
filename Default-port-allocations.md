@@ -171,7 +171,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9266 - [OpenHAB exporter](https://github.com/jcollie/openhab_exporter)
 * 9267 - [Nagios Livestatus Exporter](https://github.com/m-lab/prometheus-nagios-exporter)
 * 9268 - Crate.io adapter
-* 9269 <- next available port
+* 9269 - [fluent-agent-lite exporter](https://github.com/matsumana/fluent-agent-lite_exporter)
+* 9270 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 9324 - [Bird Routing Daemon Exporter](https://github.com/czerwonk/bird_exporter)
