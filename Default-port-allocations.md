@@ -172,7 +172,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9267 - [Nagios Livestatus Exporter](https://github.com/m-lab/prometheus-nagios-exporter)
 * 9268 - Crate.io adapter
 * 9269 - [fluent-agent-lite exporter](https://github.com/matsumana/fluent-agent-lite_exporter)
-* 9270 - [Jmeter exporter] (https://github.com/johrstrom/jmeter-prometheus-plugin)
+* 9270 - [Jmeter exporter](https://github.com/johrstrom/jmeter-prometheus-plugin)
 * 9271 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
