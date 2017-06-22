@@ -94,7 +94,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9184 - Sonatype Nexus exporter (WIP)
 * 9185 - [Kafka topic exporter](https://github.com/ogibayashi/kafka-topic-exporter)
 * 9186 - [Cloud Foundry Firehose exporter](https://github.com/cloudfoundry-community/firehose_exporter)
-* 9187 - PostgreSQL exporter (WIP)
+* 9187 - [PostgreSQL exporter](https://github.com/wrouesnel/postgres_exporter)
 * 9188 - EnterpriseDB Enterprise Failover Manager exporter (WIP)
 * 9189 - Glusterfs exporter
 * 9190 - [BOSH exporter](https://github.com/cloudfoundry-community/bosh_exporter)
