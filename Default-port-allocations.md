@@ -174,7 +174,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9269 - [fluent-agent-lite exporter](https://github.com/matsumana/fluent-agent-lite_exporter)
 * 9270 - [Jmeter exporter](https://github.com/johrstrom/jmeter-prometheus-plugin)
 * 9271 - [Pagespeed exporter](https://github.com/foomo/pagespeed_exporter)
-* 9272 <- next available port
+* 9272 - [VMWare exporter](https://github.com/rverchere/vmware_exporter)
+* 9273 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 9324 - [Bird Routing Daemon Exporter](https://github.com/czerwonk/bird_exporter)
