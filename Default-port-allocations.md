@@ -176,7 +176,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9271 - [Pagespeed exporter](https://github.com/foomo/pagespeed_exporter)
 * 9272 - [VMWare exporter](https://github.com/rverchere/vmware_exporter)
 * 9273 - [Telegraf prometheus_client](https://github.com/influxdata/telegraf)
-* 9274 - [Disk usage exporter](https://github.com/joar/disk-usage-exporter)
+* 9274 - [Disk Usage Exporter](https://github.com/joar/disk-usage-exporter) (uses psutil.disk_usage)
 * 9275 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
