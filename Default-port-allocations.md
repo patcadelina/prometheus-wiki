@@ -176,7 +176,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9271 - [Pagespeed exporter](https://github.com/foomo/pagespeed_exporter)
 * 9272 - [VMWare exporter](https://github.com/rverchere/vmware_exporter)
 * 9273 - [Telegraf prometheus_client](https://github.com/influxdata/telegraf)
-* 9274 - [Disk Usage Exporter](https://github.com/joar/disk-usage-exporter) (uses psutil.disk_usage)
+* 9274 - [Kubernetes PersistentVolume Disk Usage Exporter](https://github.com/joar/k8s-pv-disk-usage-exporter)
 * 9275 - [Maildir Exporter](https://github.com/numbleroot/maildir_exporter)
 * 9276 - [GitHubQL Exporter](https://github.com/metalmatze/githubql_exporter)
 * 9277 <- next available port
