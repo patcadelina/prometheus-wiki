@@ -181,6 +181,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9276 - [GitHubQL Exporter](https://github.com/metalmatze/githubql_exporter)
 * 9277 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
+* 9313 - [Cloudprober Exporter](WIP)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 9324 - [Bird Routing Daemon Exporter](https://github.com/czerwonk/bird_exporter)
 * 9325 - [oVirt Exporter](https://github.com/czerwonk/ovirt_exporter)
