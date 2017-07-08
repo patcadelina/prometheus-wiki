@@ -180,7 +180,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9275 - [Maildir Exporter](https://github.com/go-pluto/maildir_exporter)
 * 9276 - [GitHubQL Exporter](https://github.com/metalmatze/githubql_exporter)
 * 9277 - [Mongo collection exporter](https://github.com/y8/mongo_collection_exporter)
-* 9278 <- next available port
+* 9278 - [Crypto Miner exporter](https://github.com/bugroger/miner_exporter)
+* 9279 <- next available port
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9313 - Cloudprober Exporter (WIP)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
