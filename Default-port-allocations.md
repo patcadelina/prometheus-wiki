@@ -188,6 +188,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9324 - [Bird Routing Daemon Exporter](https://github.com/czerwonk/bird_exporter)
 * 9325 - [oVirt Exporter](https://github.com/czerwonk/ovirt_exporter)
 * 9326 - [JunOS Exporter](https://github.com/czerwonk/junos_exporter)
+* 9379 - [etcd Exporter](https://github.com/coreos/etcd)
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
 * 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
