@@ -182,6 +182,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9277 - [Mongo collection exporter](https://github.com/y8/mongo_collection_exporter)
 * 9278 - [Crypto Miner exporter](https://github.com/bugroger/miner_exporter)
 * 9279 - [InstaClustr Exporter](https://github.com/fcgravalos/instaclustr_exporter)
+* 9280 - [Citrix NetScaler Exporter](https://gitlab.com/rokett/Citrix-NetScaler-Exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9313 - Cloudprober Exporter (WIP)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
