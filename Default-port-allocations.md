@@ -192,5 +192,6 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
+* 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
 * 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
