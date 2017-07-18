@@ -193,6 +193,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9326 - [JunOS Exporter](https://github.com/czerwonk/junos_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
+* 9381 - [Kafka ZooKeeper Exporter](https://github.com/cloudflare/kafka_zookeeper_exporter)
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
 * 9984 - [CouchDB exporter](https://github.com/gesellix/couchdb-exporter)
