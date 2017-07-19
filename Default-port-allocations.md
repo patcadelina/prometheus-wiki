@@ -185,6 +185,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9280 - [Citrix NetScaler Exporter](https://gitlab.com/rokett/Citrix-NetScaler-Exporter)
 * 9281 - [Fastd Exporter](https://github.com/freifunk-darmstadt/fastd-exporter)
 * 9282 - [FreeSWITCH Exporter](https://github.com/moises-silva/mod_prometheus)
+* 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9313 - Cloudprober Exporter (WIP)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
