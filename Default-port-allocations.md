@@ -124,6 +124,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9214 - [MQTT Blackbox Exporter](https://github.com/inovex/mqtt_blackbox_exporter)
 * 9215 - [Prometheus Graphite Bridge](https://github.com/stuart-c/prometheus-graphite-bridge)
 * 9216 - [MongoDB Exporter](https://github.com/percona/mongodb_exporter)
+* 9217 - [Consul agent exporter](https://github.com/BonnierNews/consul-agent_exporter)
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
