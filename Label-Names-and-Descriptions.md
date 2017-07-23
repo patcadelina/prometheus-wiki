@@ -34,4 +34,4 @@ The following is the list of labels we use the descriptions. Soon, the owners fo
 | help-wanted              | We really want this feature but don't have the time to do it. Will accept/mentor contributions.             |
 | low hanging fruit        | For newcomers to Prometheus code-base. Mentoring is available.|
 | not-as-easy-as-it-looks  | Issues that require context and not trivial.      |
-| wont-fix                 | Issues/Feature requests that are anti-patterns.   |
+| wont-fix                 | Issues/Feature requests that are anti-patterns or out of scope..   |
