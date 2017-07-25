@@ -188,7 +188,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9282 - [FreeSWITCH Exporter](https://github.com/moises-silva/mod_prometheus)
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
-* 9313 - Cloudprober Exporter (WIP)
+* 9313 - [Cloudprober Exporter](https://github.com/google/cloudprober)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 9324 - [Bird Routing Daemon Exporter](https://github.com/czerwonk/bird_exporter)
 * 9325 - [oVirt Exporter](https://github.com/czerwonk/ovirt_exporter)
