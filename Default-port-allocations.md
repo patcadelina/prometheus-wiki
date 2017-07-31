@@ -193,7 +193,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
 * 9289 - [IPMI Exporter](https://github.com/lovoo/ipmi_exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
+* 9301-9312 <- Free ports
 * 9313 - [Cloudprober Exporter](https://github.com/google/cloudprober)
+* 9314-9322 <- Free ports
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 9324 - [Bird Routing Daemon Exporter](https://github.com/czerwonk/bird_exporter)
 * 9325 - [oVirt Exporter](https://github.com/czerwonk/ovirt_exporter)
@@ -206,7 +208,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
 
-Add new exporters just above, with the next port number.
+Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
 Exporters in outside the standard port ranges:
 
