@@ -1,12 +1,16 @@
 See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for why this exists. Integrations other than exporters (e.g. adopters, webhooks) may also be listed here.
 
 ## Core components starting at 9090
+
+
 * 9090 - Prometheus server
 * 9091 - Pushgateway
 * 9092 - UNALLOCATED (to avoid collision with Kafka)
 * 9093 - Alertmanager
 
 ## Exporters starting at 9100
+
+
 * 9100 - [Node exporter](http://github.com/prometheus/node_exporter)
 * 9101 - [HAProxy exporter](http://github.com/prometheus/haproxy_exporter)
 * 9102 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Metrics
@@ -196,9 +200,16 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9326 - [JunOS Exporter](https://github.com/czerwonk/junos_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
+* 9380 - <-- Free port
 * 9381 - [Kafka ZooKeeper Exporter](https://github.com/cloudflare/kafka_zookeeper_exporter)
+* 9382-9399 - <-- Free ports
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
+
+Add new exporters just above, with the next port number.
+
+Exporters in outside the standard port ranges:
+
 * 9913 - [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter)
 * 9984 - [CouchDB exporter](https://github.com/gesellix/couchdb-exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
