@@ -48,7 +48,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
 * 9135 - [rTorrent exporter](https://github.com/mdlayher/rtorrent_exporter)
 * 9136 - [Passenger exporter](https://github.com/soundcloud/passenger_exporter)
-* 9137 - [CockroachDB exporter](https://github.com/mdlayher/cockroachdb_exporter)
+* 9137 - [SiliconDust HDHomeRun exporter](https://github.com/mdlayher/hdhomerun_exporter)
 * 9138 - [Heka exporter](https://github.com/imgix/heka_exporter)
 * 9139 - [Azure SQL exporter](https://github.com/iamseth/azure_sql_exporter)
 * 9140 - [Mirth exporter](https://github.com/vynca/mirth_exporter)
