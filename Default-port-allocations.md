@@ -204,7 +204,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9326 - [JunOS Exporter](https://github.com/czerwonk/junos_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
-* 9380 - <-- Free port
+* 9380 - [MythTV Exporter](https://github.com/thknepper/mythtv_exporter)
 * 9381 - [Kafka ZooKeeper Exporter](https://github.com/cloudflare/kafka_zookeeper_exporter)
 * 9382-9399 - <-- Free ports
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
