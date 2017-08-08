@@ -195,7 +195,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
 * 9289 - [IPMI Exporter](https://github.com/lovoo/ipmi_exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
-* 9301-9312 <- Free ports
+* 9302 - [Squid Exporter](https://github.com/boynux/squid-exporter)
+* 9302-9312 <- Free ports
 * 9313 - [Cloudprober Exporter](https://github.com/google/cloudprober)
 * 9314-9322 <- Free ports
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
