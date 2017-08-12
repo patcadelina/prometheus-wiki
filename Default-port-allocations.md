@@ -214,8 +214,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
-Exporters in outside the standard port ranges:
+Exporters outside of the standard port ranges:
 
+* 3903 - [mtail](https://github.com/google/mtail)
 * 9913 - [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter)
 * 9984 - [CouchDB exporter](https://github.com/gesellix/couchdb-exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
