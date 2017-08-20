@@ -130,7 +130,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9216 - [MongoDB Exporter](https://github.com/percona/mongodb_exporter)
 * 9217 - [Consul agent exporter](https://github.com/BonnierNews/consul-agent_exporter)
 * 9218 - DDNS-SD metrics
-* 9219 - SSL Certificate exporter
+* 9219 - [SSL Certificate exporter](https://github.com/ribbybibby/ssl_exporter)
 * 9220-9221 <- FREE PORTS
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
