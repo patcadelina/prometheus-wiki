@@ -132,7 +132,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9218 - DDNS-SD metrics
 * 9219 - [SSL Certificate exporter](https://github.com/ribbybibby/ssl_exporter)
 * 9220 - SalesForce Limits API (WIP)
-* 9221 FREE PORTS
+* 9221 - [Proxmox VE Exporter](https://github.com/znerol/prometheus-pve-exporter)
 * 9222 - [AWS ECS exporter](https://github.com/slok/ecs-exporter)
 * 9223 - [BladePSGI exporter](https://github.com/johto/BladePSGI_exporter)
 * 9224 - [fluentd exporter](https://github.com/wyukawa/fluentd_exporter)
