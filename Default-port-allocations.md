@@ -155,7 +155,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9241 - [ArangoDB Exporter](https://gitlab.com/flare/arangodb-exporter)
 * 9242 - [Ceph RADOSGW Usage Exporter](https://github.com/blemmenes/radosgw_usage_exporter)
 * 9243 - [Chef Compliance exporter](https://github.com/contino/chef_compliance_exporter)
-* 9244 - Free Port
+* 9244 - [Moby Container Exporter](https://github.com/infinityworks/moby-container-stats)
 * 9245 - [Naemon / Nagios Exporter](https://github.com/Griesbacher/Iapetos)
 * 9246 - [SmartPi](https://github.com/nDenerserve/SmartPi)
 * 9247 - [Sphinx] (coming soon)
