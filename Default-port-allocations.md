@@ -13,7 +13,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 
 * 9100 - [Node exporter](http://github.com/prometheus/node_exporter)
 * 9101 - [HAProxy exporter](http://github.com/prometheus/haproxy_exporter)
-* 9102 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Metricsee
+* 9102 - [StatsD exporter](http://github.com/prometheus/statsd_exporter): Metrics
 * 9103 - [Collectd exporter](http://github.com/prometheus/collectd_exporter)
 * 9104 - [MySQLd exporter](http://github.com/prometheus/mysqld_exporter)
 * 9105 - [Mesos exporter](http://github.com/mesosphere/mesos_exporter)
