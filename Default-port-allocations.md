@@ -212,7 +212,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9380 - [MythTV Exporter](https://github.com/thknepper/mythtv_exporter)
 * 9381 - [Kafka ZooKeeper Exporter](https://github.com/cloudflare/kafka_zookeeper_exporter)
 * 9382 - BIRD Exporter (WIP)
-* 9383-9399 - <-- Free ports
+* 9383 - [AWS Health Exporter](https://github.com/Jimdo/aws-health-exporter)
+* 9384-9399 - <-- Free ports
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
 
