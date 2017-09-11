@@ -200,7 +200,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9301 - [Squid Exporter](https://github.com/boynux/squid-exporter)
 * 9302 - [Faucet SDN Faucet Exporter](https://github.com/REANNZ/faucet/)
 * 9303 - [Faucet SDN Gauge Exporter](https://github.com/REANNZ/faucet/)
-* 9304-9312 <- Free ports
+* 9304 - [Logstash Exporter](https://gitlab.com/alxrem/prometheus-logstash-exporter/)
+* 9305-9312 <- Free ports
 * 9313 - [Cloudprober Exporter](https://github.com/google/cloudprober)
 * 9314-9322 <- Free ports
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
