@@ -186,7 +186,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9272 - [VMWare exporter](https://github.com/rverchere/vmware_exporter)
 * 9273 - [Telegraf prometheus_client](https://github.com/influxdata/telegraf)
 * 9274 - [Kubernetes PersistentVolume Disk Usage Exporter](https://github.com/joar/k8s-pv-disk-usage-exporter)
-* 9275 <- Free port
+* 9275 - Reserved port for NRPE exporter
 * 9276 - [GitHubQL Exporter](https://github.com/metalmatze/githubql_exporter)
 * 9277 - [Mongo collection exporter](https://github.com/y8/mongo_collection_exporter)
 * 9278 - [Crypto Miner exporter](https://github.com/bugroger/miner_exporter)
