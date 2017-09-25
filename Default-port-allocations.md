@@ -215,7 +215,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9382 - BIRD Exporter (WIP)
 * 9383 - [AWS Health Exporter](https://github.com/Jimdo/aws-health-exporter)
 * 9384 - [AWS SQS Exporter](https://github.com/jmal98/sqs_exporter)
-* 9385-9399 - <-- Free ports
+* 9385 - [apcupsdexporter](https://github.com/tynsh/apcupsdexporter)
+* 9386-9399 - <-- Free ports
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
 
