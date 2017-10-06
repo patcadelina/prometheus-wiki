@@ -29,10 +29,11 @@ Tag the new release with a tag named `v<major>.<minor>.<patch>`, e.g. `v2.1.3`. 
 You can do the tagging on the commandline:
 
 ```bash
-$ git tag -a vx.y.z -m 'vx.y.z'
+$ git tag -s vx.y.z -m 'vx.y.z'
 $ git push --tags
 ```
-Signed tag with a GPG key is appreciated, so if you have added a GPG key to your Github account using the following [procedure](https://help.github.com/articles/generating-a-gpg-key/), you can replace the `-a` flag by `-s` flag of the `git tag` command to sign it with your key.
+
+Signed tag with a GPG key is appreciated, but in case you can't add a GPG key to your Github account using the following [procedure](https://help.github.com/articles/generating-a-gpg-key/), you can replace the `-s` flag by `-a` flag of the `git tag` command to only annotate the tag without signing.
 
 Once a tag is created, the release process through CircleCI will be triggered for this tag.
 You must create a Github Release using the UI for this tag otherwise CircleCI will not be able to upload tarballs for this tag. __Also, you must create the Github Release using a Github user that has granted access rights to CircleCI.__ If you did not or cannot grant those rights to your personal account, you can log in as `prombot` in an anonymous browser tab. (This will, however, prevent verified releases signed with your GPG key. For verified releases, the signing identity must be the same as the one creating the release.)
