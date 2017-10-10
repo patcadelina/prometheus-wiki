@@ -191,7 +191,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9277 - [Mongo collection exporter](https://github.com/y8/mongo_collection_exporter)
 * 9278 - [Crypto Miner exporter](https://github.com/bugroger/miner_exporter)
 * 9279 - [InstaClustr Exporter](https://github.com/fcgravalos/instaclustr_exporter)
-* 9280 - [Citrix NetScaler Exporter](https://gitlab.com/rokett/Citrix-NetScaler-Exporter)
+* 9280 - [Citrix NetScaler Exporter](https://github.com/rokett/Citrix-NetScaler-Exporter)
 * 9281 - [Fastd Exporter](https://github.com/freifunk-darmstadt/fastd-exporter)
 * 9282 - [FreeSWITCH Exporter](https://github.com/moises-silva/mod_prometheus)
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
