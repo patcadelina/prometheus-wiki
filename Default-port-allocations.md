@@ -222,6 +222,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9386-9399 - <-- Free ports
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
+* 9402 - Reserved port for Splunk Exporter
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
