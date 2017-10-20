@@ -11,8 +11,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 Alertmanager Webhook receivers:
 
 * 8089 - [prom2teams](https://github.com/idealista/prom2teams)
+* 9098 - Alert2Log
 * 9099 - [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper)
-* 9900 - Alert2Log
 
 ## Exporters starting at 9100
 
