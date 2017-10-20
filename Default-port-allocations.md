@@ -8,7 +8,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9092 - UNALLOCATED (to avoid collision with Kafka)
 * 9093 - Alertmanager
 
-Alertmanager Webhook receivers:
+## Alertmanager Webhook receivers:
 
 * 8089 - [prom2teams](https://github.com/idealista/prom2teams)
 * 9098 - Alert2Log
