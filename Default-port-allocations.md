@@ -8,6 +8,12 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9092 - UNALLOCATED (to avoid collision with Kafka)
 * 9093 - Alertmanager
 
+Alertmanager Webhook receivers:
+
+* 8089 - [prom2teams](https://github.com/idealista/prom2teams)
+* 9099 - [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper)
+* 9900 - Alert2Log
+
 ## Exporters starting at 9100
 
 
@@ -235,7 +241,3 @@ Exporters outside of the standard port ranges:
 * 19091 - [Transmission Exporter](https://github.com/metalmatze/transmission-exporter)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
 * 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
-
-Alertmanager Webhook receivers:
-
-* 9900 - Alert2Log
