@@ -211,7 +211,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9306 - [Kyototycoon Exporter](https://github.com/kanga333/kyototycoon_exporter/)
 * 9307 - MarkLogic Exporter
 * 9308 - [Kafka Exporter](https://github.com/danielqsj/kafka_exporter/)
-* 9309-9312 <- Free ports
+* 9309 - [Fluentd Exporter](https://github.com/V3ckt0r/fluentd_exporter)
+* 9310-9312 <- Free ports
 * 9313 - [Cloudprober Exporter](https://github.com/google/cloudprober)
 * 9314-9322 <- Free ports
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
