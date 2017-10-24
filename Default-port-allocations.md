@@ -240,5 +240,6 @@ Exporters outside of the standard port ranges:
 * 9913 - [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter)
 * 9984 - [CouchDB exporter](https://github.com/gesellix/couchdb-exporter)
 * 19091 - [Transmission Exporter](https://github.com/metalmatze/transmission-exporter)
+* 19999 - [Netdata](https://github.com/firehol/netdata)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
 * 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
