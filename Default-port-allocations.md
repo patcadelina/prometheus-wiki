@@ -223,7 +223,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
 * 9380 - [MythTV Exporter](https://github.com/thknepper/mythtv_exporter)
 * 9381 - [Kafka ZooKeeper Exporter](https://github.com/cloudflare/kafka_zookeeper_exporter)
-* 9382 - BIRD Exporter (WIP)
+* 9382 - FRRouting Exporter [WIP]
 * 9383 - [AWS Health Exporter](https://github.com/Jimdo/aws-health-exporter)
 * 9384 - [AWS SQS Exporter](https://github.com/jmal98/sqs_exporter)
 * 9385 - [apcupsdexporter](https://github.com/tynsh/apcupsdexporter)
