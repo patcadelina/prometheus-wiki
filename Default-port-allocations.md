@@ -234,6 +234,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
 * 9402 - Reserved port for Splunk Exporter
 * 9403 - [Zerto Exporter](https://github.com/claranet/zerto-exporter)
+* 9404 - [JMX Exporter] (https://github.com/prometheus/jmx_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
