@@ -61,8 +61,6 @@ The `prometheus/docs` repo has a branch `next-release` for documentation of new 
 
 Once the binaries have been uploaded, announce the release on `prometheus-users@googlegroups.com`. Start the subject with `[ANN]`. Check out previous announcement mails for inspiration.
 
-Finally, you have to trigger a rebuild of the docs site on [Travis-CI](https://travis-ci.org/prometheus/docs) so that the downloads page shows the newly built binaries. (Hit _Restart build_ on the details page of the current build.)
-
 ## Pre-releases
 
 For risky or invasive changes, you might want to cut a pre-release or release candidate. The following changes to the above procedures apply:
