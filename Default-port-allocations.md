@@ -214,7 +214,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9308 - [Kafka Exporter](https://github.com/danielqsj/kafka_exporter/)
 * 9309 - [Fluentd Exporter](https://github.com/V3ckt0r/fluentd_exporter)
 * 9310 - [Open vSwitch Exporter](https://github.com/digitalocean/openvswitch_exporter)
-* 9311 - [IOTA Exporter] (https://github.com/crholliday/iota-prom-exporter)
+* 9311 - [IOTA Exporter](https://github.com/crholliday/iota-prom-exporter)
 * 9312 - UNALLOCATED
 * 9313 - [Cloudprober Exporter](https://github.com/google/cloudprober)
 * 9314-9322 <- Free ports
