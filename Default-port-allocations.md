@@ -221,7 +221,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9315 - [Centrifugo Exporter](https://github.com/nordicdyno/centrifugo_exporter)
 * 9316 - [Tado Exporter](https://github.com/exporters/tado)
 * 9317-9319 <- Free ports
-* 9316 - [Consul Telemetry Exporter](https://github.com/SWCE/consul_telemetry_exporter)
+* 9320 - [Consul Telemetry Exporter](https://github.com/SWCE/consul_telemetry_exporter)
 * 9321 <- Free port
 * 9322 - [haproxy_abuser_exporter](https://github.com/Bigpoint/haproxy_abuser_exporter)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
