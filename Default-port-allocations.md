@@ -221,7 +221,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9315 - [Centrifugo Exporter](https://github.com/nordicdyno/centrifugo_exporter)
 * 9316 - [Tado Exporter](https://github.com/exporters/tado)
 * 9317 - [Tellstick Local Exporter](https://github.com/hoihrig/prometheus-tellstick-exporter)
-* 9318 <- Free port
+* 9318 - [conntrack Exporter](https://github.com/hiveco/conntrack_exporter)
 * 9319 - [FLEXlm Exporter](https://github.com/mjtrangoni/flexlm_exporter)
 * 9320 - [Consul Telemetry Exporter](https://github.com/SWCE/consul_telemetry_exporter)
 * 9321 - [Jolokia Exporter](https://github.com/KalypsoCloud/jolokia_exporter)
