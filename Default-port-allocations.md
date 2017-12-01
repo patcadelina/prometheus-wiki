@@ -246,6 +246,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9403 - [Zerto Exporter](https://github.com/claranet/zerto-exporter)
 * 9404 - [JMX Exporter](https://github.com/prometheus/jmx_exporter)
 * 9405 - [Discourse Exporter](https://github.com/discourse/discourse-prometheus)
+* 9406 - [HHVM Exporter](https://github.com/wikimedia/operations-software-hhvm_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
