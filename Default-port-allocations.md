@@ -215,7 +215,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9309 - [Fluentd Exporter](https://github.com/V3ckt0r/fluentd_exporter)
 * 9310 - [Open vSwitch Exporter](https://github.com/digitalocean/openvswitch_exporter)
 * 9311 - [IOTA Exporter](https://github.com/crholliday/iota-prom-exporter)
-* 9312 - UNALLOCATED
+* 9312 - UNALLOCATED (to avoid collision with Sphinx search API)
 * 9313 - [Cloudprober Exporter](https://github.com/google/cloudprober)
 * 9314 - [eris Exporter](https://github.com/prologic/eris)
 * 9315 - [Centrifugo Exporter](https://github.com/nordicdyno/centrifugo_exporter)
@@ -240,7 +240,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9385 - [apcupsdexporter](https://github.com/tynsh/apcupsdexporter)
 * 9386 - [httpd-exporter](https://github.com/technicalguru/httpd-exporter)
 * 9387 - [SABnzbd Exporter](https://github.com/msroest/sabnzbd_exporter)
-* 9388-9398 - <-- Free ports
+* 9388 - zrep_exporter (coming soon)
+* 9389-9398 - <-- Free ports
 * 9399 - [Prometheus SQL Exporter](https://github.com/free/sql_exporter)
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
