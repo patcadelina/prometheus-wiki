@@ -251,13 +251,13 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9404 - [JMX Exporter](https://github.com/prometheus/jmx_exporter)
 * 9405 - [Discourse Exporter](https://github.com/discourse/discourse-prometheus)
 * 9406 - [HHVM Exporter](https://github.com/wikimedia/operations-software-hhvm_exporter)
-* 9547 - [Kea Exporter](https://github.com/mweinelt/kea-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
 Exporters outside of the standard port ranges:
 
 * 3903 - [mtail](https://github.com/google/mtail)
+* 9547 - [Kea Exporter](https://github.com/mweinelt/kea-exporter)
 * 9913 - [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter)
 * 9984 - [CouchDB exporter](https://github.com/gesellix/couchdb-exporter)
 * 19091 - [Transmission Exporter](https://github.com/metalmatze/transmission-exporter)
