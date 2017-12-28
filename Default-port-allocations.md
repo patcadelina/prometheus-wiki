@@ -255,6 +255,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9406 - [HHVM Exporter](https://github.com/wikimedia/operations-software-hhvm_exporter)
 * 9407 - Reserved port for OBS Studio Exporter
 * 9408 - [RDS Enhanced Monitoring Exporter](https://github.com/mtanda/rds_enhanced_monitoring_exporter)
+* 9409 - shell-exporter (coming soon)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
