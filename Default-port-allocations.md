@@ -253,7 +253,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9404 - [JMX Exporter](https://github.com/prometheus/jmx_exporter)
 * 9405 - [Discourse Exporter](https://github.com/discourse/discourse-prometheus)
 * 9406 - [HHVM Exporter](https://github.com/wikimedia/operations-software-hhvm_exporter)
-* 9407 - Reserved port for OBS Studio Exporter
+* 9407 - [OBS Studio Exporter](https://github.com/lukegb/obs_studio_exporter)
 * 9408 - [RDS Enhanced Monitoring Exporter](https://github.com/mtanda/rds_enhanced_monitoring_exporter)
 * 9409 - shell-exporter (coming soon)
 
