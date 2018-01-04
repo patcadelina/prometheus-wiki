@@ -244,7 +244,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9389 - [Scylla-Cluster-Tests Exporter](https://github.com/scylladb/scylla-cluster-tests/)
 * 9390 - [Kannel Exporter](https://github.com/apostvav/kannel_exporter)
 * 9391 - [Concourse Prometheus Metrics](https://concourse.ci/metrics.html)
-* 9392-9398 - <-- Free ports
+* 9392 - ConfigGenerator metrics
+* 9393-9398 - <-- Free ports
 * 9399 - [Prometheus SQL Exporter](https://github.com/free/sql_exporter)
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
 * 9401 - [1-Wire Exporter](https://github.com/bugroger/onewire-exporter)
