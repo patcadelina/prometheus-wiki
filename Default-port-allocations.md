@@ -186,7 +186,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9265 - [Weather exporter](https://github.com/celliott/weather_exporter) - uses Dark Sky API
 * 9266 - [OpenHAB exporter](https://github.com/jcollie/openhab_exporter)
 * 9267 - [Nagios Livestatus Exporter](https://github.com/m-lab/prometheus-nagios-exporter)
-* 9268 - Crate.io adapter
+* 9268 - [CrateDB remote remote read/write adapter](https://github.com/crate/crate_adapter)
 * 9269 - [fluent-agent-lite exporter](https://github.com/matsumana/fluent-agent-lite_exporter)
 * 9270 - [Jmeter exporter](https://github.com/johrstrom/jmeter-prometheus-plugin)
 * 9271 - [Pagespeed exporter](https://github.com/foomo/pagespeed_exporter)
