@@ -257,6 +257,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9407 - [OBS Studio Exporter](https://github.com/lukegb/obs_studio_exporter)
 * 9408 - [RDS Enhanced Monitoring Exporter](https://github.com/mtanda/rds_enhanced_monitoring_exporter)
 * 9409 - shell-exporter (coming soon)
+* 9410 - [Vault Exporter](https://github.com/grapeshot/vault_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
