@@ -55,7 +55,7 @@ Now all you can do is to wait for tarballs to be uploaded to the Github release 
 
 If the release has happened in the latest release branch, merge the changes into master.
 
-The `prometheus/docs` repo has a branch `next-release` for documentation of new features of the Prometheus server not yet released. After you have released them, merge the branch into the master branch.
+To update the docs, a PR needs to be created to `prometheus/docs`. See [this PR](https://github.com/prometheus/docs/pull/952/files) for inspiration.
 
 Once the binaries have been uploaded, announce the release on `prometheus-users@googlegroups.com`. Start the subject with `[ANN]`. Check out previous announcement mails for inspiration.
 
