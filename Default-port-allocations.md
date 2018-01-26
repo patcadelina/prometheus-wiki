@@ -2,21 +2,12 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 
 ## Core components starting at 9090
 
-
 * 9090 - Prometheus server
 * 9091 - Pushgateway
 * 9092 - UNALLOCATED (to avoid collision with Kafka)
 * 9093 - Alertmanager
 
-## Alertmanager Webhook receivers:
-
-* 8089 - [prom2teams](https://github.com/idealista/prom2teams)
-* 9097 - [JIRAlert](https://github.com/alin-sinpalean/jiralert)
-* 9098 - Alert2Log
-* 9099 - [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper)
-
 ## Exporters starting at 9100
-
 
 * 9100 - [Node exporter](http://github.com/prometheus/node_exporter)
 * 9101 - [HAProxy exporter](http://github.com/prometheus/haproxy_exporter)
@@ -265,8 +256,12 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 Exporters outside of the standard port ranges:
 
 * 3903 - [mtail](https://github.com/google/mtail)
-* 9547 - [Kea Exporter](https://github.com/mweinelt/kea-exporter)
+* 8089 - [prom2teams](https://github.com/idealista/prom2teams)
+* 9097 - [JIRAlert](https://github.com/alin-sinpalean/jiralert)
+* 9098 - Alert2Log
+* 9099 - [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper)
 * 9913 - [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter)
+* 9547 - [Kea Exporter](https://github.com/mweinelt/kea-exporter)
 * 9984 - [CouchDB exporter](https://github.com/gesellix/couchdb-exporter)
 * 19091 - [Transmission Exporter](https://github.com/metalmatze/transmission-exporter)
 * 19999 - [Netdata](https://github.com/firehol/netdata)
