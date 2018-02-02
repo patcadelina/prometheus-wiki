@@ -253,6 +253,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9410 - [Vault Exporter](https://github.com/grapeshot/vault_exporter)
 * 9411 - [SoftEther Exporter](https://github.com/dalance/softether_exporter)
 * 9412 - [Sentry Exporter](https://github.com/snakecharmer/sentry_exporter)
+* 9413 - [MogileFS Exporter](https://github.com/KKBOX/mogilefs-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
