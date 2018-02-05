@@ -238,7 +238,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9392 - ConfigGenerator metrics
 * 9393 - [Arris exporter](https://github.com/mdlayher/arris_exporter)
 * 9394 - [Ruby Prometheus Exporter](https://github.com/discourse/prometheus_exporter)
-* 9395 - LDAP Exporter (https://github.com/titisan/ldap_exporter)
+* 9395 - [LDAP Exporter](https://github.com/titisan/ldap_exporter)
 * 9396-9398 - <-- Free ports
 * 9399 - [Prometheus SQL Exporter](https://github.com/free/sql_exporter)
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
