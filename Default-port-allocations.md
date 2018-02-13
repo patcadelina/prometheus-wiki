@@ -6,6 +6,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9091 - Pushgateway
 * 9092 - UNALLOCATED (to avoid collision with Kafka)
 * 9093 - Alertmanager
+* 9094 - Alertmanager clustering
 
 ## Exporters starting at 9100
 
