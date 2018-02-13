@@ -216,7 +216,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9318 - [conntrack Exporter](https://github.com/hiveco/conntrack_exporter)
 * 9319 - [FLEXlm Exporter](https://github.com/mjtrangoni/flexlm_exporter)
 * 9320 - [Consul Telemetry Exporter](https://github.com/SWCE/consul_telemetry_exporter)
-* 9321 - [Jolokia Exporter](https://github.com/KalypsoCloud/jolokia_exporter)
+* 9321 - [Spring Boot Actuator Exporter](https://github.com/Scalify/spring_exporter)
 * 9322 - [haproxy_abuser_exporter](https://github.com/Bigpoint/haproxy_abuser_exporter)
 * 9323 - [Docker Prometheus Metrics](https://github.com/docker/docker) under `/metrics` endpoint
 * 9324 - [Bird Routing Daemon Exporter](https://github.com/czerwonk/bird_exporter)
