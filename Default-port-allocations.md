@@ -257,6 +257,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9412 - [Sentry Exporter](https://github.com/snakecharmer/sentry_exporter)
 * 9413 - [MogileFS Exporter](https://github.com/KKBOX/mogilefs-exporter)
 * 9414 - [Homey Exporter](https://github.com/rickardp/homey-prometheus-exporter)
+* 9415 - [cloudwatch_read_adapter](https://github.com/mtanda/cloudwatch_read_adapter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
