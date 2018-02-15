@@ -1,3 +1,6 @@
+### Can I use Prometheus for short time series with a very high cardinality.
+This use case fits better with a logging system like ELK. Prometheus is not an event logging system, and attempting to use it that way will result in low performance and other issues.
+
 ### How do I do backups?
 There is a very good [article by Robust perception](https://www.robustperception.io/taking-snapshots-of-prometheus-data/) which should answer this question.
 
