@@ -1,4 +1,8 @@
-### Can I use Prometheus for short time series with a very high cardinality.
+### Most common reasons why Prometheus is OOM killed? 
+The obvious one - not enough memory to handle the ingestion or querying rate.
+Ingesting too many short lived time series with a very high cardinality.
+
+### Can I use Prometheus for short lived time series with a very high cardinality.
 This use case fits better with a logging system like ELK. Prometheus is not an event logging system, and attempting to use it that way will result in low performance and other issues.
 
 ### How do I do backups?
