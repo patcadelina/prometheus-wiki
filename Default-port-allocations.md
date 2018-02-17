@@ -261,6 +261,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9415 - [cloudwatch_read_adapter](https://github.com/mtanda/cloudwatch_read_adapter)
 * 9416 - [HP iLO Metrics Exporter](https://github.com/IDNT/hpilo-exporter)
 * 9417 - [Ethtool Exporter](https://github.com/adeverteuil/ethtool_exporter)
+* 9418 - [Gearman Exporter](https://github.com/bakins/gearman-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
