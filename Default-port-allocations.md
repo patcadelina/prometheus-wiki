@@ -241,7 +241,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9394 - [Ruby Prometheus Exporter](https://github.com/discourse/prometheus_exporter)
 * 9395 - [LDAP Exporter](https://github.com/titisan/ldap_exporter)
 * 9396 - [Monerod Exporter](https://github.com/ExcitableAardvark/monerod_exporter)
-* 9397 - <-- Free port
+* 9397 - [COMAP](https://gitlab.com/sre-gems/comap)
 * 9398 - [Open Hardware Monitor Exporter](https://github.com/rgl/OpenHardwareMonitorExporter)
 * 9399 - [Prometheus SQL Exporter](https://github.com/free/sql_exporter)
 * 9400 - [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter)
