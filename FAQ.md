@@ -1,3 +1,7 @@
+### Error logs for "too many files open"
+A quick google search should give you the answer how to increse the ulimit for your OS. <br/>
+For the current session on linux you can use `ulimit -n 2048`
+
 ### Most common reasons why Prometheus is OOM killed.
 The obvious one - not enough memory to handle the ingestion or querying rate.
 Ingesting too many short lived time series with a very high cardinality.
