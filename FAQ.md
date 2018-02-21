@@ -1,3 +1,6 @@
+### Error loading config couldn't load configuration ..... unmarshal errors:  line ...
+YAML is space sensitive so the most common problem is additional or missing spaces or tabs vs spaces.
+
 ### Error logs for "too many files open"
 A quick google search should give you the answer how to increse the ulimit for your OS. <br/>
 For the current session on linux you can use `ulimit -n 2048`
