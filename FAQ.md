@@ -2,7 +2,7 @@
 YAML is space sensitive so the most common problem is additional or missing spaces or tabs vs spaces.
 
 ### Error logs for "too many files open"
-A quick google search should give you the answer how to increse the ulimit for your OS. <br/>
+A quick [google search](https://www.google.co.uk/search?q=how+to+increase+ulimit) should give you the answer how to increse the ulimit for your OS. <br/>
 For the current session on linux you can use `ulimit -n 10048`
 
 ### Most common reasons why Prometheus is OOM killed.
