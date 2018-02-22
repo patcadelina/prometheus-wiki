@@ -264,6 +264,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9417 - [Ethtool Exporter](https://github.com/adeverteuil/ethtool_exporter)
 * 9418 - [Gearman Exporter](https://github.com/bakins/gearman-exporter)
 * 9419 - [RabbitMQ Exporter](https://github.com/kbudde/rabbitmq_exporter)
+* 9420 - [Couchbase Exporter](https://github.com/brunopsoares/prometheus_couchbase_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
