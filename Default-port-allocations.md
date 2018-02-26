@@ -138,7 +138,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9225 - [mailexporter](https://github.com/cherti/mailexporter)
 * 9226 - [allas](https://github.com/johto/allas)
 * 9227 - [proc_exporter](https://github.com/arnarg/proc_exporter)
-* 9228 - [supervisor_exporter](https://github.com/prometheus/supervisor_exporter)
+* 9228 - [supervisor_exporter](https://github.com/prometheus/supervisor_exporter) 404!
 * 9229 - [gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse)
 * 9230 - [Network UPS Tools exporter](https://github.com/dominikh/go-nut/tree/master/cmd/nut_exporter)
 * 9231 - [Solr exporter](https://github.com/noony/prometheus-solr-exporter)
