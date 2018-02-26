@@ -109,7 +109,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9196 - [UPnP Internet Gateway Device exporter](https://github.com/yrro/igd-exporter)
 * 9197 - [Google's mtail log data extractor](https://github.com/google/mtail)
 * 9198 - [Logstash exporter](https://github.com/BonnierNews/logstash_exporter)
-* 9199 - [Cloudflare exporter](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
+* 9199 - Cloudflare exporter - [Go](https://github.com/robbiet480/cloudflare_exporter), [Python](https://github.com/wehkamp/docker-prometheus-cloudflare-exporter)
 * 9200 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9201 - Remote storage bridge example code
 * 9202 - [Pacemaker exporter](https://github.com/marcan/pacemaker-exporter)
