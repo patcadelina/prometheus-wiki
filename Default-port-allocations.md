@@ -194,6 +194,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9281 - [Fastd Exporter](https://github.com/freifunk-darmstadt/fastd-exporter)
 * 9282 - [FreeSWITCH Exporter](https://github.com/moises-silva/mod_prometheus)
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
+* 9284 - [Gobetween](https://github.com/yyyar/gobetween) (WIP)
 * 9289 - [IPMI Exporter](https://github.com/lovoo/ipmi_exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9301 - [Squid Exporter](https://github.com/boynux/squid-exporter)
