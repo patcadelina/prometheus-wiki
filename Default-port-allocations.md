@@ -271,7 +271,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9421 - [APIcast](https://github.com/3scale/apicast) ([WIP](https://github.com/3scale/apicast/pull/629))
 * 9422 - [jolokia_exporter](https://github.com/scalify/jolokia_exporter)
 * 9423 - [HP RAID Exporter](https://github.com/ProdriveTechnologies/hpraid_exporter)
-* 9424 - InfluxDB Stats Exporter - WIP
+* 9424 - [InfluxDB Stats Exporter](https://github.com/carlpett/influxdb_stats_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
