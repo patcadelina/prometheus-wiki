@@ -272,6 +272,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9422 - [jolokia_exporter](https://github.com/scalify/jolokia_exporter)
 * 9423 - [HP RAID Exporter](https://github.com/ProdriveTechnologies/hpraid_exporter)
 * 9424 - [InfluxDB Stats Exporter](https://github.com/carlpett/influxdb_stats_exporter)
+* 9425 - [Pachyderm Exporter](https://github.com/button/pachyderm_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
