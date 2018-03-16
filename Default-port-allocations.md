@@ -230,8 +230,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9327 - [S3 Exporter](https://github.com/jamotion/s3-exporter)
 * 9328 - [OpenLDAP syncrepl Exporter](https://github.com/ThoreKr/syncrepl_exporter)
 * 9329 - [CUPS Exporter](https://github.com/ThoreKr/cups_exporter)
-* 9330  
-* 9377
+* 
+* 9330 - 9377 are unallocated  
+* 
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
 * 9380 - [MythTV Exporter](https://github.com/thknepper/mythtv_exporter)
