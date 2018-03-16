@@ -282,6 +282,7 @@ Exporters outside of the standard port ranges:
 
 * 3903 - [mtail](https://github.com/google/mtail)
 * 8089 - [prom2teams](https://github.com/idealista/prom2teams)
+* 8292 - [Phabricator webhook for Alertmanager](https://github.com/knyar/phalerts)
 * 9097 - [JIRAlert](https://github.com/alin-sinpalean/jiralert)
 * 9098 - Alert2Log
 * 9099 - [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper)
