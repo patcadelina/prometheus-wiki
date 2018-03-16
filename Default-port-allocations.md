@@ -46,6 +46,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9133 - [Fritz!Box exporter](https://github.com/ndecker/fritzbox_exporter)
 * 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
 * 9135 - [rTorrent exporter](https://github.com/mdlayher/rtorrent_exporter)
+* 9136
 * 9137 - [SiliconDust HDHomeRun exporter](https://github.com/mdlayher/hdhomerun_exporter)
 * 9138 - [Heka exporter](https://github.com/imgix/heka_exporter)
 * 9139 - [Azure SQL exporter](https://github.com/iamseth/azure_sql_exporter)
@@ -194,6 +195,10 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9282 - [FreeSWITCH Exporter](https://github.com/moises-silva/mod_prometheus)
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
 * 9284 - [Gobetween](https://github.com/yyyar/gobetween) (WIP)
+* 9285
+* 9286
+* 9287
+* 9288
 * 9289 - [IPMI Exporter](https://github.com/lovoo/ipmi_exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9301 - [Squid Exporter](https://github.com/boynux/squid-exporter)
@@ -225,6 +230,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9327 - [S3 Exporter](https://github.com/jamotion/s3-exporter)
 * 9328 - [OpenLDAP syncrepl Exporter](https://github.com/ThoreKr/syncrepl_exporter)
 * 9329 - [CUPS Exporter](https://github.com/ThoreKr/cups_exporter)
+* 9330  
+* 9377
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
 * 9380 - [MythTV Exporter](https://github.com/thknepper/mythtv_exporter)
