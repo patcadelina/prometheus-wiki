@@ -263,7 +263,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9413 - [MogileFS Exporter](https://github.com/KKBOX/mogilefs-exporter)
 * 9414 - [Homey Exporter](https://github.com/rickardp/homey-prometheus-exporter)
 * 9415 - [cloudwatch_read_adapter](https://github.com/mtanda/cloudwatch_read_adapter)
-* 9416 - [HP iLO Metrics Exporter](https://github.com/IDNT/hpilo-exporter)
+* 9416 - [HP iLO Metrics Exporter](https://github.com/infinityworks/hpilo-exporter)
 * 9417 - [Ethtool Exporter](https://github.com/adeverteuil/ethtool_exporter)
 * 9418 - [Gearman Exporter](https://github.com/bakins/gearman-exporter)
 * 9419 - [RabbitMQ Exporter](https://github.com/kbudde/rabbitmq_exporter)
