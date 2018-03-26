@@ -6,8 +6,10 @@ A quick [google search](https://www.google.co.uk/search?q=how+to+increase+ulimit
 For the current session on linux you can use `ulimit -n 10048`
 
 ### Most common reasons why Prometheus is OOM killed.
-The obvious one - not enough memory to handle the ingestion or querying rate.
-Ingesting too many short lived time series with a very high cardinality.
+The obvious one - not enough memory :) 
+ - not enough memory to mmaps some required files .
+ - high ingestion or querying rate.
+ - ingesting too many short lived time series with a very high cardinality.
 
 ### Can I use Prometheus for short lived time series with a very high cardinality?
 This use case fits better with a logging system like ELK. Prometheus is not an event logging system, and attempting to use it that way will result in low performance and other issues.
