@@ -196,8 +196,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
 * 9284 - [Gobetween](https://github.com/yyyar/gobetween) (WIP)
 * 9285 - [Database exporter](https://github.com/Corundex/database_exporter) (oracle/postgres/mssql/mysql sql queries)
-* 9286
-* 9287
+* 9286 - [VDO Compression and deduplication exporter](https://github.com/pcuzner/vdo_exporter) 
+* 9287 - [Ceph iSCSI Gateway Statistics](https://github.com/ceph/ceph-iscsi-cli)
 * 9288
 * 9289 - [IPMI Exporter](https://github.com/lovoo/ipmi_exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
