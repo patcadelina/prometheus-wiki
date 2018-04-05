@@ -46,7 +46,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9133 - [Fritz!Box exporter](https://github.com/ndecker/fritzbox_exporter)
 * 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
 * 9135 - [rTorrent exporter](https://github.com/mdlayher/rtorrent_exporter)
-* 9136
+* 9136 - [Collins exporter](https://github.com/soundcloud/collins_exporter) (WIP, to be open-sourced before May 2018)
 * 9137 - [SiliconDust HDHomeRun exporter](https://github.com/mdlayher/hdhomerun_exporter)
 * 9138 - [Heka exporter](https://github.com/imgix/heka_exporter)
 * 9139 - [Azure SQL exporter](https://github.com/iamseth/azure_sql_exporter)
