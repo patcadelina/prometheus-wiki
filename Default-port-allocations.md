@@ -230,8 +230,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9327 - [S3 Exporter](https://github.com/jamotion/s3-exporter)
 * 9328 - [OpenLDAP syncrepl Exporter](https://github.com/ThoreKr/syncrepl_exporter)
 * 9329 - [CUPS Exporter](https://github.com/ThoreKr/cups_exporter)
+* 9330 - [OpenLDAP Exporter](https://github.com/tomcz/openldap_exporter)
 * 
-* 9330 - 9377 are unallocated  
+* 9331 - 9377 are unallocated  
 * 
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
@@ -286,7 +287,6 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9428 - [SSH Exporter](https://github.com/Nordstrom/ssh_exporter)
 * 9429 - [Uptimerobot Exporter](https://github.com/wosc/prometheus-uptimerobot)
 * 9430 - [OMRON UPS Exporter](https://github.com/ayunyan/omronups_exporter)
-* 9431 - [OpenLDAP Exporter](https://github.com/tomcz/openldap_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
