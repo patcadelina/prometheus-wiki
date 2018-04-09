@@ -287,6 +287,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9428 - [SSH Exporter](https://github.com/Nordstrom/ssh_exporter)
 * 9429 - [Uptimerobot Exporter](https://github.com/wosc/prometheus-uptimerobot)
 * 9430 - [OMRON UPS Exporter](https://github.com/ayunyan/omronups_exporter)
+* 9431 - [Hpfeeds broker Exporter](https://github.com/Jc2k/hpfeeds3)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
