@@ -295,6 +295,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 Exporters outside of the standard port ranges:
 
 * 3903 - [mtail](https://github.com/google/mtail)
+* 8088 - [Fawkes](https://www.fawkesrobotics.org)
 * 8089 - [prom2teams](https://github.com/idealista/prom2teams)
 * 8292 - [Phabricator webhook for Alertmanager](https://github.com/knyar/phalerts)
 * 9087 - [Telegram bot for Alertmanager](https://github.com/inCaller/prometheus_bot)
