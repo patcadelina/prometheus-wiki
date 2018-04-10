@@ -231,8 +231,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9328 - [OpenLDAP syncrepl Exporter](https://github.com/ThoreKr/syncrepl_exporter)
 * 9329 - [CUPS Exporter](https://github.com/ThoreKr/cups_exporter)
 * 9330 - [OpenLDAP Metrics Exporter](https://github.com/tomcz/openldap_exporter)
+* 9331 - [influx-spout Prometheus Metrics](https://github.com/jumptrading/influx-spout/)
 * 
-* 9331 - 9377 are unallocated  
+* 9332 - 9377 are unallocated  
 * 
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
