@@ -4,7 +4,7 @@ These instructions are currently valid for the Prometheus server, i.e. the [prom
 
 We use [Semantic Versioning](http://semver.org/).
 
-We maintain a separate branch for each minor release, named `release-<major>.<minor>`, e.g. `release-1.1`, `release-2.0`. The `stable` branch is supposed to point to the latest stable release.
+We maintain a separate branch for each minor release, named `release-<major>.<minor>`, e.g. `release-1.1`, `release-2.0`.
 
 The usual flow is to merge new features and changes into the master branch and to merge bug fixes into the latest release branch. Bug fixes are then merged into master from the latest release branch. The master branch should always contain all commits from the latest release branch.
 
@@ -64,5 +64,4 @@ Once the binaries have been uploaded, announce the release on `prometheus-users@
 For risky or invasive changes, you might want to cut a pre-release or release candidate. The following changes to the above procedures apply:
 * In line with [Semantic Versioning](http://semver.org/), append something like `-rc1` to the version (with the corresponding changes to the tag name, the release name etc.).
 * Tick the _This is a pre-release_ box when drafting the release in the Github UI.
-* Do not point the `stable` branch to your release tag.
 * Still update `CHANGELOG.md`, but when you cut the final release later, merge all the changes from the pre-releases into the one final update.
