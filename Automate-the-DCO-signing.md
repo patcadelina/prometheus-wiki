@@ -1,3 +1,5 @@
+All Prometheus repositories require DCO signing. By adding a _Signed-off-by_ line to your commit, you sign off [this Developer Certificate of Origin](https://developercertificate.org/). You don't have to add this line manually. You can simply add a `-s` flag to your `git commit` command. If you want to automate even this flag addition, follow the instructions below. __You must be fully aware that this automatically [certifies the origin of all your commits by default](https://developercertificate.org/).__
+
 - Set a hook to sign all commits.
 
 To Set for a single repo create the hook file in: `/project/root/.git/hooks/`<br/>
