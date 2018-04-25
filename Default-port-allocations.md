@@ -235,8 +235,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9332 - [JunOS Prometheus Exporter](https://github.com/Selfnet/prometheus-junos-exporter)
 * 9333 - vROps Prometheus Exporter(WIP)
 * 9334 - Ejabberd exporter (WIP)
+* 9335 - [nexsan exporter](https://github.com/yrro/nexsan_exporter) 
 *
-* 9335 - 9377 are unallocated  
+* 9336 - 9377 are unallocated  
 * 
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
