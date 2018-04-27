@@ -296,6 +296,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9432 - [Windows perflib exporter](https://github.com/leoluk/perflib_exporter)
 * 9433 - [Knot exporter](https://github.com/ghedo/knot_exporter)
 * 9434 - [OpenSIPS exporter](https://github.com/VoIPGRID/opensips_exporter)
+* 9435 - [eBPF exporter](https://github.com/cloudflare/ebpf_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
