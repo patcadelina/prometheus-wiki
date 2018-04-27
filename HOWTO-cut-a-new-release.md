@@ -36,7 +36,8 @@ Tag the new release with a tag named `v<major>.<minor>.<patch>`, e.g. `v2.1.3`. 
 You can do the tagging on the commandline:
 
 ```bash
-$ git tag -s vx.y.z -m 'vx.y.z'
+$ tag=$(< VERSION)
+$ git tag -s "v${tag}" -m "v${tag}"
 $ git push --tags
 ```
 
