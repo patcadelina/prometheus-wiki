@@ -299,6 +299,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9434 - [OpenSIPS exporter](https://github.com/VoIPGRID/opensips_exporter)
 * 9435 - [eBPF exporter](https://github.com/cloudflare/ebpf_exporter)
 * 9436 - [mikrotik-exporter](https://github.com/nshttpd/mikrotik-exporter)
+* 9437 - Dell EMC Isilon Exporter (coming soon)
+* 9438 - Dell EMC ECS Exporter (coming soon)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
