@@ -305,6 +305,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9439 - [Bitcoind exporter](https://github.com/LePetitBloc/bitcoind-exporter) (WIP)
 * 9440 - [RavenDB Exporter](https://github.com/marcinbudny/ravendb_exporter) (WIP)
 * 9441 - [Nomad Exporter](https://github.com/pcarranza/nomad-exporter)
+* 9442 - [Mcrouter Exporter](https://github.com/Dev25/mcrouter_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
