@@ -322,6 +322,7 @@ Exporters outside of the standard port ranges:
 * 9876 - [Sachet - SMS alerts for Alertmanager](https://github.com/messagebird/sachet)
 * 9913 - [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter)
 * 9547 - [Kea Exporter](https://github.com/mweinelt/kea-exporter)
+* 9665 - [Juniper Junos Exporter](https://github.com/lampwins/junos_exporter)
 * 9984 - [CouchDB exporter](https://github.com/gesellix/couchdb-exporter)
 * 19091 - [Transmission Exporter](https://github.com/metalmatze/transmission-exporter)
 * 19999 - [Netdata](https://github.com/firehol/netdata)
