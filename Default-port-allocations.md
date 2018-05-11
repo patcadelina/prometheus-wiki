@@ -239,7 +239,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9336 - [Mediacom Internet Usage Exporter](https://github.com/jcollie/mediacom-internet-usage-exporter)
 * 9337 - [mqttgateway](https://github.com/inuits/mqttgateway)
 * 9338 - Certificate exporter (WIP)
-* 9339 - 9377 are unallocated
+* 9339 - [AWS S3 Exporter](https://github.com/ribbybibby/s3_exporter)
+* 9340 - 9377 are unallocated
 * 
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
