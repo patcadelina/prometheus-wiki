@@ -305,7 +305,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9437 - Dell EMC Isilon Exporter (coming soon)
 * 9438 - Dell EMC ECS Exporter (coming soon)
 * 9439 - [Bitcoind exporter](https://github.com/LePetitBloc/bitcoind-exporter) (WIP)
-* 9440 - [RavenDB Exporter](https://github.com/marcinbudny/ravendb_exporter) (WIP)
+* 9440 - [RavenDB Exporter](https://github.com/marcinbudny/ravendb_exporter)
 * 9441 - [Nomad Exporter](https://github.com/pcarranza/nomad-exporter)
 * 9442 - [Mcrouter Exporter](https://github.com/Dev25/mcrouter_exporter)
 * 9443 - [Napalm Logs Exporter](https://github.com/napalm-automation/napalm-logs)
