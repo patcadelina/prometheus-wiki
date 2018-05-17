@@ -311,6 +311,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9441 - [Nomad Exporter](https://github.com/pcarranza/nomad-exporter)
 * 9442 - [Mcrouter Exporter](https://github.com/Dev25/mcrouter_exporter)
 * 9443 - [Napalm Logs Exporter](https://github.com/napalm-automation/napalm-logs)
+* 9444 - [FoundationDB Exporter](https://github.com/leoluk/fdb_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
