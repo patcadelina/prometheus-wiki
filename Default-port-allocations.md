@@ -313,6 +313,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9442 - [Mcrouter Exporter](https://github.com/Dev25/mcrouter_exporter)
 * 9443 - [Napalm Logs Exporter](https://github.com/napalm-automation/napalm-logs)
 * 9444 - [FoundationDB Exporter](https://github.com/leoluk/fdb_exporter)
+* 9445 - [NVIDIA GPU Exporter](https://github.com/mindprince/nvidia_gpu_prometheus_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
