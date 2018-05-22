@@ -337,3 +337,4 @@ Exporters outside of the standard port ranges:
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
 * 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
 * 44323 - [PCP exporter](https://github.com/performancecopilot/pcp/blob/master/man/man3/pmwebapi.3)
+* 61091 - [DCOS exporter](https://docs.mesosphere.com/latest/metrics/)
