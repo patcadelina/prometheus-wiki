@@ -195,7 +195,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9282 - [FreeSWITCH Exporter](https://github.com/moises-silva/mod_prometheus)
 * 9283 - [Ceph ceph-mgr "prometheus" plugin](https://github.com/ceph/ceph)
 * 9284 - [Gobetween](https://github.com/yyyar/gobetween) (WIP)
-* 9285 - [Database exporter](https://github.com/Corundex/database_exporter) (oracle/postgres/mssql/mysql sql queries)
+* 9285 - [Database exporter](https://github.com/Corundex/database_exporter) (oracle/postgres/mssql/mysql sql queries)x
 * 9286 - [VDO Compression and deduplication exporter](https://github.com/pcuzner/vdo_exporter) 
 * 9287 - [Ceph iSCSI Gateway Statistics](https://github.com/ceph/ceph-iscsi-cli)
 * 9288 - [Storidge ContainerIO Exporter] (WIP, to be open-sourced by June 2018)
@@ -314,6 +314,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9443 - [Napalm Logs Exporter](https://github.com/napalm-automation/napalm-logs)
 * 9444 - [FoundationDB Exporter](https://github.com/leoluk/fdb_exporter)
 * 9445 - [NVIDIA GPU Exporter](https://github.com/mindprince/nvidia_gpu_prometheus_exporter)
+* 9446 - livebox-exporter (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
