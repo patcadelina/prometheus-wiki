@@ -314,7 +314,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9443 - [Napalm Logs Exporter](https://github.com/napalm-automation/napalm-logs)
 * 9444 - [FoundationDB Exporter](https://github.com/leoluk/fdb_exporter)
 * 9445 - [NVIDIA GPU Exporter](https://github.com/mindprince/nvidia_gpu_prometheus_exporter)
-* 9446 - livebox-exporter (WIP)
+* 9446 - [Orange Livebox DSL modem Exporter](https://github.com/jeanfabrice/livebox-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
