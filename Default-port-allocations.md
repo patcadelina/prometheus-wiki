@@ -243,8 +243,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9339 - [AWS S3 Exporter](https://github.com/ribbybibby/s3_exporter)
 * 9340 - tinydns exporter
 * 9341 - [slurm exporter](https://github.com/vpenso/prometheus-slurm-exporter)
+* 9342 - [FRR Exporter](https://github.com/tynany/frr_exporter)
 *
-* 9342 - 9377 are unallocated
+* 9343 - 9377 are unallocated
 *
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
