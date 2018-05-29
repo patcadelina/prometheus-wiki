@@ -6,7 +6,9 @@ A quick [google search](https://www.google.co.uk/search?q=how+to+increase+ulimit
 For the current session on linux you can use `ulimit -n 10048`
 
 ### Most common reasons why Prometheus is OOM killed.
-The obvious one - not enough memory :) 
+
+The typical case is when a host system does not have enough memory to support a Prometheus scrape target configuration of a given size, but other contributing factors may include:
+
  - not enough memory to mmaps some required files .
  - high ingestion or querying rate.
  - ingesting too many short lived time series with a very high cardinality.
