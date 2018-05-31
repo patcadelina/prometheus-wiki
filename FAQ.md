@@ -2,7 +2,7 @@
 YAML is space sensitive so the most common problem is additional or missing spaces or tabs vs spaces.
 
 ### Error logs for "out-of-order series"
-see [4108](https://github.com/prometheus/prometheus/issues/4108). Usually caused when more than one Prometheus writes to the same data folder. <br/>
+see [4108](https://github.com/prometheus/prometheus/issues/4108). Usually caused when more than one Prometheus server writes to the same data folder. <br/>
 Can happen in k8s or docker swarm environments where more than one replica can be scheduled to mount the same data folder.
 
 ### Error logs for "too many files open"
