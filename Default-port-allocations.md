@@ -245,8 +245,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9341 - [slurm exporter](https://github.com/vpenso/prometheus-slurm-exporter)
 * 9342 - [FRR Exporter](https://github.com/tynany/frr_exporter)
 * 9343 - [GridServer Exporter](https://github.com/mhale/gridserver-exporter)
+* 9344 - [MQTT Exporter](https://github.com/bendikwa/mqtt_exporter)
 *
-* 9344 - 9377 are unallocated
+* 9345 - 9377 are unallocated
 *
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
