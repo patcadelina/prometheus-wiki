@@ -320,6 +320,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9446 - [Orange Livebox DSL modem Exporter](https://github.com/jeanfabrice/livebox-exporter)
 * 9447 - [Resque Exporter](https://github.com/kaorimatz/resque_exporter)
 * 9448 - [EventStore Exporter](https://github.com/marcinbudny/eventstore_exporter)
+* 9449 - [OMERO.server Exporter (WIP)](https://github.com/IDR/omero-prometheus-tools)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
