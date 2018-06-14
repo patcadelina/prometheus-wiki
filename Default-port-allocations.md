@@ -247,6 +247,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9343 - [GridServer Exporter](https://github.com/mhale/gridserver-exporter)
 * 9344 - [MQTT Exporter](https://github.com/bendikwa/mqtt_exporter)
 * 9345 - Ruckus SmartZone Exporter (WIP)
+* 9346 - [Ping Exporter](https://github.com/knsd/ping-exporter)
 *
 * 9346 - 9377 are unallocated
 *
