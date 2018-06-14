@@ -336,6 +336,7 @@ Exporters outside of the standard port ranges:
 * 9097 - [JIRAlert](https://github.com/alin-sinpalean/jiralert)
 * 9098 - Alert2Log
 * 9099 - [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper)
+* 9393 - [Alertmanager Github Webhook Receiver](https://github.com/m-lab/alertmanager-github-receiver) - Create github issues for some alerts.
 * 9876 - [Sachet - SMS alerts for Alertmanager](https://github.com/messagebird/sachet)
 * 9913 - [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter)
 * 9547 - [Kea Exporter](https://github.com/mweinelt/kea-exporter)
