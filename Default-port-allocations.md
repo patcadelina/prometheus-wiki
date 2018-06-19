@@ -325,6 +325,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9448 - [EventStore Exporter](https://github.com/marcinbudny/eventstore_exporter)
 * 9449 - [OMERO.server Exporter (WIP)](https://github.com/IDR/omero-prometheus-tools)
 * 9450 - [Habitat Exporter](https://github.com/chef/habitat_exporter)
+* 9451 - Reindexer Exporter (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
