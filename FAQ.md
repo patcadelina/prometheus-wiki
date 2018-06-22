@@ -18,6 +18,7 @@ Increase by `ulimit -n 10048`
 
 The typical case is when a host system does not have enough memory to support a Prometheus scrape target configuration of a given size, but other contributing factors may include:
 
+ - not enough memory to complete compaction for a large database block.
  - not enough memory to mmaps some required files .
  - high ingestion or querying rate.
  - ingesting too many short lived time series with a very high cardinality.
