@@ -327,6 +327,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9450 - [Habitat Exporter](https://github.com/chef/habitat_exporter)
 * 9451 - Reindexer Exporter (WIP)
 * 9452 - [FreeBSD Jail Exporter](https://github.com/phyber/jail_exporter)
+* 9453 - [midonet-kubernetes](https://github.com/midonet/midonet-kubernetes) (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
