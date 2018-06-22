@@ -1,13 +1,18 @@
 ### Error loading config couldn't load configuration ... unmarshal errors ...
 YAML is space sensitive so the most common problem is additional or missing spaces or tabs vs spaces.
 
-### Error logs for "out-of-order series"
+
+### Error "out-of-order series"
 see [4108](https://github.com/prometheus/prometheus/issues/4108). Usually caused when more than one Prometheus server writes to the same data folder. <br/>
 Can happen in k8s or docker swarm environments where more than one replica can be scheduled to mount the same data folder.
 
-### Error logs for "too many files open"
+### Error "too many files open"
 A quick [google search](https://www.google.co.uk/search?q=how+to+increase+ulimit) should give you the answer how to increse the ulimit for your OS. <br/>
 For the current session on linux you can use `ulimit -n 10048`
+
+### Error "file already closed"
+Either running out of space or hitting the ulimit. 
+Increase by `ulimit -n 10048`
 
 ### Most common reasons why Prometheus is OOM killed.
 
