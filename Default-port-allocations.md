@@ -325,7 +325,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9448 - [EventStore Exporter](https://github.com/marcinbudny/eventstore_exporter)
 * 9449 - [OMERO.server Exporter (WIP)](https://github.com/IDR/omero-prometheus-tools)
 * 9450 - [Habitat Exporter](https://github.com/chef/habitat_exporter)
-* 9451 - Reindexer Exporter (WIP)
+* 9451 - [Reindexer Exporter](https://github.com/igtulm/reindexer_exporter)
 * 9452 - [FreeBSD Jail Exporter](https://github.com/phyber/jail_exporter)
 * 9453 - [midonet-kubernetes](https://github.com/midonet/midonet-kubernetes) (WIP)
 * 9454 - [NVidia SMI Exporter](https://github.com/a0s/nvidia-smi-exporter)
