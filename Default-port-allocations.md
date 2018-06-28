@@ -328,7 +328,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9450 - [Habitat Exporter](https://github.com/chef/habitat_exporter)
 * 9451 - [Reindexer Exporter](https://github.com/igtulm/reindexer_exporter)
 * 9452 - [FreeBSD Jail Exporter](https://github.com/phyber/jail_exporter)
-* 9453 - [midonet-kubernetes](https://github.com/midonet/midonet-kubernetes) (WIP)
+* 9453 - [midonet-kubernetes](https://github.com/midonet/midonet-kubernetes)
 * 9454 - [NVidia SMI Exporter](https://github.com/a0s/nvidia-smi-exporter)
 * 9455 - [iptables Exporter](https://github.com/retailnext/iptables_exporter)
 
@@ -337,6 +337,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 Exporters outside of the standard port ranges:
 
 * 3903 - [mtail](https://github.com/google/mtail)
+* 7300 - [MidoNet agent](https://github.com/midonet/midonet)
 * 8088 - [Fawkes](https://www.fawkesrobotics.org)
 * 8089 - [prom2teams](https://github.com/idealista/prom2teams)
 * 8292 - [Phabricator webhook for Alertmanager](https://github.com/knyar/phalerts)
