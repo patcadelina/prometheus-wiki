@@ -329,6 +329,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9452 - [FreeBSD Jail Exporter](https://github.com/phyber/jail_exporter)
 * 9453 - [midonet-kubernetes](https://github.com/midonet/midonet-kubernetes) (WIP)
 * 9454 - [NVidia SMI Exporter](https://github.com/a0s/nvidia-smi-exporter)
+* 9455 - [iptables Exporter](https://github.com/retailnext/iptables_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
