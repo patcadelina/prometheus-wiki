@@ -250,8 +250,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9345 - Ruckus SmartZone Exporter (WIP)
 * 9346 - [Ping Exporter](https://github.com/knsd/ping-exporter)
 * 9347 - [Junos Exporter](https://github.com/tynany/junos_exporter)
-*
-* 9348 - 9377 are unallocated
+* 9348 - [BigQuery Exporter](https://github.com/m-lab/prometheus-bigquery-exporter)
+* 
+* 9349 - 9377 are unallocated
 *
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
