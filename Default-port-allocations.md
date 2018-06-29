@@ -329,7 +329,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9451 - [Reindexer Exporter](https://github.com/igtulm/reindexer_exporter)
 * 9452 - [FreeBSD Jail Exporter](https://github.com/phyber/jail_exporter)
 * 9453 - [midonet-kubernetes](https://github.com/midonet/midonet-kubernetes)
-* 9454 - [NVidia SMI Exporter](https://github.com/a0s/nvidia-smi-exporter)
+* 9454 - [NVIDIA SMI Exporter](https://github.com/a0s/nvidia-smi-exporter)
 * 9455 - [iptables Exporter](https://github.com/retailnext/iptables_exporter)
 * 9456 - [AWS Lambda Exporter](https://github.com/mtanda/aws_lambda_exporter)
 * 9457 - [Files Content Exporter](https://github.com/a0s/files-content-exporter) (WIP)
