@@ -252,8 +252,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9347 - [Junos Exporter](https://github.com/tynany/junos_exporter)
 * 9348 - [BigQuery Exporter](https://github.com/m-lab/prometheus-bigquery-exporter)
 * 
-* 9349 - 9377 are unallocated
+* 9349 - 9376 are unallocated
 *
+* 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
 * 9379 - [etcd Exporter](https://github.com/coreos/etcd)
 * 9380 - [MythTV Exporter](https://github.com/thknepper/mythtv_exporter)
