@@ -337,6 +337,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9456 - [AWS Lambda Exporter](https://github.com/mtanda/aws_lambda_exporter)
 * 9457 - [Files Content Exporter](https://github.com/a0s/files-content-exporter) (WIP)
 * 9458 - [Rocket.Chat Exporter](https://github.com/RocketChat/Rocket.Chat)
+* 9459 - Yarn Exporter (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
