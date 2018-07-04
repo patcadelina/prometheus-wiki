@@ -251,8 +251,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9346 - [Ping Exporter](https://github.com/knsd/ping-exporter)
 * 9347 - [Junos Exporter](https://github.com/tynany/junos_exporter)
 * 9348 - [BigQuery Exporter](https://github.com/m-lab/prometheus-bigquery-exporter)
+* 9349 - [Configurable Elasticsearch query exporter](https://github.com/croesnickn/promesque)
 * 
-* 9349 - 9376 are unallocated
+* 9350 - 9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
