@@ -339,6 +339,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9458 - [Rocket.Chat Exporter](https://github.com/RocketChat/Rocket.Chat)
 * 9459 - [Yarn Exporter](https://github.com/soloradish/yarn_exporter)
 * 9460 - [HANA Exporter](https://github.com/jenningsloy318/hana_exporter)
+* 9461 - [AWS Lambda read adapter](https://github.com/mtanda/aws_lambda_read_adapter)
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
 Exporters outside of the standard port ranges:
