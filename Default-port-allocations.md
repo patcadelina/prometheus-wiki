@@ -343,6 +343,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9461 - [AWS Lambda read adapter](https://github.com/mtanda/aws_lambda_read_adapter)
 * 9462 - [PHP OPcache Exporter](https://github.com/czhujer/php_opcache_exporter) (WIP)
 * 9463 - [Virgin Media/Liberty Global Hub3 Exporter](https://github.com/welbymcroberts/hub3_exporter) [WIP]
+* 9464 - [Opencensus-nodejs Prometheus Exporter](https://github.com/census-instrumentation/opencensus-node/) (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
