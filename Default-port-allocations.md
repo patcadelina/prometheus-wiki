@@ -64,7 +64,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9151 - [Varnish Request exporter](https://github.com/stigsb/varnish_request_exporter)
 * 9152 - [Command runner exporter](https://github.com/tomwilkie/prom-run)
 * 9153 - [Mandrill Exporter](https://github.com/hypoport/mandrill-prometheus-exporter)
-* 9154 - [Postfix Exporter](https://github.com/kumina/postfix_exporter)]
+* 9154 - [Postfix Exporter](https://github.com/kumina/postfix_exporter)
 * 9155 - [vSphere Exporter](https://github.com/brandonweeks/vsphere_exporter)
 * 9156 - [WebDriver Exporter](https://github.com/mattbostock/webdriver_exporter)
 * 9157 - [IBM MQ exporter](https://github.com/ibm-messaging/mq-golang)
