@@ -182,7 +182,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9269 - [fluent-agent-lite exporter](https://github.com/matsumana/fluent-agent-lite_exporter)
 * 9270 - [Jmeter exporter](https://github.com/johrstrom/jmeter-prometheus-plugin)
 * 9271 - [Pagespeed exporter](https://github.com/foomo/pagespeed_exporter)
-* 9272 - [VMWare exporter](https://github.com/rverchere/vmware_exporter)
+* 9272 - [VMWare exporter](https://github.com/pryorda/vmware_exporter)
 * 9273 - [Telegraf prometheus_client](https://github.com/influxdata/telegraf)
 * 9274 - [Kubernetes PersistentVolume Disk Usage Exporter](https://github.com/joar/k8s-pv-disk-usage-exporter)
 * 9275 - [NRPE exporter](https://github.com/robustperception/nrpe_exporter)
