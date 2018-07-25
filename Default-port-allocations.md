@@ -27,7 +27,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9114 - [Elasticsearch exporter](https://github.com/ewr/elasticsearch_exporter)
 * 9115 - [Blackbox exporter](http://github.com/prometheus/blackbox_exporter)
 * 9116 - [SNMP exporter](http://github.com/prometheus/snmp_exporter)
-* 9117 - [Apache exporter](https://github.com/neezgee/apache_exporter)
+* 9117 - [Apache exporter](https://github.com/Lusitaniae/apache_exporter)
 * 9118 - [Jenkins exporter](https://github.com/RobustPerception/python_examples/tree/master/jenkins_exporter)
 * 9119 - [BIND exporter](https://github.com/digitalocean/bind_exporter)
 * 9120 - [PowerDNS exporter](https://github.com/janeczku/powerdns_exporter)
