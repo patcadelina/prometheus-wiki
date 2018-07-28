@@ -255,8 +255,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9350 - ThousandEyes Exporter (coming soon)
 * 9351 - Innotech Exporter (WIP)
 * 9352 - [Nature Remo Exporter](https://github.com/kenfdev/remo-exporter)
-* 
-* 9353 - 9376 are unallocated
+* 9353 - Speedtest Exporter (WIP)
+*
+* 9354 - 9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
