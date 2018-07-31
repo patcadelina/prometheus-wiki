@@ -256,7 +256,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9351 - Innotech Exporter (WIP)
 * 9352 - [Nature Remo Exporter](https://github.com/kenfdev/remo-exporter)
 * 9353 - Speedtest Exporter (WIP)
-* 9354 - Deluge Exporter (WIP)
+* 9354 - [Deluge Exporter](https://github.com/tobbez/deluge_exporter)
 *
 * 9355 - 9376 are unallocated
 *
