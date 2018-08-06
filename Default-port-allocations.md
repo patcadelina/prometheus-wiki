@@ -352,6 +352,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9465 - GoCD Exporter (WIP)
 * 9466 - [MQTT push gateway](https://github.com/Svedrin/mqtt-pushgateway)
 * 9467 - [nginx-prometheus-shiny-exporter](https://github.com/serge-name/nginx-prometheus-shiny-exporter)
+* 9468 - [nasa-swpc-exporter](https://github.com/cznewt/nasa-swpc-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
