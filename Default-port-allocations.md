@@ -259,8 +259,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9354 - [Deluge Exporter](https://github.com/tobbez/deluge_exporter)
 * 9355 - Pingstats (WIP by [F30](https://github.com/F30))
 * 9356 - [Pacemaker Exporter](https://github.com/mjtrangoni/pacemaker_exporter) (WIP)
-* 
-* 9357 - 9376 are unallocated
+* 9357 - [P1 Exporter](https://github.com/rgruyters/prometheus-p1-exporter) (WIP)
+*
+* 9358 - 9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
