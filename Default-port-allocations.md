@@ -357,6 +357,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9467 - [nginx-prometheus-shiny-exporter](https://github.com/serge-name/nginx-prometheus-shiny-exporter)
 * 9468 - [nasa-swpc-exporter](https://github.com/cznewt/nasa-swpc-exporter)
 * 9469 - [script_exporter](https://github.com/ricoberger/script_exporter)
+* 9470 - [cachet_exporter](https://github.com/ContaAzul/cachet_exporter) (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
