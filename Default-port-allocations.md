@@ -201,6 +201,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9288 - [Storidge ContainerIO Exporter] (WIP, to be open-sourced by June 2018)
 * 9289 - [Lovoo's IPMI Exporter](https://github.com/lovoo/ipmi_exporter) (to be run on the IPMI host itself)
 * 9290 - [SoundCloud's IPMI Exporter](https://github.com/soundcloud/ipmi_exporter) (querying IPMI externally, blackbox-exporter style)
+* 9291 - [IBM Z HMC Exporter] (https://github.com/zhmcclient/zhmc-prometheus-exporter)
 * 9292 - [emqttd exporter (WIP)](https://github.com/ProdriveTechnologies/emqtt_exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9301 - [Squid Exporter](https://github.com/boynux/squid-exporter)
