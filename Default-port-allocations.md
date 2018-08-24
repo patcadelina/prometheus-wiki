@@ -264,8 +264,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9358 - [Performance Counters Exporter](https://github.com/rgl/PerformanceCountersExporter) (WIP)
 * 9359 - Sidekiq Prometheus (WIP)
 * 9360 - [PowerShell Exporter](https://github.com/rgl/PowerShellExporter) (WIP)
+* 9361 - [Scaleway SD Exporter](https://github.com/scaleway/prometheus-scw-sd)
 *
-* 9361 - 9376 are unallocated
+* 9362 - 9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
