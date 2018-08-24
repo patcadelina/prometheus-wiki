@@ -363,7 +363,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9470 - [cachet_exporter](https://github.com/ContaAzul/cachet_exporter) (WIP)
 * 9471 - [lxc-exporter](https://github.com/czhujer/lxc-exporter)
 * 9472 - chef-server-exporter (WIP)
-* 9473 - SDF (WIP)
+* 9473 - stellar-core-exporter (https://github.com/stellar/packages/blob/master/stellar-core-prometheus-exporter/stellar-core-prometheus-exporter.py)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
