@@ -267,8 +267,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9361 - [Scaleway SD Exporter](https://github.com/scaleway/prometheus-scw-sd)
 * 9362 - [Cisco Exporter](https://github.com/lwlcom/cisco_exporter)
 * 9363 - IBM Spectrum Exporter (WIP)
+* 9364 - Continent8 Exporter (WIP)
 *
-* 9364 - 9376 are unallocated
+* 9365 - 9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
