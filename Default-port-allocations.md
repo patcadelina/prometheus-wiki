@@ -372,6 +372,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9475 - [Open vSwitch (OVS) exporter - ovs_exporter](https://github.com/greenpau/ovs_exporter) (WIP)
 * 9476 - [Open Virtual Network (OVN) exporter - ovn_exporter](https://github.com/greenpau/ovn_exporter) (WIP)
 * 9477 - Rubrik Backup Exporter (coming soon)
+* 9478 - [Sentinel exporter](https://github.com/sportradar/sentinel-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
