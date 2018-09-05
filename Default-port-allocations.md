@@ -376,6 +376,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9478 - [Sentinel exporter](https://github.com/sportradar/sentinel-exporter)
 * 9479 - elasticbeat exporter (filebeat, metricbeat, packetbeat, etc...) (WIP)
 * 9480 - [Brigade exporter](https://github.com/slok/brigade-exporter)
+* 9481 - DVB frontend exporter (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
