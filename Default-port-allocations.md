@@ -365,7 +365,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9467 - [nginx-prometheus-shiny-exporter](https://github.com/serge-name/nginx-prometheus-shiny-exporter)
 * 9468 - [nasa-swpc-exporter](https://github.com/cznewt/nasa-swpc-exporter)
 * 9469 - [script_exporter](https://github.com/ricoberger/script_exporter)
-* 9470 - [cachet_exporter](https://github.com/ContaAzul/cachet_exporter) (WIP)
+* 9470 - [cachet_exporter](https://github.com/ContaAzul/cachet_exporter)
 * 9471 - [lxc-exporter](https://github.com/czhujer/lxc-exporter)
 * 9472 - chef-server-exporter (WIP)
 * 9473 - [stellar-core-exporter](https://github.com/stellar/packages/blob/master/stellar-core-prometheus-exporter/stellar-core-prometheus-exporter.py)
