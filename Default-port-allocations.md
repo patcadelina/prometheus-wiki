@@ -374,7 +374,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9476 - [Open Virtual Network (OVN) exporter - ovn_exporter](https://github.com/greenpau/ovn_exporter) (WIP)
 * 9477 - Rubrik Backup Exporter (coming soon)
 * 9478 - [Sentinel exporter](https://github.com/sportradar/sentinel-exporter)
-* 9479 - elasticbeat exporter (filebeat, metricbeat, packetbeat, etc...) (WIP)
+* 9479 - elasticbeat exporter (filebeat, metricbeat, packetbeat, etc...) (https://github.com/trustpilot/beat-exporter)
 * 9480 - [Brigade exporter](https://github.com/slok/brigade-exporter)
 * 9481 - DVB frontend exporter (WIP)
 * 9482 - [Vector Packet Process (VPP) exporter](https://github.com/FDio/vpp/blob/master/src/vpp/app/vpp_prometheus_export.c)
