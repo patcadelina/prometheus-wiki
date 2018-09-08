@@ -379,6 +379,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9481 - DVB frontend exporter (WIP)
 * 9482 - [Vector Packet Process (VPP) exporter](https://github.com/FDio/vpp/blob/master/src/vpp/app/vpp_prometheus_export.c)
 * 9483 - IBM App Connect Enterprise (WIP)
+* 9488 - [BMW Connected Drive exporter](https://github.com/wywywywy/bmw_cd_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
