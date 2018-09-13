@@ -380,7 +380,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9482 - [Vector Packet Process (VPP) exporter](https://github.com/FDio/vpp/blob/master/src/vpp/app/vpp_prometheus_export.c)
 * 9483 - IBM App Connect Enterprise (WIP)
 * 9484 - [kubedex-exporter](https://github.com/Kubedex/exporter)
-* 9485 - 
+* 9485 - [Emarsys exporter](https://github.com/runtastic/emarsys_exporter)
 * 9486 - 
 * 9487 - 
 * 9488 - [BMW Connected Drive exporter](https://github.com/wywywywy/bmw_cd_exporter)
