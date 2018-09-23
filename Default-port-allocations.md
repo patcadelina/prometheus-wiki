@@ -271,7 +271,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9365 - [Cumulus Linux Exporter](https://github.com/tynany/cumulus_exporter)
 * 9366 - [HAProxy Stick Table Exporter](https://github.com/sportradar/HAProxy-stick-tables-exporter)
 * 9367 - mobystash metrics
-* 9368 - 9376 are unallocated
+* 9368 - Ethereum Client Exporter (WIP)
+* 9369 - 9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
