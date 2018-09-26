@@ -390,7 +390,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9488 - [BMW Connected Drive exporter](https://github.com/wywywywy/bmw_cd_exporter)
 * 9489 - tezos_exporter (WIP) @jevonearth
 * 9490 - [Exporter for Docker Libnetwork Plugin for OVN](https://github.com/greenpau/ovndock) (WIP)
-* 9491 - [Docker Container Stats (`docker ps`)](https://github.com/MOZGIII/docker-ps-exporter)
+* 9491 - [Docker Container Stats exporter (`docker ps`)](https://github.com/MOZGIII/docker-ps-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
