@@ -385,7 +385,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9483 - IBM App Connect Enterprise (WIP)
 * 9484 - [kubedex-exporter](https://github.com/Kubedex/exporter)
 * 9485 - [Emarsys exporter](https://github.com/runtastic/emarsys_exporter)
-* 9486 - Domoticz exporter (WIP) @wywywywy
+* 9486 - [Domoticz exporter](https://github.com/wywywywy/domoticz_exporter)
 * 9487 - [Docker Stats exporter](https://github.com/wywywywy/docker_stats_exporter)
 * 9488 - [BMW Connected Drive exporter](https://github.com/wywywywy/bmw_cd_exporter)
 * 9489 - tezos_exporter (WIP) @jevonearth
