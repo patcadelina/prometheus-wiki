@@ -393,7 +393,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9491 - [Docker Container Stats exporter (`docker ps`)](https://github.com/MOZGIII/docker-ps-exporter)
 * 9492 - [Azure Exporter (Monitor and Usage)](https://gitlab.com/gavinkflam/azure-exporter) (WIP)
 * 9493 - [ProSAFE Exporter](https://github.com/dalance/prosafe_exporter)
-* 9494 - Kamailio Exporter (WIP)
+* 9494 - [Kamailio Exporter](https://github.com/florentchauveau/kamailio_exporter)
 * 9500 - [Cassandra exporter](https://github.com/zegelin/cassandra-exporter)
 * 9501 - [HetznerCloud exporter](https://github.com/promhippie/hcloud_exporter)
 * 9502 - [Hetzner exporter](https://github.com/promhippie/hetzner_exporter)
