@@ -395,6 +395,13 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9493 - [ProSAFE Exporter](https://github.com/dalance/prosafe_exporter)
 * 9494 - Kamailio Exporter (WIP)
 * 9500 - [Cassandra exporter](https://github.com/zegelin/cassandra-exporter)
+* 9501 - [HetznerCloud exporter](https://github.com/promhippie/hcloud_exporter)
+* 9502 - [Hetzner exporter](https://github.com/promhippie/hetzner_exporter)
+* 9503 - [Scaleway exporter](https://github.com/promhippie/scw_exporter)
+* 9504 - [GitHub exporter](https://github.com/promhippie/github_exporter)
+* 9505 - [DockerHub exporter](https://github.com/promhippie/dockerhub_exporter)
+* 9506 - [Jenkins exporter](https://github.com/promhippie/jenkins_exporter)
+* 9507 - [ownCloud exporter](https://github.com/promhippie/owncloud_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
