@@ -403,6 +403,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9506 - [Jenkins exporter](https://github.com/promhippie/jenkins_exporter)
 * 9507 - [ownCloud exporter](https://github.com/promhippie/owncloud_exporter)
 * 9508 - [ccache exporter](https://github.com/virtualtam/ccache_exporter)
+* 9509 - [Brocade Exporter](https://github.com/czerwonk/brocade_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
