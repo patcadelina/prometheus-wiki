@@ -6,6 +6,9 @@ YAML is space sensitive so the most common problem is additional or missing spac
 see [4108](https://github.com/prometheus/prometheus/issues/4108). Usually caused when more than one Prometheus server writes to the same data folder. <br/>
 Can happen in k8s or docker swarm environments where more than one replica can be scheduled to mount the same data folder.
 
+### Error "mmap: cannot allocate memory"
+most likely running a 32 bit binary on a 64 bit machine.
+
 ### Error "too many files open"
 A quick [google search](https://www.google.co.uk/search?q=how+to+increase+ulimit) should give you the answer how to increse the ulimit for your OS. <br/>
 For the current session on linux you can use `ulimit -n 10048`
