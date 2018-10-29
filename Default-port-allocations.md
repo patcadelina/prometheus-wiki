@@ -276,7 +276,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9370 - [u-bmc](https://github.com/u-root/u-bmc)
 * 9371 - [conntrack-stats-exporter](https://github.com/traum-ferienwohnungen/conntrack-stats-exporter)
 * 9372 - [AppMetrics/Prometheus](https://github.com/AppMetrics/Prometheus)
-* 9373-9376 are unallocated
+* 9373 - [GCP Service Discovery](https://github.com/m-lab/gcp-service-discovery)
+* 9374-9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
