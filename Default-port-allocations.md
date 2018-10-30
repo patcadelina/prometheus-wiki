@@ -410,6 +410,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9509 - [Brocade Exporter](https://github.com/czerwonk/brocade_exporter)
 * 9510 - [Dummy Exporter](https://github.com/kobtea/dummy_exporter)
 * 9511 - [IIS Log Exporter](https://github.com/GrupaPracuj/iislog-prometheus-exporter/)
+* 9512 - [Cloudera exporter](https://github.com/peterloeffler/cloudera_exporter)
 
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
