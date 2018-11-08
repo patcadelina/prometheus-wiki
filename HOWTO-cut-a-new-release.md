@@ -1,0 +1,1 @@
+This has been moved to [prometheus/RELEASE](https://github.com/prometheus/prometheus/blob/master/RELEASE.md).
