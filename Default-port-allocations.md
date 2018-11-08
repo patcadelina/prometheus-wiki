@@ -44,7 +44,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9131 - [Varnish exporter](https://github.com/jonnenauha/prometheus_varnish_exporter)
 * 9132 - [EdgeMAX exporter](https://github.com/mdlayher/edgemax_exporter)
 * 9133 - [Fritz!Box exporter](https://github.com/ndecker/fritzbox_exporter)
-* 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter)
+* 9134 - [ZFS exporter](https://github.com/eliothedeman/zfs_exporter) / [ZFS exporter (pdf)](https://github.com/pdf/zfs_exporter)
 * 9135 - [rTorrent exporter](https://github.com/mdlayher/rtorrent_exporter)
 * 9136 - [Collins exporter](https://github.com/soundcloud/collins_exporter)
 * 9137 - [SiliconDust HDHomeRun exporter](https://github.com/mdlayher/hdhomerun_exporter)
