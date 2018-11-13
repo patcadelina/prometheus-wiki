@@ -417,6 +417,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9513 - [OpenConfig Streaming Telemetry Exporter](https://github.com/exaring/openconfig-streaming-telemetry-exporter)
 * 9514 - [App Stores exporter](https://github.com/timoa/app-stores-prometheus-exporter)(WIP)
 * 9515 - [swarm-exporter](https://github.com/jeinwag/swarm-exporter)
+* 9516 - [Prometheus Speedtest Exporter](https://github.com/jeanralphaviles/prometheus_speedtest)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
