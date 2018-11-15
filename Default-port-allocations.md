@@ -278,7 +278,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9372 - [AppMetrics/Prometheus](https://github.com/AppMetrics/Prometheus)
 * 9373 - [GCP Service Discovery](https://github.com/m-lab/gcp-service-discovery)
 * 9374 - ["Smokeping" prober"](https://github.com/SuperQ/smokeping_exporter)
-* 9375-9376 are unallocated
+* 9375 - n2ux db_knocker - wip
+*
+* 9376 are unallocated
 *
 * 9377 - [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter)
 * 9378 - [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd)
