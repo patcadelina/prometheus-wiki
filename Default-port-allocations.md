@@ -417,7 +417,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9511 - [IIS Log Exporter](https://github.com/GrupaPracuj/iislog-prometheus-exporter/)
 * 9512 - [Cloudera exporter](https://github.com/peterloeffler/cloudera_exporter)
 * 9513 - [OpenConfig Streaming Telemetry Exporter](https://github.com/exaring/openconfig-streaming-telemetry-exporter)
-* 9514 - [App Stores exporter](https://github.com/timoa/app-stores-prometheus-exporter)(WIP)
+* 9514 - [App Stores exporter](https://github.com/timoa/app-stores-prometheus-exporter)
 * 9515 - [swarm-exporter](https://github.com/jeinwag/swarm-exporter)
 * 9516 - [Prometheus Speedtest Exporter](https://github.com/jeanralphaviles/prometheus_speedtest)
 
