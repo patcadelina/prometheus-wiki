@@ -421,6 +421,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9515 - [swarm-exporter](https://github.com/jeinwag/swarm-exporter)
 * 9516 - [Prometheus Speedtest Exporter](https://github.com/jeanralphaviles/prometheus_speedtest)
 * 9517 - [Matroschka Prober](https://github.com/exaring/matroschka-prober)
+* 9518 - [Crypto Stock Exchange's Funds Exporter](https://github.com/a0s/crypto-funds-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
