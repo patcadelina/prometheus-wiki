@@ -248,7 +248,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9342 - [FRR Exporter](https://github.com/tynany/frr_exporter)
 * 9343 - [GridServer Exporter](https://github.com/mhale/gridserver-exporter)
 * 9344 - [MQTT Exporter](https://github.com/bendikwa/mqtt_exporter)
-* 9345 - Ruckus SmartZone Exporter (WIP)
+* 9345 - [Ruckus SmartZone Exporter](https://github.com/ddericco/smartzone_exporter)
 * 9346 - [Ping Exporter](https://github.com/knsd/ping-exporter)
 * 9347 - [Junos Exporter](https://github.com/tynany/junos_exporter)
 * 9348 - [BigQuery Exporter](https://github.com/m-lab/prometheus-bigquery-exporter)
