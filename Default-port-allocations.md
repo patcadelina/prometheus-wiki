@@ -380,7 +380,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9472 - chef-server-exporter (WIP)
 * 9473 - [stellar-core-exporter](https://github.com/stellar/packages/blob/master/stellar-core-prometheus-exporter/stellar-core-prometheus-exporter.py)
 * 9474 - [GoBGP exporter - gobgp_exporter](https://github.com/ovnworks/gobgp_exporter) 
-* 9475 - [Open vSwitch (OVS) exporter - ovs_exporter](https://github.com/ovnworks/ovs_exporter) (WIP)
+* 9475 - [Open vSwitch (OVS) exporter - ovs_exporter](https://github.com/ovnworks/ovs_exporter)
 * 9476 - [Open Virtual Network (OVN) exporter - ovn_exporter](https://github.com/ovnworks/ovn_exporter)
 * 9477 - Rubrik Backup Exporter (coming soon)
 * 9478 - [Sentinel exporter](https://github.com/sportradar/sentinel-exporter)
