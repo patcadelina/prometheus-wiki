@@ -402,6 +402,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9496 - [389ds/IPA Exporter](https://github.com/terrycain/389ds_exporter)
 * 9497 - Apt Exporter (WIP by [F30](https://github.com/F30))
 * 9498 - [tp-link HS110 exporter](https://github.com/misach/hs110-exporter.git) (WIP)
+* 9499 - [Smartthings exporter](https://github.com/kadaan/smartthings_exporter)
 * 9500 - [Cassandra exporter](https://github.com/zegelin/cassandra-exporter)
 * 9501 - [HetznerCloud exporter](https://github.com/promhippie/hcloud_exporter)
 * 9502 - [Hetzner exporter](https://github.com/promhippie/hetzner_exporter)
