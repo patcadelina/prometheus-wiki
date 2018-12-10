@@ -426,7 +426,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9519 - [Acurite Exporter](https://github.com/kadaan/acurite_exporter)
 * 9520 - DTAP Exporter (WIP)
 * 9521 - [Ruuvi exporter](https://github.com/joneskoo/ruuvi-prometheus)
-* 9522 - [TFTP Exporter](Repo coming soon)
+* 9522 - TFTP Exporter (Repo coming soon)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
