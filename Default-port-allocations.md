@@ -428,6 +428,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9521 - [Ruuvi exporter](https://github.com/joneskoo/ruuvi-prometheus)
 * 9522 - TFTP Exporter (Repo coming soon)
 * 9523 - 3CX Exporter (https://github.com/digineo/3cx_exporter/)
+* 9524 - [loki_exporter](https://github.com/ricoberger/loki_exporter)
 
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
