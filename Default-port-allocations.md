@@ -426,7 +426,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9519 - [Acurite Exporter](https://github.com/kadaan/acurite_exporter)
 * 9520 - DTAP Exporter (WIP)
 * 9521 - [Ruuvi exporter](https://github.com/joneskoo/ruuvi-prometheus)
-* 9522 - TFTP Exporter (Repo coming soon)
+* 9522 - [TFTP Exporter](https://github.com/adobe/prometheus_tftp_exporter)
 * 9523 - 3CX Exporter (https://github.com/digineo/3cx_exporter/)
 * 9524 - [loki_exporter](https://github.com/ricoberger/loki_exporter)
 
