@@ -432,7 +432,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9525 - [Alibaba Cloud Exporter](https://github.com/aylei/aliyun-exporter)
 * 9526 - [kafka_lag_exporter](https://github.com/mbode/kafka_lag_exporter)
 * 9527 - [Netgear Cable Modem Exporter](https://github.com/ickymettle/netgear_cm_exporter)
-
+* 9528 - [Total Connect Comfort Exporter](https://github.com/ksanislo/tcc-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
