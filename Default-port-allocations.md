@@ -435,7 +435,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9528 - [Total Connect Comfort Exporter](https://github.com/ksanislo/tcc-exporter)
 * 9529 - [Octoprint exporter](https://github.com/wywywywy/octoprint_exporter)
 * 9530 - [Custom Prometheus Exporter](https://github.com/marckhouzam/custom-prometheus-exporter)
-* 9531 - [Asterisk Exporter] (WIP)
+* 9531 - Asterisk Exporter (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
