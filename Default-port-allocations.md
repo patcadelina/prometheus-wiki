@@ -436,6 +436,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9529 - [Octoprint exporter](https://github.com/wywywywy/octoprint_exporter)
 * 9530 - [Custom Prometheus Exporter](https://github.com/marckhouzam/custom-prometheus-exporter)
 * 9531 - Asterisk Exporter (WIP)
+* 9532 - [Snyk exporter](https://github.com/lunarway/snyk_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
