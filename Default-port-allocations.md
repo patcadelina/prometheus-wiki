@@ -422,7 +422,6 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9516 - [Prometheus Speedtest Exporter](https://github.com/jeanralphaviles/prometheus_speedtest)
 * 9517 - [Matroschka Prober](https://github.com/exaring/matroschka-prober)
 * 9518 - [Crypto Stock Exchange's Funds Exporter](https://github.com/a0s/crypto-funds-exporter)
-* 9516 - [Network API Exporter for Cisco](https://github.com/ovnworks/network_api_exporter) (WIP)  **<-- This port number overlaps with 'Prometheus Speedtest Exporter'**
 * 9519 - [Acurite Exporter](https://github.com/kadaan/acurite_exporter)
 * 9520 - DTAP Exporter (WIP)
 * 9521 - [Ruuvi exporter](https://github.com/joneskoo/ruuvi-prometheus)
@@ -437,6 +436,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9530 - [Custom Prometheus Exporter](https://github.com/marckhouzam/custom-prometheus-exporter)
 * 9531 - Asterisk Exporter (WIP)
 * 9532 - [Snyk exporter](https://github.com/lunarway/snyk_exporter)
+* 9533 - [Network Exporter for Cisco API](https://github.com/greenpau/network_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
