@@ -440,6 +440,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9533 - [Network Exporter for Cisco API](https://github.com/greenpau/network_exporter)
 * 9534 - [Humio exporter](https://github.com/lunarway/humio_exporter)
 * 9535 - [Cron Exporter](https://github.com/serhatcetinkaya/cronetheus)
+* 9536 - [IPsec exporter](https://github.com/dennisstritzke/ipsec_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
