@@ -443,6 +443,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9536 - [IPsec exporter](https://github.com/dennisstritzke/ipsec_exporter)
 * 9537 - [CRI-O](https://github.com/kubernetes-sigs/cri-o)
 * 9538 - [Bull Queue](https://github.com/UpHabit/bull_exporter) (WIP)
+* 9539 - OpenStack Client Exporter (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
