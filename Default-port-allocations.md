@@ -446,6 +446,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9539 - OpenStack Client Exporter (WIP)
 * 9540 - [EMQ exporter](https://github.com/nuvo/emq_exporter)
 * 9541 - [smartmon_exporter](https://github.com/tobbez/smartmon_exporter)
+* 9542 - [SakuraCloud exporter](https://github.com/sacloud/sakuracloud_exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
