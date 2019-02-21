@@ -450,6 +450,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9542 - [SakuraCloud exporter](https://github.com/sacloud/sakuracloud_exporter)
 * 9543 - [Kube2IAM exporter](https://github.com/jtblin/kube2iam)
 * 9544 - [pgio exporter](https://gitlab.com/ongresinc/pgio)
+* 9545 - IETF Health Check Response Format for HTTP APIs (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
