@@ -451,6 +451,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9543 - [Kube2IAM exporter](https://github.com/jtblin/kube2iam)
 * 9544 - [pgio exporter](https://gitlab.com/ongresinc/pgio)
 * 9545 - IETF Health Check Response Format for HTTP APIs (WIP)
+* 9546 - pwrstat-exporter (WIP)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
