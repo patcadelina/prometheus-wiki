@@ -454,6 +454,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9546 - [pwrstat-exporter](https://github.com/ksanislo/pwrstat-exporter)
 * 9547 - Patroni exporter (WIP)
 * 9548 - [trafficserver exporter](https://github.com/poblahblahblah/trafficserver_exporter)
+* 9549 - [raspberry exporter](https://github.com/DerKnerd/raspberry-exporter) WIP
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
