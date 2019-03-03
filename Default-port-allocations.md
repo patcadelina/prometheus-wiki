@@ -205,6 +205,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9292 - [emqttd exporter (WIP)](https://github.com/ProdriveTechnologies/emqtt_exporter)
 * 9293 - TPM exporter (WIP)
 * 9294 - [MiFlora / Flower Care Exporter](https://github.com/xperimental/flowercare-exporter)
+* 9295 - [Freifunk Exporter](https://github.com/xperimental/freifunk-exporter)
 * 9300 - UNALLOCATED (to avoid collision with Elasticsearch)
 * 9301 - [Squid Exporter](https://github.com/boynux/squid-exporter)
 * 9302 - [Faucet SDN Faucet Exporter](https://github.com/REANNZ/faucet/)
