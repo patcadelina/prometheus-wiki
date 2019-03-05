@@ -481,6 +481,7 @@ Exporters outside of the standard port ranges:
 * 19091 - [Transmission Exporter](https://github.com/metalmatze/transmission-exporter)
 * 19999 - [Netdata](https://github.com/firehol/netdata)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
+* 31500 - [Jinya Exporter](https://github.com/Jinya-CMS/jinya-prometheus-exporter)
 * 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
 * 44323 - [PCP exporter](https://github.com/performancecopilot/pcp/blob/master/man/man3/pmwebapi.3)
 * 61091 - [DCOS exporter](https://docs.mesosphere.com/latest/metrics/)
