@@ -455,9 +455,10 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 * 9546 - [pwrstat-exporter](https://github.com/ksanislo/pwrstat-exporter)
 * 9547 - Patroni exporter (WIP)
 * 9548 - [trafficserver exporter](https://github.com/poblahblahblah/trafficserver_exporter)
-* 9549 - [raspberry exporter](https://github.com/DerKnerd/raspberry-exporter) WIP
+* 9549 - [raspberry exporter](https://github.com/DerKnerd/raspberry-exporter)
 * 9550 - SolaX X1 Inverter exporter WIP
 * 9551 - hostapd exporter WIP
+* 9552 - [YouTrack Exporter](https://github.com/Jinya-CMS/youtrack-exporter) WIP
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
@@ -481,7 +482,6 @@ Exporters outside of the standard port ranges:
 * 19091 - [Transmission Exporter](https://github.com/metalmatze/transmission-exporter)
 * 19999 - [Netdata](https://github.com/firehol/netdata)
 * 24231 - [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus)
-* 31500 - [Jinya Exporter](https://github.com/Jinya-CMS/jinya-prometheus-exporter)
 * 42004 - [ProxySQL exporter](https://github.com/percona/proxysql_exporter)
 * 44323 - [PCP exporter](https://github.com/performancecopilot/pcp/blob/master/man/man3/pmwebapi.3)
 * 61091 - [DCOS exporter](https://docs.mesosphere.com/latest/metrics/)
