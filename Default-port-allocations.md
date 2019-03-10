@@ -462,7 +462,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9549 | [raspberry exporter](https://github.com/DerKnerd/raspberry-exporter) |
 | 9550 | SolaX X1 Inverter exporter WIP |
 | 9551 | hostapd exporter WIP |
-| 9552 | [Alpine apk exporter](https://github.com/DerKnerd/apk-exporter) WIP |
+| 9552 | [Alpine apk exporter](https://github.com/DerKnerd/apk-exporter)|
+| 9553 | [Apt exporter](https://github.com/DerKnerd/apt-exporter) WIP |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
