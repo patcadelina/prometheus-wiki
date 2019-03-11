@@ -465,6 +465,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9552 | [Alpine apk exporter](https://github.com/DerKnerd/apk-exporter)|
 | 9553 | [Apt exporter](https://github.com/DerKnerd/apt-exporter) WIP |
 | 9554 | [ACC Server Manager Exporter](https://github.com/grimsi/accservermanager-backend) WIP |
+| 9555 | SONA exporter WIP |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
