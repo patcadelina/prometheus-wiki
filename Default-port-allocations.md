@@ -478,6 +478,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | ---- | -------- |
 | 3903 | [mtail](https://github.com/google/mtail) |
 | 7300 | [MidoNet agent](https://github.com/midonet/midonet) |
+| 8088 | [cAdvisor (Container Advisor)](https://github.com/google/cadvisor) |
 | 8088 | [Fawkes](https://www.fawkesrobotics.org) |
 | 8089 | [prom2teams](https://github.com/idealista/prom2teams) |
 | 8292 | [Phabricator webhook for Alertmanager](https://github.com/knyar/phalerts) |
