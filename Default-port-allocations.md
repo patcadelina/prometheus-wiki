@@ -458,7 +458,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9544 | [pgio exporter](https://gitlab.com/ongresinc/pgio) |
 | 9545 | IETF Health Check Response Format for HTTP APIs (WIP) |
 | 9546 | [pwrstat-exporter](https://github.com/ksanislo/pwrstat-exporter) |
-| 9547 | Patroni exporter (WIP) |
+| 9547 | [Patroni exporter](https://github.com/Showmax/patroni-exporter) |
 | 9548 | [trafficserver exporter](https://github.com/poblahblahblah/trafficserver_exporter) |
 | 9549 | [raspberry exporter](https://github.com/DerKnerd/raspberry-exporter) |
 | 9550 | SolaX X1 Inverter exporter WIP |
