@@ -472,7 +472,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9557 | [mysql count exporter](https://github.com/errm/mysql_count_exporter) |
 | 9558 | [systemd exporter](https://github.com/povilasv/systemd_exporter) |
 | 9559 | [ntp exporter](https://github.com/sapcc/ntp_exporter) |
-| 9560 | [Query exporter](https://github.com/albertodonato/query-exporter) | 
+| 9560 | [SQL queries exporter](https://github.com/albertodonato/query-exporter) | 
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
