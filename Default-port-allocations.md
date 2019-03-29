@@ -263,7 +263,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9347 | [Junos Exporter](https://github.com/tynany/junos_exporter) |
 | 9348 | [BigQuery Exporter](https://github.com/m-lab/prometheus-bigquery-exporter) |
 | 9349 | [Configurable Elasticsearch query exporter](https://github.com/croesnick/promesque) |
-| 9350 | ThousandEyes Exporter (coming soon) |
+| 9350 | [ThousandEyes Exporter] (https://github.com/sapcc/1000eyes_exporter) |
 | 9351 | Innotech Exporter (WIP) |
 | 9352 | [Nature Remo Exporter](https://github.com/kenfdev/remo-exporter) |
 | 9353 | Speedtest Exporter (WIP) |
