@@ -476,6 +476,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9560 | [SQL queries exporter](https://github.com/albertodonato/query-exporter) | 
 | 9561 | [qBittorrent exporter](https://github.com/fru1tstand/qbittorrent-exporter) | 
 | 9562 | [PTV xServer exporter](https://github.com/concrest/ptv-xserver-exporter) WIP |
+| 9563 | [Kibana exporter](https://github.com/vladvasiliu/kibana-prometheus-exporter-py) WIP |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
