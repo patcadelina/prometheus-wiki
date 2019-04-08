@@ -480,6 +480,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9564 | VIP Exporter (WIP) |
 | 9565 | [Bminer exporter](https://github.com/hashrabbit/prometheus-bminer-exporter) |
 | 9566 | [RabbitMQ CLI Consumer](https://github.com/corvus-ch/rabbitmq-cli-consumer) WIP |
+| 9567 | [Alertsnitch](https://gitlab.com/yakshaving.art/alertsnitch) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
