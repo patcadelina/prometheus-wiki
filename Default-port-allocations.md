@@ -285,7 +285,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9369 | [Prometheus PushProx](https://github.com/RobustPerception/PushProx) (WIP) |
 | 9370 | [u-bmc](https://github.com/u-root/u-bmc) |
 | 9371 | [conntrack-stats-exporter](https://github.com/traum-ferienwohnungen/conntrack-stats-exporter) |
-| 9372 | [AppMetrics/Prometheus](https://github.com/AppMetrics/Prometheus) |
+| 9372 | [AppMetrics/Prometheus](https://github.com/AppMetrics/AppMetrics) |
 | 9373 | [GCP Service Discovery](https://github.com/m-lab/gcp-service-discovery) |
 | 9374 | ["Smokeping" prober"](https://github.com/SuperQ/smokeping_exporter) |
 | 9375 | n2ux db_knocker |
