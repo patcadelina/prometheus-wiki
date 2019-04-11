@@ -482,6 +482,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9566 | [RabbitMQ CLI Consumer](https://github.com/corvus-ch/rabbitmq-cli-consumer) WIP |
 | 9567 | [Alertsnitch](https://gitlab.com/yakshaving.art/alertsnitch) |
 | 9568 | Telemetry Metrics (WIP) |
+| 9569 | Eideticom NoLoad Exporter (WIP) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
