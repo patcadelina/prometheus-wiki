@@ -484,7 +484,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9567 | [Alertsnitch](https://gitlab.com/yakshaving.art/alertsnitch) |
 | 9568 | Telemetry Metrics (WIP) |
 | 9569 | Eideticom NoLoad Exporter (WIP) |
-| 9570 | [VPA Exporter](https://github.com/gardener/vpa-exporter)
+| 9570 | [VPA Exporter](https://github.com/gardener/vpa-exporter) |
+| 9571 | [Helm Exporter](https://github.com/sstarcher/helm-exporter)
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
