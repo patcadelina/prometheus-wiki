@@ -191,6 +191,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9274 | [Kubernetes PersistentVolume Disk Usage Exporter](https://github.com/joar/k8s-pv-disk-usage-exporter) |
 | 9275 | [NRPE exporter](https://github.com/robustperception/nrpe_exporter) |
 | 9276 | [GitHubQL Exporter](https://github.com/metalmatze/githubql_exporter) |
+| 9276 | [Azure Monitor exporter](https://github.com/RobustPerception/azure_metrics_exporter) |
 | 9277 | [Mongo collection exporter](https://github.com/y8/mongo_collection_exporter) |
 | 9278 | [Crypto Miner exporter](https://github.com/bugroger/miner-exporter) |
 | 9279 | [InstaClustr Exporter](https://github.com/fcgravalos/instaclustr_exporter) |
