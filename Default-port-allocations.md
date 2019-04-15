@@ -487,6 +487,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9570 | [VPA Exporter](https://github.com/gardener/vpa-exporter) |
 | 9571 | [Helm Exporter](https://github.com/sstarcher/helm-exporter) |
 | 9572 | ctld exporter (WIP) |
+| 9573 | JKStatus Exporter (https://github.com/romulofagundes/jkstatus_exporter)|
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
