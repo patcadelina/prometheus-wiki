@@ -490,6 +490,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9573 | JKStatus Exporter (https://github.com/romulofagundes/jkstatus_exporter)|
 | 9574 | [opentracker Exporter](https://github.com/sbruder/opentracker_exporter) |
 | 9575 | [PowerAdmin Server Monitor Exporter](https://github.com/FXinnovation/poweradmin_exporter) (WIP) |
+| 9576 | [ExaBGP Exporter](https://github.com/lusis/exabgp_exporter |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
