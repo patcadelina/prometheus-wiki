@@ -202,7 +202,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9284 | [Gobetween](https://github.com/yyyar/gobetween) (WIP) |
 | 9285 | [Database exporter](https://github.com/Corundex/database_exporter) (oracle/postgres/mssql/mysql sql queries)x |
 | 9286 | [VDO Compression and deduplication exporter](https://github.com/pcuzner/vdo_exporter)  |
-| 9287 | [Ceph iSCSI Gateway Statistics](https://github.com/ceph/ceph-iscsi-cli) |
+| 9287 | [Ceph iSCSI Gateway Statistics](https://github.com/ceph/ceph-iscsi) |
 | 9288 | [Storidge ContainerIO Exporter] (WIP, to be open-sourced by June 2018) |
 | 9289 | [Lovoo's IPMI Exporter](https://github.com/lovoo/ipmi_exporter) (to be run on the IPMI host itself) |
 | 9290 | [SoundCloud's IPMI Exporter](https://github.com/soundcloud/ipmi_exporter) (querying IPMI externally, blackbox-exporter style) |
