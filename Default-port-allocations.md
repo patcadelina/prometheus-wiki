@@ -480,7 +480,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9563 | [Kibana exporter](https://github.com/vladvasiliu/kibana-prometheus-exporter-py) WIP |
 | 9564 | VIP Exporter (WIP) |
 | 9565 | [Bminer exporter](https://github.com/hashrabbit/prometheus-bminer-exporter) |
-| 9566 | [RabbitMQ CLI Consumer](https://github.com/corvus-ch/rabbitmq-cli-consumer) WIP |
+| 9566 | [RabbitMQ CLI Consumer](https://github.com/corvus-ch/rabbitmq-cli-consumer) |
 | 9567 | [Alertsnitch](https://gitlab.com/yakshaving.art/alertsnitch) |
 | 9568 | Telemetry Metrics (WIP) |
 | 9569 | Eideticom NoLoad Exporter (WIP) |
