@@ -214,6 +214,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9296 | [ODBC Exporter](https://github.com/MACHBASE/prometheus-odbc-exporter) |
 | 9297 | [Machbase Exporter](https://github.com/MACHBASE/prometheus-machbase-exporter) |
 | 9298 | [Generic Exporter](https://github.com/klau2005/prometheus_generic_exporter) |
+| 9299 | [Exporter Aggregator](https://github.com/tynany/exporter_aggregator) |
 | 9300 | UNALLOCATED (to avoid collision with Elasticsearch) |
 | 9301 | [Squid Exporter](https://github.com/boynux/squid-exporter) |
 | 9302 | [Faucet SDN Faucet Exporter](https://github.com/REANNZ/faucet/) |
