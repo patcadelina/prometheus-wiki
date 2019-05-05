@@ -495,6 +495,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9577 | [Syslog-NG Exporter](https://github.com/brandond/syslog_ng_exporter) |
 | 9578 | [aria2 Exporter](https://github.com/sbruder/aria2_exporter) |
 | 9579 | [iPerf3 Exporter](https://github.com/edgard/iperf3_exporter) |
+| 9580 | [Azure Service Bus Exporter](https://github.com/marcinbudny/servicebus_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
