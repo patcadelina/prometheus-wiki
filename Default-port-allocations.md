@@ -404,7 +404,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9486 | [Domoticz exporter](https://github.com/wywywywy/domoticz_exporter) |
 | 9487 | [Docker Stats exporter](https://github.com/wywywywy/docker_stats_exporter) |
 | 9488 | [BMW Connected Drive exporter](https://github.com/wywywywy/bmw_cd_exporter) |
-| 9489 | tezos_exporter (WIP) @jevonearth |
+| 9489 | [Tezos node metrics exporter](https://github.com/ecadlabs/tezos_exporter) |
 | 9490 | [Exporter for Docker Libnetwork Plugin for OVN](https://github.com/ovnworks/docker-ovn-driver) |
 | 9491 | [Docker Container Stats exporter (`docker ps`)](https://github.com/MOZGIII/docker-ps-exporter) |
 | 9492 | [Azure Exporter (Monitor and Usage)](https://gitlab.com/gavinkflam/azure-exporter) (WIP) |
@@ -498,6 +498,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9580 | [Azure Service Bus Exporter](https://github.com/marcinbudny/servicebus_exporter) |
 | 9581 | [CodeNotary vcn Exporter](https://github.com/vchain-us/vcn-k8s) |
 | 9582 | [Logentries/Rapid7 Exporter](https://github.com/Diogo-Costa/logentries_exporter) |
+| 9583 | [Signatory a remote operation signer for Tezos](https://github.com/ecadlabs/signatory) |
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
 ## Exporters outside of the standard port ranges:
