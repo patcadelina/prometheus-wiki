@@ -499,6 +499,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9581 | [CodeNotary vcn Exporter](https://github.com/vchain-us/vcn-k8s) |
 | 9582 | [Logentries/Rapid7 Exporter](https://github.com/Diogo-Costa/logentries_exporter) |
 | 9583 | [Signatory a remote operation signer for Tezos](https://github.com/ecadlabs/signatory) |
+| 9584 | [BunnyCDN exporter](https://github.com/permutive/bunnycdn_exporter) |
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
 ## Exporters outside of the standard port ranges:
