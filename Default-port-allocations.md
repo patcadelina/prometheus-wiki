@@ -502,6 +502,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9584 | [BunnyCDN exporter](https://github.com/permutive/bunnycdn_exporter) |
 | 9585 | [Opvizor Performance Analyzer process exporter](https://github.com/opvizor/process-exporter) |
 | 9586 | WireGuard exporter:  [Rust (wg(8))](https://github.com/MindFlavor/prometheus_wireguard_exporter), [Go (native)](https://github.com/mdlayher/wireguard_exporter) |
+| 9587 | [nfs-ganesha exporter](https://github.com/Gandi/ganesha_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
