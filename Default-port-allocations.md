@@ -505,6 +505,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9587 | [nfs-ganesha exporter](https://github.com/Gandi/ganesha_exporter) |
 | 9588 | [ltsv-tailer exporter](https://github.com/hirose31/ltsv-tailer) |
 | 9589 | [goflow exporter](https://github.com/cloudflare/goflow) |
+| 9590 | [concourse-biplane WIP](https://github.com/Pix4D/concourse-biplane) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
