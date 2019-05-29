@@ -1,4 +1,4 @@
-See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for why this exists. Integrations other than exporters (e.g. adopters, webhooks) may also be listed here.
+See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for why this exists. Integrations other than exporters (e.g. adapters, webhooks) may also be listed here.
 
 ## Core components starting at 9090
 
