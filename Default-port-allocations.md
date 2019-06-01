@@ -509,6 +509,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9591 | [SRCDS Exporter](https://github.com/991jo/srcds_exporter) |
 | 9592 | GCE Quota Exporter (WIP) |
 | 9593 | [Lighthouse Exporter](https://github.com/pkesc/prometheus_lighthouse_exporter) |
+| 9594 | [Plex Exporter](https://github.com/arnarg/plex_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
