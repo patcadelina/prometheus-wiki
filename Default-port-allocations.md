@@ -507,7 +507,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9589 | [goflow exporter](https://github.com/cloudflare/goflow) |
 | 9590 | [concourse-biplane WIP](https://github.com/Pix4D/concourse-biplane) |
 | 9591 | [SRCDS Exporter](https://github.com/991jo/srcds_exporter) |
-| 9592 | GCE Quota Exporter (WIP) |
+| 9592 | [GCP Quota Exporter](https://github.com/mintel/gcp-quota-exporter) (WIP) |
 | 9593 | [Lighthouse Exporter](https://github.com/pkesc/prometheus_lighthouse_exporter) |
 | 9594 | [Plex Exporter](https://github.com/arnarg/plex_exporter) (WIP) |
 | 9595 | Db2 on Cloud Exporter (WIP) |
