@@ -511,6 +511,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9593 | [Lighthouse Exporter](https://github.com/pkesc/prometheus_lighthouse_exporter) |
 | 9594 | [Plex Exporter](https://github.com/arnarg/plex_exporter) (WIP) |
 | 9595 | Db2 on Cloud Exporter (WIP) |
+| 9596 | [Azure Elastic SQL Exporter](https://github.com/benclapp/azure_elastic_sql_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
