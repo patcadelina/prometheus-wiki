@@ -302,6 +302,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9384 | [AWS SQS Exporter](https://github.com/jmal98/sqs_exporter) |
 | 9385 | [apcupsdexporter](https://github.com/tynsh/apcupsdexporter) |
 | 9386 | [httpd-exporter](https://github.com/technicalguru/httpd-exporter) |
+| 9386 | [Tankerkönig API Exporter](https://github.com/lukasmalkmus/tankerkoenig_exporter) |
 | 9387 | [SABnzbd Exporter](https://github.com/msroest/sabnzbd_exporter) |
 | 9388 | zrep_exporter (coming soon) |
 | 9389 | [Scylla-Cluster-Tests Exporter](https://github.com/scylladb/scylla-cluster-tests/) |
