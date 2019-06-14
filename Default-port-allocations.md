@@ -515,6 +515,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9596 | [Azure Elastic SQL Exporter](https://github.com/benclapp/azure_elastic_sql_exporter) |
 | 9597 | [GitHub Vulnerability Alerts Exporter](https://github.com/ZeitOnline/github_vulnerability_exporter) |
 | 9598 | [Vector Logs & Metrics Router Exporter](https://github.com/timberio/vector) |
+| 9599 | [Pirograph Exporter (WIP)](https://github.com/marco-m/pirograph) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
