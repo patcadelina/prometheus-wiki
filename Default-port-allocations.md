@@ -534,10 +534,11 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | 9098 | Alert2Log |
 | 9099 | [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper) |
 | 9393 | [Alertmanager Github Webhook Receiver](https://github.com/m-lab/alertmanager-github-receiver) |
-| 9876 | [Sachet |
+| 9876 | Sachet |
 | 9913 | [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter) |
 | 9547 | [Kea Exporter](https://github.com/mweinelt/kea-exporter) |
 | 9665 | [Juniper Junos Exporter](https://github.com/lampwins/junos_exporter) |
+| 9980 | [Login Exporter](https://github.com/uniwue-rz/login_exporter)|
 | 9984 | [CouchDB exporter](https://github.com/gesellix/couchdb-exporter) |
 | 9999 | [Exporter exporter](https://github.com/QubitProducts/exporter_exporter) |
 | 19091 | [Transmission Exporter](https://github.com/metalmatze/transmission-exporter) |
