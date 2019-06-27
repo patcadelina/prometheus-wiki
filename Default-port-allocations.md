@@ -519,6 +519,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9600 | [CircleCI Exporter](https://github.com/kronostechnologies/prometheus-exporter-circleci) |
 | 9601 | [MessageBird Exporter](https://github.com/roaldnefs/messagebird_exporter) |
 | 9602 | [Modbus Exporter](https://github.com/mxinden/modbus_exporter) |
+| 9603 | Xen Exporter (using xenlight) (WIP) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
