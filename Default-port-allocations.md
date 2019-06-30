@@ -521,6 +521,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9602 | [Modbus Exporter](https://github.com/mxinden/modbus_exporter) |
 | 9603 | Xen Exporter (using xenlight) (WIP) |
 | 9604 | [XMPP Blackbox Exporter](https://github.com/horazont/prometheus-xmpp-blackbox-exporter) |
+| 9605 | [fping-exporter](https://github.com/schweikert/fping-exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
