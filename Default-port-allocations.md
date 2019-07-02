@@ -523,6 +523,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9604 | [XMPP Blackbox Exporter](https://github.com/horazont/prometheus-xmpp-blackbox-exporter) |
 | 9605 | [fping-exporter](https://github.com/schweikert/fping-exporter) |
 | 9607 | [ecr-exporter](https://github.com/ministryofjustice/prometheus_ecr_exporter) |
+
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
 ## Exporters outside of the standard port ranges:
