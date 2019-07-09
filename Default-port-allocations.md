@@ -524,6 +524,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9605 | [fping-exporter](https://github.com/schweikert/fping-exporter) |
 | 9606 | [ecr-exporter](https://github.com/ministryofjustice/prometheus_ecr_exporter) |
 | 9607 | WIP gaffneyc |
+| 9608 | [Ironic Prometheus Exporter](https://github.com/metal3-io/ironic-prometheus-exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
