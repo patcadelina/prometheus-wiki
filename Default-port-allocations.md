@@ -526,6 +526,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9607 | WIP gaffneyc |
 | 9608 | [Ironic Prometheus Exporter](https://github.com/metal3-io/ironic-prometheus-exporter) |
 | 9609 | [netapp exporter](https://github.com/jenningsloy318/netapp_exporter) |
+| 9610 | [kubernetes_exporter](https://github.com/shalb-docker/kubernetes_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
