@@ -528,6 +528,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9609 | [netapp exporter](https://github.com/jenningsloy318/netapp_exporter) |
 | 9610 | [kubernetes_exporter](https://github.com/shalb-docker/kubernetes_exporter) |
 | 9611 | [speedport_exporter](https://gitlab.com/chrko/speedport-exporter) |
+| 9612 | Oracle Coherence Exporter |
+| 9613 | Oracle WLS Exporter |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
