@@ -532,6 +532,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9613 | Oracle WLS Exporter |
 | 9614 | [NUT upsc Exporter](https://github.com/jzck/prometheus-upsc-exporter) |
 | 9615 | WIP @adam-moss |
+| 9616 | WIP mailgun @xbglowx |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
