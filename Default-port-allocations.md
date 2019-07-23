@@ -536,7 +536,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9617 | [PI-Hole Exporter](https://github.com/eko/pihole-exporter) |
 | 9618 | [stellar-account-exporter](https://github.com/stellar/stellar-account-prometheus-exporter) (WIP) |
 | 9619 | [stellar-horizon-exporter](https://github.com/stellar/stellar-horizon-prometheus-exporter) (WIP) |
-| 9620 | [rundeck_exporter](https://github.com/phsmith/rundeck_exporter) (WIP) |
+| 9620 | [rundeck_exporter](https://github.com/phsmith/rundeck_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
