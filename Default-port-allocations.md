@@ -532,7 +532,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9613 | Oracle WLS Exporter |
 | 9614 | [NUT upsc Exporter](https://github.com/jzck/prometheus-upsc-exporter) |
 | 9615 | WIP @adam-moss |
-| 9616 | WIP mailgun @xbglowx |
+| 9616 | [Mailgun Exporter](https://github.com/missionlane/prometheus-mailgun-exporter) |
 | 9617 | [PI-Hole Exporter](https://github.com/eko/pihole-exporter) |
 | 9618 | [stellar-account-exporter](https://github.com/stellar/stellar-account-prometheus-exporter) (WIP) |
 | 9619 | [stellar-horizon-exporter](https://github.com/stellar/stellar-horizon-prometheus-exporter) (WIP) |
