@@ -539,6 +539,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9620 | [rundeck_exporter](https://github.com/phsmith/rundeck_exporter) |
 | 9621 | [Brocade FabricOS Exporter](https://github.com/rokett/Brocade-FabricOS-Exporter) (WIP) |
 | 9622 | [BMC exporter](https://github.com/gebn/bmc_exporter) (WIP) |
+| 9623 | ESP Environment Exporter (WIP) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
