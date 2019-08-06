@@ -543,6 +543,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9624 | [Pact Broker Exporter](https://github.com/pperzyna/pactbroker_exporter) (WIP) |
 | 9625 | [Bareos Exporter](https://github.com/dreyau/bareos_exporter/) (WIP) |
 | 9626 | [hockeypuck](https://github.com/hockeypuck/hockeypuck) (WIP) @jetpackdanger |
+| 9627 | [Artifactory Exporter](https://github.com/mikejoh/artifactory-exporter) (WIP) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
