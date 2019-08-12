@@ -469,6 +469,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9550 | SolaX X1 Inverter exporter WIP |
 | 9551 | [hostapd exporter](https://bitbucket.i2cat.net/scm/~miguel_catalan/hostapd_prometheus_exporter.git)
 | 9552 | [Alpine apk exporter](https://github.com/DerKnerd/apk-exporter)|
+| 9552 | [AWS Elastic Beanstalk Exporter](https://github.com/jeremietharaud/elasticbeanstalk-exporter)|
 | 9553 | [Apt exporter](https://github.com/DerKnerd/apt-exporter) WIP |
 | 9554 | [ACC Server Manager Exporter](https://github.com/grimsi/accservermanager-backend) WIP |
 | 9555 | [SONA exporter](https://wiki.onosproject.org/display/ONOS/SONA%3A+DC+Network+Virtualization)|
