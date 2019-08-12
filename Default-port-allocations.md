@@ -546,6 +546,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9626 | [hockeypuck](https://github.com/hockeypuck/hockeypuck) (WIP) @jetpackdanger |
 | 9627 | [Artifactory Exporter](https://github.com/mikejoh/artifactory-exporter) (WIP) |
 | 9628 | [AWS EMR Yarn Exporter](https://github.com/jeremietharaud/emr-yarn-exporter) |
+| 9629 | [Prometheus GitLab notifier](https://github.com/FUSAKLA/prometheus-gitlab-notifier) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
