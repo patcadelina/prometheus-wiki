@@ -550,6 +550,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9630 | [nftables exporter](https://github.com/Sheridan/nftables_exporter) |
 | 9631 | [A OP5 Monitor exporter](https://bitbucket.org/opsdis/monitor-exporter) |
 | 9632 | PerfSONAR Esmond Exporter (WIP) |
+| 9633 | [smartctl exporter](https://github.com/Sheridan/smartctl_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
