@@ -548,7 +548,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9628 | [AWS EMR Yarn Exporter](https://github.com/jeremietharaud/emr-yarn-exporter) |
 | 9629 | [Prometheus GitLab notifier](https://github.com/FUSAKLA/prometheus-gitlab-notifier) |
 | 9630 | [nftables exporter](https://github.com/Sheridan/nftables_exporter) |
-| 9631 | [A OP5 Monitor exporter](https://bitbucket.org/opsdis/monitor-exporter) |
+| 9631 | [A OP5 Monitor exporter](https://github.com/opsdis/monitor-exporter) |
 | 9632 | PerfSONAR Esmond Exporter (WIP) |
 | 9633 | [smartctl exporter](https://github.com/Sheridan/smartctl_exporter) |
 | 9634 | [Aerospike ttl exporter](https://github.com/Alb0t/aerospike-ttl-exporter) |
