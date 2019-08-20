@@ -553,6 +553,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9633 | [smartctl exporter](https://github.com/Sheridan/smartctl_exporter) |
 | 9634 | [Aerospike ttl exporter](https://github.com/Alb0t/aerospike-ttl-exporter) |
 | 9635 | [Fail2Ban Exporter](https://github.com/lfuelling/fail2ban-exporter) |
+| 9636 | FreeSWITCH Exporter (WIP) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
