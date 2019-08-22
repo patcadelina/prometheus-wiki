@@ -557,6 +557,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9637 | [KubeVersion Exporter](https://github.com/ricoberger/kubeversion-exporter)
 | 9638 | [A Icinga2 exporter](https://github.com/opsdis/icinga2-exporter) |
 | 9639 | Arcsys Requests Exporter (WIP) |
+| 9640 | [Logstash Output Exporter](https://github.com/SpencerMalone/logstash-output-prometheus) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
