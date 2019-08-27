@@ -559,6 +559,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9639 | Arcsys Requests Exporter (WIP) |
 | 9640 | [Logstash Output Exporter](https://github.com/SpencerMalone/logstash-output-prometheus) |
 | 9641 | NetApp Cloud Volumes Exporter (WIP) |
+| 9642 | [Bugsnag Exporter](https://github.com/ZeitOnline/bugsnag_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
