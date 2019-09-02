@@ -562,6 +562,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9642 | [Bugsnag Exporter](https://github.com/ZeitOnline/bugsnag_exporter) |
 | 9643 | [cuotos](https://github.com/cuotos) (WIP) |
 | 9644 | [Exporter for grouped process](https://github.com/k1LoW/grouped_process_exporter) |
+| 9645 | [Burp exporter](https://github.com/svalouch/burp_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
