@@ -564,6 +564,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9644 | [Exporter for grouped process](https://github.com/k1LoW/grouped_process_exporter) |
 | 9645 | [Burp exporter](https://github.com/svalouch/burp_exporter) |
 | 9646 | [Locust Exporter](https://github.com/ContainerSolutions/locust_exporter) |
+| 9647 | [Docker Exporter](https://github.com/shalb-docker/docker_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
