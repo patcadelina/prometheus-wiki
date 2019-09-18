@@ -566,7 +566,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9646 | [Locust Exporter](https://github.com/ContainerSolutions/locust_exporter) |
 | 9647 | [Docker Exporter](https://github.com/shalb-docker/docker_exporter) |
 | 9648 | [NTPmon exporter](http://github.com/paulgear/ntpmon) |
-| 9649 | [Logstash Exporter](https://github.com/Wing924/logstash-exporter) (WIP) |
+| 9649 | [Logstash Exporter](https://github.com/Wing924/logstash-exporter) |
 | 9650 | [Keepalived Exporter](https://github.com/gen2brain/keepalived_exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
