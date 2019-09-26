@@ -567,7 +567,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9648 | [NTPmon exporter](http://github.com/paulgear/ntpmon) |
 | 9649 | [Logstash Exporter](https://github.com/Wing924/logstash-exporter) |
 | 9650 | [Keepalived Exporter](https://github.com/gen2brain/keepalived_exporter) |
-| 9651 | Storj Exporter (WIP) |
+| 9651 | [Storj Exporter] (https://github.com/anclrii/Storj-Exporter) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
