@@ -568,6 +568,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9649 | [Logstash Exporter](https://github.com/Wing924/logstash-exporter) |
 | 9650 | [Keepalived Exporter](https://github.com/gen2brain/keepalived_exporter) |
 | 9651 | [Storj Exporter](https://github.com/anclrii/Storj-Exporter) |
+| 9651 | [Praefect Exporter](https://gitlab.com/gitlab-org/gitaly/tree/master/cmd/praefect) |
 
 Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the last entry.
 
