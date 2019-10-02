@@ -144,7 +144,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9225 | [mailexporter](https://github.com/cherti/mailexporter) |
 | 9226 | [allas](https://github.com/johto/allas) |
 | 9227 | [proc_exporter](https://github.com/arnarg/proc_exporter) |
-| 9228 | [supervisor_exporter](https://github.com/prometheus/supervisor_exporter) 404! |
+| 9228 | FREE |
 | 9229 | [gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse) |
 | 9230 | [Network UPS Tools exporter](https://github.com/dominikh/go-nut/tree/master/cmd/nut_exporter) |
 | 9231 | [Solr exporter](https://github.com/noony/prometheus-solr-exporter) |
@@ -209,7 +209,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9289 | [Lovoo's IPMI Exporter](https://github.com/lovoo/ipmi_exporter) (to be run on the IPMI host itself) |
 | 9290 | [SoundCloud's IPMI Exporter](https://github.com/soundcloud/ipmi_exporter) (querying IPMI externally, blackbox-exporter style) |
 | 9291 | [IBM Z HMC Exporter](https://github.com/zhmcclient/zhmc-prometheus-exporter) |
-| 9292 | [emqttd exporter (WIP)](https://github.com/ProdriveTechnologies/emqtt_exporter) |
+| 9292 | FREE |
 | 9293 | FREE |
 | 9294 | [MiFlora / Flower Care Exporter](https://github.com/xperimental/flowercare-exporter) |
 | 9295 | [Freifunk Exporter](https://github.com/xperimental/freifunk-exporter) |
@@ -328,7 +328,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9407 | [OBS Studio Exporter](https://github.com/lukegb/obs_studio_exporter) |
 | 9408 | [RDS Enhanced Monitoring Exporter](https://github.com/mtanda/rds_enhanced_monitoring_exporter) |
 | 9409 | FREE |
-| 9410 | [Vault Exporter](https://github.com/grapeshot/vault_exporter) |
+| 9410 | FREE |
 | 9411 | [SoftEther Exporter](https://github.com/dalance/softether_exporter) |
 | 9412 | [Sentry Exporter](https://github.com/snakecharmer/sentry_exporter) |
 | 9413 | [MogileFS Exporter](https://github.com/KKBOX/mogilefs-exporter) |
@@ -348,7 +348,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9427 | [Ping Exporter](https://github.com/czerwonk/ping_exporter) |
 | 9428 | [SSH Exporter](https://github.com/Nordstrom/ssh_exporter) |
 | 9429 | [Uptimerobot Exporter](https://github.com/wosc/prometheus-uptimerobot) |
-| 9430 | [OMRON UPS Exporter](https://github.com/ayunyan/omronups_exporter) |
+| 9430 | FREE |
 | 9431 | [Hpfeeds broker Exporter](https://github.com/Jc2k/hpfeeds3) |
 | 9432 | [Windows perflib exporter](https://github.com/leoluk/perflib_exporter) |
 | 9433 | [Knot exporter](https://github.com/ghedo/knot_exporter) |
@@ -427,7 +427,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9506 | [Jenkins exporter](https://github.com/promhippie/jenkins_exporter) |
 | 9507 | [ownCloud exporter](https://github.com/promhippie/owncloud_exporter) |
 | 9508 | [ccache exporter](https://github.com/virtualtam/ccache_exporter) |
-| 9509 | [Brocade Exporter](https://github.com/czerwonk/brocade_exporter) |
+| 9509 | FREE |
 | 9510 | [Dummy Exporter](https://github.com/kobtea/dummy_exporter) |
 | 9511 | [IIS Log Exporter](https://github.com/GrupaPracuj/iislog-prometheus-exporter/) |
 | 9512 | [Cloudera exporter](https://github.com/peterloeffler/cloudera_exporter) |
@@ -509,7 +509,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9587 | [nfs-ganesha exporter](https://github.com/Gandi/ganesha_exporter) |
 | 9588 | [ltsv-tailer exporter](https://github.com/hirose31/ltsv-tailer) |
 | 9589 | [goflow exporter](https://github.com/cloudflare/goflow) |
-| 9590 | [concourse-biplane WIP](https://github.com/Pix4D/concourse-biplane) |
+| 9590 | FREE |
 | 9591 | [SRCDS Exporter](https://github.com/991jo/srcds_exporter) |
 | 9592 | [GCP Quota Exporter](https://github.com/mintel/gcp-quota-exporter) |
 | 9593 | [Lighthouse Exporter](https://github.com/pkesc/prometheus_lighthouse_exporter) |
@@ -547,6 +547,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9625 | [Bareos Exporter](https://github.com/dreyau/bareos_exporter/) (WIP) |
 | 9626 | [hockeypuck](https://github.com/hockeypuck/hockeypuck) (WIP) @jetpackdanger |
 | 9627 | [Artifactory Exporter](https://github.com/mikejoh/artifactory-exporter) (WIP) |
+| 9628 | FREE |
 | 9629 | [Prometheus GitLab notifier](https://github.com/FUSAKLA/prometheus-gitlab-notifier) |
 | 9630 | [nftables exporter](https://github.com/Sheridan/nftables_exporter) |
 | 9631 | [A OP5 Monitor exporter](https://github.com/opsdis/monitor-exporter) |
@@ -604,4 +605,4 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | 24231 | [Fluent Plugin for Prometheus](https://github.com/kazegusuri/fluent-plugin-prometheus) |
 | 42004 | [ProxySQL exporter](https://github.com/percona/proxysql_exporter) |
 | 44323 | [PCP exporter](https://github.com/performancecopilot/pcp/blob/master/man/man3/pmwebapi.3) |
-| 61091 | [DCOS exporter](https://docs.mesosphere.com/latest/metrics/) |
+| 61091 | [DCOS exporter](https://docs.d2iq.com/mesosphere/dcos/1.13/metrics/) |
