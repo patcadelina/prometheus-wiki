@@ -74,7 +74,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9155 | ~~[vSphere Exporter](https://github.com/brandonweeks/vsphere_exporter) (archived)~~ <br> [vSphere Graphite](https://github.com/cblomart/vsphere-graphite)|
 | 9156 | [WebDriver Exporter](https://github.com/mattbostock/webdriver_exporter) |
 | 9157 | [IBM MQ exporter](https://github.com/ibm-messaging/mq-golang) |
-| 9158 | [Pingdom Exporter](https://github.com/strike-team/pingdom-exporter) |
+| 9158 | [Pingdom Exporter](https://github.com/strike-team/pingdom_exporter) |
 | 9159 | [Syslogstash](https://github.com/discourse/syslogstash) metrics |
 | 9160 | [Apache Flink Exporter](https://github.com/matsumana/flink_exporter) |
 | 9161 | [Oracle DB Exporter](https://github.com/iamseth/oracledb_exporter) |
