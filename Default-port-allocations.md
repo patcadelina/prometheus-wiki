@@ -487,7 +487,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9565 | [Bminer exporter](https://github.com/hashrabbit/prometheus-bminer-exporter) |
 | 9566 | [RabbitMQ CLI Consumer](https://github.com/corvus-ch/rabbitmq-cli-consumer) |
 | 9567 | [Alertsnitch](https://gitlab.com/yakshaving.art/alertsnitch) |
-| 9568 | [Dell PowerEdge IPMI exporter](https://github.com/CaptainVascular/poweredge_exporter) |
+| 9568 | [Dell PowerEdge IPMI exporter](https://github.com/CaptainVascular/poweredge_exporter) (WIP) |
 | 9569 | "FREE" |
 | 9570 | [VPA Exporter](https://github.com/gardener/vpa-exporter) |
 | 9571 | [Helm Exporter](https://github.com/sstarcher/helm-exporter) |
