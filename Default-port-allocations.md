@@ -348,7 +348,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9427 | [Ping Exporter](https://github.com/czerwonk/ping_exporter) |
 | 9428 | [SSH Exporter](https://github.com/Nordstrom/ssh_exporter) |
 | 9429 | [Uptimerobot Exporter](https://github.com/wosc/prometheus-uptimerobot) |
-| 9430 | [am2320 exporter](https://github.com/yudaishimanaka/am2320_exporter) |
+| 9430 | "FREE" |
 | 9431 | [Hpfeeds broker Exporter](https://github.com/Jc2k/hpfeeds3) |
 | 9432 | [Windows perflib exporter](https://github.com/leoluk/perflib_exporter) |
 | 9433 | [Knot exporter](https://github.com/ghedo/knot_exporter) |
