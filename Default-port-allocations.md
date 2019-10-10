@@ -100,7 +100,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9181 | [Openstack Ceilometer exporter](https://github.com/carlpett/openstack-ceilometer_exporter) |
 | 9182 | [WMI exporter](https://github.com/martinlindhe/wmi_exporter/) |
 | 9183 | [Openstack exporter](https://github.com/CanonicalLtd/prometheus-openstack-exporter) (WIP) |
-| 9184 | "FREE" |
+| 9184 | [Twitch exporter](https://github.com/damoun/twitch_exporter) |
 | 9185 | [Kafka topic exporter](https://github.com/ogibayashi/kafka-topic-exporter) |
 | 9186 | [Cloud Foundry Firehose exporter](https://github.com/bosh-prometheus/firehose_exporter) |
 | 9187 | [PostgreSQL exporter](https://github.com/wrouesnel/postgres_exporter) |
