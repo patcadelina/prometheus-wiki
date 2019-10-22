@@ -105,7 +105,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9186 | [Cloud Foundry Firehose exporter](https://github.com/bosh-prometheus/firehose_exporter) |
 | 9187 | [PostgreSQL exporter](https://github.com/wrouesnel/postgres_exporter) |
 | 9188 | [Crypto exporter](https://github.com/ix-ai/crypto-exporter) |
-| 9189 | "FREE" |
+| 9189 | [Hetzner Cloud CSI Driver](https://github.com/hetznercloud/csi-driver) |
 | 9190 | [BOSH exporter](https://github.com/bosh-prometheus/bosh_exporter) |
 | 9191 | [netflow exporter](https://github.com/paihu/netflow_exporter) |
 | 9192 | [ceph_exporter](https://github.com/jcollie/ceph_exporter) |
