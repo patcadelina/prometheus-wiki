@@ -327,8 +327,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9406 | [HHVM Exporter](https://github.com/wikimedia/operations-software-hhvm_exporter) |
 | 9407 | [OBS Studio Exporter](https://github.com/lukegb/obs_studio_exporter) |
 | 9408 | [RDS Enhanced Monitoring Exporter](https://github.com/mtanda/rds_enhanced_monitoring_exporter) |
-| 9409 | "FREE" |
-| 9410 | "FREE" |
+| 9409 | [ovn-kubernetes Master Exporter](https://github.com/ovn-org/ovn-kubernetes) |
+| 9410 | [ovn-kubernetes Node Exporter](https://github.com/ovn-org/ovn-kubernetes) |
 | 9411 | [SoftEther Exporter](https://github.com/dalance/softether_exporter) |
 | 9412 | [Sentry Exporter](https://github.com/snakecharmer/sentry_exporter) |
 | 9413 | [MogileFS Exporter](https://github.com/KKBOX/mogilefs-exporter) |
@@ -394,7 +394,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9473 | [stellar-core-exporter](https://github.com/stellar/packages/blob/master/stellar-core-prometheus-exporter/stellar-core-prometheus-exporter.py) |
 | 9474 | "FREE" |
 | 9475 | [wgipamd](https://github.com/mdlayher/wgipam) |
-| 9476 | [Open Virtual Network (OVN) exporter] |
+| 9476 | [Open Virtual Network (OVN) exporter |
 | 9477 | Rubrik Backup Exporter (coming soon) |
 | 9478 | [Sentinel exporter](https://github.com/sportradar/sentinel-exporter) |
 | 9479 | [Elasticbeat exporter](https://github.com/trustpilot/beat-exporter)  (filebeat, metricbeat, packetbeat, etc...)  |
