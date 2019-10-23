@@ -394,7 +394,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9473 | [stellar-core-exporter](https://github.com/stellar/packages/blob/master/stellar-core-prometheus-exporter/stellar-core-prometheus-exporter.py) |
 | 9474 | "FREE" |
 | 9475 | [wgipamd](https://github.com/mdlayher/wgipam) |
-| 9476 | [Open Virtual Network (OVN) exporter |
+| 9476 | [Open Virtual Network (OVN) exporter] |
 | 9477 | Rubrik Backup Exporter (coming soon) |
 | 9478 | [Sentinel exporter](https://github.com/sportradar/sentinel-exporter) |
 | 9479 | [Elasticbeat exporter](https://github.com/trustpilot/beat-exporter)  (filebeat, metricbeat, packetbeat, etc...)  |
