@@ -509,7 +509,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9587 | [nfs-ganesha exporter](https://github.com/Gandi/ganesha_exporter) |
 | 9588 | [ltsv-tailer exporter](https://github.com/hirose31/ltsv-tailer) |
 | 9589 | [goflow exporter](https://github.com/cloudflare/goflow) |
-| 9590 | "FREE" |
+| 9590 | [Flow Exporter](https://github.com/neptune-networks/flow-exporter) |
 | 9591 | [SRCDS Exporter](https://github.com/991jo/srcds_exporter) |
 | 9592 | [GCP Quota Exporter](https://github.com/mintel/gcp-quota-exporter) |
 | 9593 | [Lighthouse Exporter](https://github.com/pkesc/prometheus_lighthouse_exporter) |
