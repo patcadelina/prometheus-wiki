@@ -514,7 +514,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9592 | [GCP Quota Exporter](https://github.com/mintel/gcp-quota-exporter) |
 | 9593 | [Lighthouse Exporter](https://github.com/pkesc/prometheus_lighthouse_exporter) |
 | 9594 | [Plex Exporter](https://github.com/arnarg/plex_exporter) (WIP) |
-| 9595 | "FREE" |
+| 9595 | [Netio Exporter](https://github.com/tomsajan/netio-exporter) WIP  |
 | 9596 | [Azure Elastic SQL Exporter](https://github.com/benclapp/azure_elastic_sql_exporter) |
 | 9597 | [GitHub Vulnerability Alerts Exporter](https://github.com/ZeitOnline/github_vulnerability_exporter) |
 | 9598 | [Vector Logs & Metrics Router Exporter](https://github.com/timberio/vector) |
@@ -573,7 +573,6 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9651 | [Storj Exporter](https://github.com/anclrii/Storj-Exporter) |
 | 9652 | [Praefect Exporter](https://gitlab.com/gitlab-org/gitaly/tree/master/cmd/praefect) |
 | 9653 | [Jira Issues Exporter](https://github.com/ZeitOnline/jira_exporter) |
-| 9654 | [Netio Exporter](https://github.com/tomsajan/netio-exporter) WIP |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
