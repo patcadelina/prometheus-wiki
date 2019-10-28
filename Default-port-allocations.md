@@ -413,7 +413,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9492 | [Azure Exporter (Monitor and Usage)](https://gitlab.com/gavinkflam/azure-exporter) (WIP) |
 | 9493 | [ProSAFE Exporter](https://github.com/dalance/prosafe_exporter) |
 | 9494 | [Kamailio Exporter](https://github.com/florentchauveau/kamailio_exporter) |
-| 9495 | "FREE" |
+| 9495 | [Ingestor Exporter](https://github.com/bosh-prometheus/ingestor_exporter) |
 | 9496 | [389ds/IPA Exporter](https://github.com/terrycain/389ds_exporter) |
 | 9497 | "FREE" |
 | 9498 | [tp-link HS110 exporter](https://github.com/misach/hs110-exporter.git) (WIP) |
