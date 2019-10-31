@@ -125,7 +125,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9206 | [Elasticsearch exporter](https://github.com/braedon/prometheus-es-exporter) (queries and cluster metrics) |
 | 9207 | [MySQL exporter](https://github.com/braedon/prometheus-mysql-exporter) (queries) |
 | 9208 | [Kafka Consumer Group exporter](https://github.com/braedon/prometheus-kafka-consumer-group-exporter) |
-| 9209 | "FREE" |
+| 9209 | [FastNetMon Advanced exporter](https://fastnetmon.com/docs-fnm-advanced/)|
 | 9210 | [Netatmo exporter](https://github.com/xperimental/netatmo-exporter) |
 | 9211 | rbl_exporter by [@Luzilla](https://github.com/Luzilla) (WIP) |
 | 9212 | [DigitalOcean Exporter](https://github.com/metalmatze/digitalocean_exporter) |
