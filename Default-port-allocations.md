@@ -134,7 +134,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9215 | [Prometheus Graphite Bridge](https://github.com/stuart-c/prometheus-graphite-bridge) |
 | 9216 | [MongoDB Exporter](https://github.com/percona/mongodb_exporter) |
 | 9217 | [Consul agent exporter](https://github.com/BonnierNews/consul-agent_exporter) |
-| 9218 | FREE  |
+| 9218 | [promql-guard](https://github.com/kfdm/promql-guard) |
 | 9219 | [SSL Certificate exporter](https://github.com/ribbybibby/ssl_exporter) |
 | 9220 | "FREE" |
 | 9221 | [Proxmox VE Exporter](https://github.com/znerol/prometheus-pve-exporter) |
