@@ -127,7 +127,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9208 | [Kafka Consumer Group exporter](https://github.com/braedon/prometheus-kafka-consumer-group-exporter) |
 | 9209 | [FastNetMon Advanced exporter](https://fastnetmon.com/docs-fnm-advanced/)|
 | 9210 | [Netatmo exporter](https://github.com/xperimental/netatmo-exporter) |
-| 9211 | rbl_exporter by [@Luzilla](https://github.com/Luzilla) (WIP) |
+| 9211 | [dnsbl-exporter](https://github.com/Luzilla/dnsbl_exporter/) |
 | 9212 | [DigitalOcean Exporter](https://github.com/metalmatze/digitalocean_exporter) |
 | 9213 | [Custom Exporter](https://github.com/orange-cloudfoundry/custom_exporter) |
 | 9214 | [MQTT Blackbox Exporter](https://github.com/inovex/mqtt_blackbox_exporter) |
