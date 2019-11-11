@@ -250,7 +250,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9330 | [OpenLDAP Metrics Exporter](https://github.com/tomcz/openldap_exporter) |
 | 9331 | [influx-spout Prometheus Metrics](https://github.com/jumptrading/influx-spout/) |
 | 9332 | [Network Exporter](https://github.com/Selfnet/prometheus-network-exporter) |
-| 9333 | "FREE" |
+| 9333 | [Vault PKI Exporter](https://github.com/aarnaud/vault-pki-exporter) |
 | 9334 | [Ejabberd exporter (WIP)](https://github.com/greizgh/ejabberd_exporter) |
 | 9335 | [nexsan exporter](https://github.com/yrro/nexsan-exporter)  |
 | 9336 | [Mediacom Internet Usage Exporter](https://github.com/jcollie/mediacom-internet-usage-exporter) |
