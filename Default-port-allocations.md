@@ -257,7 +257,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9337 | [mqttgateway](https://github.com/inuits/mqttgateway) |
 | 9338 | "FREE" |
 | 9339 | [AWS S3 Exporter](https://github.com/ribbybibby/s3_exporter) |
-| 9340 | [Quotes Exporter](https://github.com/marcopaganini/quotes-exporter) |
+| 9340 | [(Financial) Quotes Exporter](https://github.com/marcopaganini/quotes-exporter) |
 | 9341 | [slurm exporter](https://github.com/vpenso/prometheus-slurm-exporter) |
 | 9342 | [FRR Exporter](https://github.com/tynany/frr_exporter) |
 | 9343 | [GridServer Exporter](https://github.com/mhale/gridserver-exporter) |
