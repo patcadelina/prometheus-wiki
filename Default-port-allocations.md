@@ -164,7 +164,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9245 | [Naemon / Nagios Exporter](https://github.com/Griesbacher/Iapetos) |
 | 9246 | [SmartPi](https://github.com/nDenerserve/SmartPi) |
 | 9247 | [Sphinx Exporter](https://github.com/foxdalas/sphinx_exporter) |
-| 9248 | "FREE" |
+| 9248 | [FreeBSD gstat Exporter](https://github.com/tykling/gstat_exporter) |
 | 9249 | [Apache Flink Metrics Reporter](https://ci.apache.org/projects/flink/flink-docs-master/monitoring/metrics.html#prometheus-orgapacheflinkmetricsprometheusprometheusreporter) |
 | 9250 | [OpenTSDB Exporter](https://github.com/cloudflare/opentsdb_exporter) |
 | 9251 | [Sensu Exporter](https://github.com/reachlin/sensu_exporter) |
