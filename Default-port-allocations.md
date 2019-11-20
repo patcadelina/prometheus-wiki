@@ -224,7 +224,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9304 | [Logstash Exporter](https://gitlab.com/alxrem/prometheus-logstash-exporter/) |
 | 9305 | [go-ethereum Exporter](https://gitlab.com/tlex/geth-exporter/) |
 | 9306 | [Kyototycoon Exporter](https://github.com/kanga333/kyototycoon_exporter/) |
-| 9307 | "FREE" |
+| 9307 | [Audisto exporter](https://github.com/ZeitOnline/audisto_exporter) |
 | 9308 | [Kafka Exporter](https://github.com/danielqsj/kafka_exporter/) |
 | 9309 | [Fluentd Exporter](https://github.com/V3ckt0r/fluentd_exporter) |
 | 9310 | [Open vSwitch Exporter](https://github.com/digitalocean/openvswitch_exporter) |
