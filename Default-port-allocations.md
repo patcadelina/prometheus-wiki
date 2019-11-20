@@ -573,6 +573,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9651 | [Storj Exporter](https://github.com/anclrii/Storj-Exporter) |
 | 9652 | [Praefect Exporter](https://gitlab.com/gitlab-org/gitaly/tree/master/cmd/praefect) |
 | 9653 | [Jira Issues Exporter](https://github.com/ZeitOnline/jira_exporter) |
+| 9654 | [Gdnsd Exporter](WIP) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
