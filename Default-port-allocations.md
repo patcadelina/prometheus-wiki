@@ -175,7 +175,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9256 | [td-agent exporter](https://github.com/matsumana/td-agent_exporter) |
 | 9257 | [S.M.A.R.T. exporter](https://github.com/cloudandheat/prometheus_smart_exporter) |
 | 9258 | [Hello Sense Exporter](https://github.com/xperimental/hello-exporter) |
-| 9259 | "FREE" |
+| 9259 | [Azure Resources Exporter](https://github.com/FXinnovation/azure-resources-exporter) |
 | 9260 | [Buildkite Exporter](https://github.com/smithamax/buildkite_exporter) |
 | 9261 | [Grafana exporter](https://github.com/frodenas/grafana_exporter) |
 | 9262 | [Bloomsky exporter](https://github.com/krazylek/bloomsky-prometheus-exporter) |
