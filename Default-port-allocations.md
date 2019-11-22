@@ -105,7 +105,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9186 | [Cloud Foundry Firehose exporter](https://github.com/bosh-prometheus/firehose_exporter) |
 | 9187 | [PostgreSQL exporter](https://github.com/wrouesnel/postgres_exporter) |
 | 9188 | [Crypto exporter](https://github.com/ix-ai/crypto-exporter) |
-| 9189 | [Hetzner Cloud CSI Driver](https://github.com/hetznercloud/csi-driver) |
+| 9189 | [Hetzner Cloud CSI Driver (Nodes)](https://github.com/hetznercloud/csi-driver) |
 | 9190 | [BOSH exporter](https://github.com/bosh-prometheus/bosh_exporter) |
 | 9191 | [netflow exporter](https://github.com/paihu/netflow_exporter) |
 | 9192 | [ceph_exporter](https://github.com/jcollie/ceph_exporter) |
@@ -383,7 +383,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9462 | [PHP OPcache Exporter](https://github.com/czhujer/php_opcache_exporter) (WIP) |
 | 9463 | [Virgin Media/Liberty Global Hub3 Exporter](https://github.com/welbymcroberts/hub3_exporter) [WIP] |
 | 9464 | [Opencensus-nodejs Prometheus Exporter](https://github.com/census-instrumentation/opencensus-node/) (WIP) |
-| 9465 | "FREE" |
+| 9465 | [Hetzner Cloud CSI Driver (Controller)](https://github.com/hetznercloud/csi-driver) |
 | 9466 | [MQTT push gateway](https://github.com/Svedrin/mqtt-pushgateway) |
 | 9467 | [nginx-prometheus-shiny-exporter](https://github.com/serge-name/nginx-prometheus-shiny-exporter) |
 | 9468 | [nasa-swpc-exporter](https://github.com/cznewt/nasa-swpc-exporter) |
