@@ -399,7 +399,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9478 | [Sentinel exporter](https://github.com/sportradar/sentinel-exporter) |
 | 9479 | [Elasticbeat exporter](https://github.com/trustpilot/beat-exporter)  (filebeat, metricbeat, packetbeat, etc...)  |
 | 9480 | [Brigade exporter](https://github.com/slok/brigade-exporter) |
-| 9481 | "FREE" |
+| 9481 | [DRBD9 exporter](https://github.com/monzo/drbd9_exporter/) |
 | 9482 | [Vector Packet Process (VPP) exporter](https://github.com/FDio/vpp/blob/master/src/vpp/app/vpp_prometheus_export.c) |
 | 9483 | [IBM App Connect Enterprise exporter](https://github.com/ot4i/ace-docker) |
 | 9484 | [kubedex-exporter](https://github.com/Kubedex/exporter) |
