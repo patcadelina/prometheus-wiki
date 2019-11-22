@@ -383,14 +383,14 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9462 | [PHP OPcache Exporter](https://github.com/czhujer/php_opcache_exporter) (WIP) |
 | 9463 | [Virgin Media/Liberty Global Hub3 Exporter](https://github.com/welbymcroberts/hub3_exporter) [WIP] |
 | 9464 | [Opencensus-nodejs Prometheus Exporter](https://github.com/census-instrumentation/opencensus-node/) (WIP) |
-| 9465 | [Hetzner Cloud CSI Driver (Controller)](https://github.com/hetznercloud/csi-driver) |
+| 9465 | [Hetzner Cloud k8s Cloud Controller Manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) |
 | 9466 | [MQTT push gateway](https://github.com/Svedrin/mqtt-pushgateway) |
 | 9467 | [nginx-prometheus-shiny-exporter](https://github.com/serge-name/nginx-prometheus-shiny-exporter) |
 | 9468 | [nasa-swpc-exporter](https://github.com/cznewt/nasa-swpc-exporter) |
 | 9469 | [script_exporter](https://github.com/ricoberger/script_exporter) |
 | 9470 | [cachet_exporter](https://github.com/ContaAzul/cachet_exporter) |
 | 9471 | [lxc-exporter](https://github.com/czhujer/lxc-exporter) |
-| 9472 | "FREE" |
+| 9472 | [Hetzner Cloud CSI Driver (Controller)](https://github.com/hetznercloud/csi-driver) |
 | 9473 | [stellar-core-exporter](https://github.com/stellar/packages/blob/master/stellar-core-prometheus-exporter/stellar-core-prometheus-exporter.py) |
 | 9474 | "FREE" |
 | 9475 | [wgipamd](https://github.com/mdlayher/wgipam) |
