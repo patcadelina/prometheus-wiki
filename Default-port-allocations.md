@@ -210,7 +210,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9290 | [SoundCloud's IPMI Exporter](https://github.com/soundcloud/ipmi_exporter) (querying IPMI externally, blackbox-exporter style) |
 | 9291 | [IBM Z HMC Exporter](https://github.com/zhmcclient/zhmc-prometheus-exporter) |
 | 9292 | [Netapp ONTAP API Exporter](https://github.com/sapcc/netapp-api-exporter) |
-| 9293 | "FREE" |
+| 9293 | [Connection Status Exporter](https://github.com/daviddetorres/connection-status-exporter) |
 | 9294 | [MiFlora / Flower Care Exporter](https://github.com/xperimental/flowercare-exporter) |
 | 9295 | [Freifunk Exporter](https://github.com/xperimental/freifunk-exporter) |
 | 9296 | [ODBC Exporter](https://github.com/MACHBASE/prometheus-odbc-exporter) |
