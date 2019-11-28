@@ -568,7 +568,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9646 | [Locust Exporter](https://github.com/ContainerSolutions/locust_exporter) |
 | 9647 | [Docker Exporter](https://github.com/shalb-docker/docker_exporter) |
 | 9648 | [NTPmon exporter](http://github.com/paulgear/ntpmon) |
-| 9649 | [Logstash Exporter](https://github.com/Wing924/logstash-exporter) |
+| 9649 | [Logstash Exporter](https://github.com/Wing924/logstash-exporter) <br> [Logstash Pipeline Exporter](https://github.com/piequi/prometheus-logstash-pipeline-exporter)|
 | 9650 | [Keepalived Exporter](https://github.com/gen2brain/keepalived_exporter) |
 | 9651 | [Storj Exporter](https://github.com/anclrii/Storj-Exporter) |
 | 9652 | [Praefect Exporter](https://gitlab.com/gitlab-org/gitaly/tree/master/cmd/praefect) |
