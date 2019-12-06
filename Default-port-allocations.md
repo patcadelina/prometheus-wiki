@@ -255,7 +255,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9335 | [nexsan exporter](https://github.com/yrro/nexsan-exporter)  |
 | 9336 | [Mediacom Internet Usage Exporter](https://github.com/jcollie/mediacom-internet-usage-exporter) |
 | 9337 | [mqttgateway](https://github.com/inuits/mqttgateway) |
-| 9338 | "FREE" |
+| 9338 | [cAdvisor (Container Advisor) alternate port](https://github.com/google/cadvisor) |
 | 9339 | [AWS S3 Exporter](https://github.com/ribbybibby/s3_exporter) |
 | 9340 | [(Financial) Quotes Exporter](https://github.com/marcopaganini/quotes-exporter) |
 | 9341 | [slurm exporter](https://github.com/vpenso/prometheus-slurm-exporter) |
