@@ -415,7 +415,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9494 | [Kamailio Exporter](https://github.com/florentchauveau/kamailio_exporter) |
 | 9495 | [Ingestor Exporter](https://github.com/bosh-prometheus/ingestor_exporter) |
 | 9496 | [389ds/IPA Exporter](https://github.com/terrycain/389ds_exporter) |
-| 9497 | "FREE" |
+| 9497 | [ImmuDB exporter](https://github.com/codenotary/immudb) (WIP) |
 | 9498 | [tp-link HS110 exporter](https://github.com/misach/hs110-exporter.git) (WIP) |
 | 9499 | [Smartthings exporter](https://github.com/kadaan/smartthings_exporter) |
 | 9500 | [Cassandra exporter](https://github.com/zegelin/cassandra-exporter) |
