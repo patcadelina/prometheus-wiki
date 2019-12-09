@@ -268,7 +268,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9348 | [BigQuery Exporter](https://github.com/m-lab/prometheus-bigquery-exporter) |
 | 9349 | [Configurable Elasticsearch query exporter](https://github.com/croesnick/promesque) |
 | 9350 | [ThousandEyes Exporter](https://github.com/sapcc/1000eyes_exporter) |
-| 9351 | "FREE" |
+| 9351 | [Wal-e|g exporter](https://github.com/camptocamp/wal-g-prometheus-exporter) |
 | 9352 | [Nature Remo Exporter](https://github.com/kenfdev/remo-exporter) |
 | 9353 | "FREE" |
 | 9354 | [Deluge Exporter](https://github.com/tobbez/deluge_exporter) |
