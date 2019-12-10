@@ -310,7 +310,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9389 | [Scylla-Cluster-Tests Exporter](https://github.com/scylladb/scylla-cluster-tests/) |
 | 9390 | [Kannel Exporter](https://github.com/apostvav/kannel_exporter) |
 | 9391 | [Concourse Prometheus Metrics](https://concourse.ci/metrics.html) |
-| 9392 | "FREE" |
+| 9392 | [Generic Command Line Output Exporter](https://github.com/MarioMartReq/generic-exporter) |
 | 9393 | [Arris exporter](https://github.com/mdlayher/arris_exporter) |
 | 9394 | [Ruby Prometheus Exporter](https://github.com/discourse/prometheus_exporter) |
 | 9395 | [LDAP Exporter](https://github.com/titisan/ldap_exporter) |
