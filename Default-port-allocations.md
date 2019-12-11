@@ -270,7 +270,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9350 | [ThousandEyes Exporter](https://github.com/sapcc/1000eyes_exporter) |
 | 9351 | [Wal-e/wal-g exporter](https://github.com/camptocamp/wal-g-prometheus-exporter) |
 | 9352 | [Nature Remo Exporter](https://github.com/kenfdev/remo-exporter) |
-| 9353 | "FREE" |
+| 9353 | [Ceph Exporter](https://github.com/vinted/ceph-exporter) |
 | 9354 | [Deluge Exporter](https://github.com/tobbez/deluge_exporter) |
 | 9355 | "FREE" |
 | 9356 | [Pacemaker Exporter](https://github.com/mjtrangoni/pacemaker_exporter) (WIP) |
