@@ -599,6 +599,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | 9547 | [Kea Exporter](https://github.com/mweinelt/kea-exporter) |
 | 9665 | [Juniper Junos Exporter](https://github.com/lampwins/junos_exporter) |
 | 9980 | [Login Exporter](https://github.com/uniwue-rz/login_exporter)|
+| 9943 | [FileStat Exporter](https://github.com/michael-doubez/filestat_exporter) |
 | 9983 | [Sia Exporter](https://github.com/tbenz9/sia_exporter)|
 | 9984 | [CouchDB exporter](https://github.com/gesellix/couchdb-exporter) |
 | 9987 | Marvin Exporter (WIP) |
