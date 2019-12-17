@@ -292,7 +292,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9372 | [AppMetrics/Prometheus](https://github.com/AppMetrics/AppMetrics) |
 | 9373 | [GCP Service Discovery](https://github.com/m-lab/gcp-service-discovery) |
 | 9374 | ["Smokeping" prober"](https://github.com/SuperQ/smokeping_exporter) |
-| 9375 | "FREE" |
+| 9375 | [Particle Exporter](https://github.com/DazWilkin/particle-exporter) (WIP) |
 | 9376 | [Falco](https://github.com/falcosecurity/falco) |
 | 9377 | [Cisco ACI Exporter](https://github.com/RavuAlHemio/prometheus_aci_exporter) |
 | 9378 | [etcd gRPC Proxy Exporter](https://github.com/coreos/etcd) |
