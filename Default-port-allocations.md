@@ -306,7 +306,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9386 | [httpd-exporter](https://github.com/technicalguru/httpd-exporter) |
 | 9386 | [Tankerkönig API Exporter](https://github.com/lukasmalkmus/tankerkoenig_exporter) |
 | 9387 | [SABnzbd Exporter](https://github.com/msroest/sabnzbd_exporter) |
-| 9388 | "FREE" |
+| 9388 | [Linode Exporter](https://github.com/DazWilkin/linode-exporter) (WIP) |
 | 9389 | [Scylla-Cluster-Tests Exporter](https://github.com/scylladb/scylla-cluster-tests/) |
 | 9390 | [Kannel Exporter](https://github.com/apostvav/kannel_exporter) |
 | 9391 | [Concourse Prometheus Metrics](https://concourse.ci/metrics.html) |
