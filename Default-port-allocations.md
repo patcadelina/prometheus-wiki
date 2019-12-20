@@ -272,7 +272,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9352 | [Nature Remo Exporter](https://github.com/kenfdev/remo-exporter) |
 | 9353 | [Ceph Exporter](https://github.com/vinted/ceph-exporter) |
 | 9354 | [Deluge Exporter](https://github.com/tobbez/deluge_exporter) |
-| 9355 | "FREE" |
+| 9355 | [Nightwatch.js Exporter](https://github.com/nmcclain/nightwatchjs_exporter) |
 | 9356 | [Pacemaker Exporter](https://github.com/mjtrangoni/pacemaker_exporter) (WIP) |
 | 9357 | [P1 Exporter](https://github.com/rgruyters/prometheus-p1-exporter) (WIP) |
 | 9358 | [Performance Counters Exporter](https://github.com/rgl/PerformanceCountersExporter) (WIP) |
