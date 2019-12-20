@@ -320,7 +320,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9399 | [Prometheus SQL Exporter](https://github.com/free/sql_exporter) |
 | 9400 | [RIPE Atlas Exporter](https://github.com/czerwonk/atlas_exporter) |
 | 9401 | [1-Wire Exporter](https://github.com/bugroger/onewire-exporter) |
-| 9402 | "FREE" |
+| 9402 | [Google Cloud Platform Exporter](https://github.com/DazWilkin/gcp-exporter) (WIP) |
 | 9403 | [Zerto Exporter](https://github.com/claranet/zerto-exporter) |
 | 9404 | [JMX Exporter](https://github.com/prometheus/jmx_exporter) |
 | 9405 | [Discourse Exporter](https://github.com/discourse/discourse-prometheus) |
