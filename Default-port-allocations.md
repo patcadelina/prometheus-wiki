@@ -280,7 +280,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9360 | [PowerShell Exporter](https://github.com/rgl/PowerShellExporter) (WIP) |
 | 9361 | [Scaleway SD Exporter](https://github.com/scaleway/prometheus-scw-sd) |
 | 9362 | [Cisco Exporter](https://github.com/lwlcom/cisco_exporter) |
-| 9363 | "FREE" |
+| 9363 | [ClickHouse](https://github.com/ClickHouse/ClickHouse) |
 | 9364 | [Continent8 Exporter](https://github.com/shift/continent8_exporter) |
 | 9365 | [Cumulus Linux Exporter](https://github.com/tynany/cumulus_exporter) |
 | 9366 | [HAProxy Stick Table Exporter](https://github.com/sportradar/HAProxy-stick-tables-exporter) |
