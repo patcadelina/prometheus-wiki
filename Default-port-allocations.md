@@ -17,7 +17,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | Port | Exporter |
 | ---- | -------- |
 | 9100 | [Node exporter](http://github.com/prometheus/node_exporter) |
-| 9101 | [HAProxy exporter](http://github.com/prometheus/haproxy_exporter) |
+| 9101 | [HAProxy exporter](http://github.com/prometheus/haproxy_exporter) (v2 has [native](https://github.com/prometheus/haproxy_exporter#official-prometheus-exporter) support) |
 | 9102 | [StatsD exporter](http://github.com/prometheus/statsd_exporter): Metrics |
 | 9103 | [Collectd exporter](http://github.com/prometheus/collectd_exporter) |
 | 9104 | [MySQLd exporter](http://github.com/prometheus/mysqld_exporter) |
@@ -589,6 +589,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | 8088 | [Fawkes](https://www.fawkesrobotics.org) |
 | 8089 | [prom2teams](https://github.com/idealista/prom2teams) |
 | 8292 | [Phabricator webhook for Alertmanager](https://github.com/knyar/phalerts) |
+| 8404 | [HA Proxy (v2+)](https://www.haproxy.com/blog/haproxy-exposes-a-prometheus-metrics-endpoint/) |
 | 9087 | [Telegram bot for Alertmanager](https://github.com/inCaller/prometheus_bot) |
 | 9097 | [JIRAlert](https://github.com/alin-sinpalean/jiralert) |
 | 9098 | Alert2Log |
