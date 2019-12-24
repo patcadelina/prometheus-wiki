@@ -392,7 +392,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9471 | [lxc-exporter](https://github.com/czhujer/lxc-exporter) |
 | 9472 | [Hetzner Cloud CSI Driver (Controller)](https://github.com/hetznercloud/csi-driver) |
 | 9473 | [stellar-core-exporter](https://github.com/stellar/packages/blob/master/stellar-core-prometheus-exporter/stellar-core-prometheus-exporter.py) |
-| 9474 | "FREE" |
+| 9474 | [libvirtd_exporter](https://github.com/vexxhost/libvirtd_exporter) |
 | 9475 | [wgipamd](https://github.com/mdlayher/wgipam) |
 | 9476 | [Open Virtual Network (OVN) exporter |
 | 9477 | Rubrik Backup Exporter (coming soon) |
