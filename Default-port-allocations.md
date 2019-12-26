@@ -283,8 +283,9 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9363 | [ClickHouse](https://github.com/ClickHouse/ClickHouse) |
 | 9364 | [Continent8 Exporter](https://github.com/shift/continent8_exporter) |
 | 9365 | [Cumulus Linux Exporter](https://github.com/tynany/cumulus_exporter) |
-| 9366 | [HAProxy Stick Table Exporter](https://github.com/sportradar/HAProxy-stick-tables-exporter) |
-| 9367 | "FREE" |
+| 9366 | [HAProxy Stick Table Expo
+rter](https://github.com/sportradar/HAProxy-stick-tables-exporter) |
+| 9367 | [teamspeak3_exporter](https://gitea.lubiland.de/lub/teamspeak3_exporter) (WIP) |
 | 9368 | [Ethereum Client Exporter](https://github.com/31z4/ethereum-prometheus-exporter) |
 | 9369 | [Prometheus PushProx](https://github.com/RobustPerception/PushProx) (WIP) |
 | 9370 | [u-bmc](https://github.com/u-root/u-bmc) |
