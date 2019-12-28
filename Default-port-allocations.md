@@ -312,6 +312,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9391 | [Concourse Prometheus Metrics](https://concourse.ci/metrics.html) |
 | 9392 | [Generic Command Line Output Exporter](https://github.com/MarioMartReq/generic-exporter) |
 | 9393 | [Arris exporter](https://github.com/mdlayher/arris_exporter) |
+| 9393 | [Alertmanager Github Webhook Receiver](https://github.com/m-lab/alertmanager-github-receiver) |
 | 9394 | [Ruby Prometheus Exporter](https://github.com/discourse/prometheus_exporter) |
 | 9395 | [LDAP Exporter](https://github.com/titisan/ldap_exporter) |
 | 9396 | [Monerod Exporter](https://github.com/ExcitableAardvark/monerod_exporter) |
@@ -594,7 +595,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | 9097 | [JIRAlert](https://github.com/alin-sinpalean/jiralert) |
 | 9098 | Alert2Log |
 | 9099 | [SNMP Trapper](https://github.com/chrusty/prometheus_webhook_snmptrapper) |
-| 9393 | [Alertmanager Github Webhook Receiver](https://github.com/m-lab/alertmanager-github-receiver) |
+| 9100 <br/> 9... | **_see standard port range above!_** |
 | 9876 | Sachet |
 | 9913 | [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter) |
 | 9547 | [Kea Exporter](https://github.com/mweinelt/kea-exporter) |
