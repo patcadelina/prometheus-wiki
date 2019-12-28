@@ -438,7 +438,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9517 | [Matroschka Prober](https://github.com/exaring/matroschka-prober) |
 | 9518 | [Crypto Stock Exchange's Funds Exporter](https://github.com/a0s/crypto-funds-exporter) |
 | 9519 | [Acurite Exporter](https://github.com/kadaan/acurite_exporter) |
-| 9520 | "FREE" |
+| 9520 | [Swift Health Exporter](https://github.com/sapcc/swift-health-exporter) (WIP) |
 | 9521 | [Ruuvi exporter](https://github.com/joneskoo/ruuvi-prometheus) |
 | 9522 | [TFTP Exporter](https://github.com/adobe/prometheus_tftp_exporter) |
 | 9523 | 3CX Exporter (https://github.com/digineo/3cx_exporter/) |
