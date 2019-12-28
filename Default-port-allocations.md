@@ -599,6 +599,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | 9913 | [Nginx VTS Exporter](https://github.com/hnlq715/nginx-vts-exporter) |
 | 9547 | [Kea Exporter](https://github.com/mweinelt/kea-exporter) |
 | 9665 | [Juniper Junos Exporter](https://github.com/lampwins/junos_exporter) |
+| 9901 | [Envoy proxy](https://github.com/envoyproxy/envoy), since [v1.7.0](https://www.envoyproxy.io/docs/envoy/v1.7.0/intro/version_history#id1) ([doc](https://www.envoyproxy.io/docs/envoy/latest/operations/admin#get--stats?format=prometheus)) |
 | 9980 | [Login Exporter](https://github.com/uniwue-rz/login_exporter)|
 | 9943 | [FileStat Exporter](https://github.com/michael-doubez/filestat_exporter) |
 | 9983 | [Sia Exporter](https://github.com/tbenz9/sia_exporter)|
