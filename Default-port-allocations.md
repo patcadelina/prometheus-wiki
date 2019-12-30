@@ -450,7 +450,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9528 | [Total Connect Comfort Exporter](https://github.com/ksanislo/tcc-exporter) |
 | 9529 | [Octoprint exporter](https://github.com/wywywywy/octoprint_exporter) |
 | 9530 | [Custom Prometheus Exporter](https://github.com/marckhouzam/custom-prometheus-exporter) |
-| 9531 | "FREE" |
+| 9531 | [JFrog Artifactory Exporter](https://github.com/peimanja/artifactory_exporter) |
 | 9532 | [Snyk exporter](https://github.com/lunarway/snyk_exporter) |
 | 9533 | [Network Exporter for Cisco API](https://github.com/greenpau/network_exporter) |
 | 9534 | [Humio exporter](https://github.com/lunarway/humio_exporter) |
