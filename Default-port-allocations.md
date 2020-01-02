@@ -575,6 +575,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9652 | [Praefect Exporter](https://gitlab.com/gitlab-org/gitaly/tree/master/cmd/praefect) |
 | 9653 | [Jira Issues Exporter](https://github.com/ZeitOnline/jira_exporter) |
 | 9654 | [Gdnsd Exporter](WIP) |
+| 9655 | sas2ircu Exporter (WIP by czhujer) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
