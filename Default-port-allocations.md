@@ -46,7 +46,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9127 | [PgBouncer exporter](http://git.cbaines.net/prometheus-pgbouncer-exporter/) |
 | 9128 | [Ceph exporter](https://github.com/digitalocean/ceph_exporter/) |
 | 9129 | [HAProxy Log exporter](http://git.cbaines.net/prometheus-haproxy-log-exporter/) |
-| 9130 | [UniFi exporter](https://github.com/mdlayher/unifi_exporter) |
+| 9130 | [UniFi Poller](https://github.com/unifi-poller/unifi-poller) and [UniFi exporter](https://github.com/mdlayher/unifi_exporter) |
 | 9131 | [Varnish exporter](https://github.com/jonnenauha/prometheus_varnish_exporter) |
 | 9132 | [EdgeMAX exporter](https://github.com/mdlayher/edgemax_exporter) |
 | 9133 | [Fritz!Box exporter](https://github.com/ndecker/fritzbox_exporter) |
