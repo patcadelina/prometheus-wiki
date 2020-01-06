@@ -576,6 +576,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9653 | [Jira Issues Exporter](https://github.com/ZeitOnline/jira_exporter) |
 | 9654 | [Gdnsd Exporter](WIP) |
 | 9655 | sas2ircu Exporter (WIP by czhujer) |
+| 9656 | [Matrix](https://github.com/matrix-org/synapse/blob/master/docs/metrics-howto.md) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
