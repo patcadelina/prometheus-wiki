@@ -548,7 +548,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9625 | [Bareos Exporter](https://github.com/dreyau/bareos_exporter/) (WIP) |
 | 9626 | [hockeypuck](https://github.com/hockeypuck/hockeypuck) (WIP) @jetpackdanger |
 | 9627 | [Artifactory Exporter](https://github.com/mikejoh/artifactory-exporter) (WIP) |
-| 9628 | "FREE" |
+| 9628 | [Solace PubSub+ Exporter|(https://github.com/dabgmx/solace_exporter) |
 | 9629 | [Prometheus GitLab notifier](https://github.com/FUSAKLA/prometheus-gitlab-notifier) |
 | 9630 | [nftables exporter](https://github.com/Sheridan/nftables_exporter) |
 | 9631 | [A OP5 Monitor exporter](https://github.com/opsdis/monitor-exporter) |
