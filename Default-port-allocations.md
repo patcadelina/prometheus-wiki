@@ -428,7 +428,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9506 | [Jenkins exporter](https://github.com/promhippie/jenkins_exporter) |
 | 9507 | [ownCloud exporter](https://github.com/promhippie/owncloud_exporter) |
 | 9508 | [ccache exporter](https://github.com/virtualtam/ccache_exporter) |
-| 9509 | "FREE" |
+| 9509 | [Hetzner Storagebox exporter](https://github.com/fleaz/prometheus-storagebox-exporter) |
 | 9510 | [Dummy Exporter](https://github.com/kobtea/dummy_exporter) |
 | 9511 | [IIS Log Exporter](https://github.com/GrupaPracuj/iislog-prometheus-exporter/) |
 | 9512 | [Cloudera exporter](https://github.com/peterloeffler/cloudera_exporter) |
