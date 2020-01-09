@@ -464,7 +464,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9542 | [SakuraCloud exporter](https://github.com/sacloud/sakuracloud_exporter) |
 | 9543 | [Kube2IAM exporter](https://github.com/jtblin/kube2iam) |
 | 9544 | [pgio exporter](https://gitlab.com/ongresinc/pgio) |
-| 9545 | "FREE" |
+| 9545 | [HP iLo4 Exporter](https://github.com/MauveSoftware/ilo4_exporter) |
 | 9546 | [pwrstat-exporter](https://github.com/ksanislo/pwrstat-exporter) |
 | 9547 | [Patroni exporter](https://github.com/Showmax/patroni-exporter) |
 | 9548 | [trafficserver exporter](https://github.com/poblahblahblah/trafficserver_exporter) |
