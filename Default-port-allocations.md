@@ -458,7 +458,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9536 | [IPsec exporter](https://github.com/dennisstritzke/ipsec_exporter) |
 | 9537 | [CRI-O](https://github.com/kubernetes-sigs/cri-o) |
 | 9538 | [Bull Queue](https://github.com/UpHabit/bull_exporter) (WIP) |
-| 9539 | "FREE" |
+| 9539 | LoraServer Gateways Exporter (WIP) |
 | 9540 | [EMQ exporter](https://github.com/nuvo/emq_exporter) |
 | 9541 | [smartmon_exporter](https://github.com/tobbez/smartmon_exporter) |
 | 9542 | [SakuraCloud exporter](https://github.com/sacloud/sakuracloud_exporter) |
