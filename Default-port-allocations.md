@@ -527,7 +527,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9604 | [XMPP Blackbox Exporter](https://github.com/horazont/prometheus-xmpp-blackbox-exporter) |
 | 9605 | [fping-exporter](https://github.com/schweikert/fping-exporter) |
 | 9606 | [ecr-exporter](https://github.com/ministryofjustice/prometheus_ecr_exporter) |
-| 9607 | "FREE" |
+| 9607 | [Raspberry Pi Sense HAT Exporter](https://github.com/mhansen/sense_hat_exporter) |
 | 9608 | [Ironic Prometheus Exporter](https://github.com/metal3-io/ironic-prometheus-exporter) |
 | 9609 | [netapp exporter](https://github.com/jenningsloy318/netapp_exporter) |
 | 9610 | [kubernetes_exporter](https://github.com/shalb-docker/kubernetes_exporter) |
