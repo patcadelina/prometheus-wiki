@@ -469,7 +469,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9547 | [Patroni exporter](https://github.com/Showmax/patroni-exporter) |
 | 9548 | [trafficserver exporter](https://github.com/poblahblahblah/trafficserver_exporter) |
 | 9549 | [raspberry exporter](https://github.com/DerKnerd/raspberry-exporter) |
-| 9550 | "FREE" |
+| 9550 | [rtl_433 exporter](https://github.com/mhansen/rtl_433_prometheus) |
 | 9551 | [hostapd exporter](https://bitbucket.i2cat.net/scm/~miguel_catalan/hostapd_prometheus_exporter.git)
 | 9552 | [Alpine apk exporter](https://github.com/DerKnerd/apk-exporter)|
 | 9552 | [AWS Elastic Beanstalk Exporter](https://github.com/jeremietharaud/elasticbeanstalk-exporter)|
