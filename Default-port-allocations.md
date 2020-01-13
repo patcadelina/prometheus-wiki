@@ -532,7 +532,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9609 | [netapp exporter](https://github.com/jenningsloy318/netapp_exporter) |
 | 9610 | [kubernetes_exporter](https://github.com/shalb-docker/kubernetes_exporter) |
 | 9611 | [speedport_exporter](https://gitlab.com/chrko/speedport-exporter) |
-| 9612 | "FREE" |
+| 9612 | Opflex Exporter |
 | 9613 | "FREE" |
 | 9614 | [NUT upsc Exporter](https://github.com/jzck/prometheus-upsc-exporter) |
 | 9615 | "FREE" |
