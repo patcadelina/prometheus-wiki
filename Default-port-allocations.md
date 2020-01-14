@@ -577,6 +577,8 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9654 | [Gdnsd Exporter](WIP) |
 | 9655 | sas2ircu Exporter (WIP by czhujer) |
 | 9656 | [Matrix](https://github.com/matrix-org/synapse/blob/master/docs/metrics-howto.md) |
+| 9657 | [Krill exporter](https://github.com/NLnetLabs/krill) |
+
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
