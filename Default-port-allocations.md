@@ -578,6 +578,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9655 | sas2ircu Exporter (WIP by czhujer) |
 | 9656 | [Matrix](https://github.com/matrix-org/synapse/blob/master/docs/metrics-howto.md) |
 | 9657 | [Krill exporter](https://github.com/NLnetLabs/krill) |
+| 9658 | [Hana SQL Exporter](https://github.com/ulranh/hana_sql_exporter) |
 
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
