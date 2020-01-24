@@ -535,7 +535,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9612 | Opflex Exporter (WIP) |
 | 9613 | [Azure Health Exporter](https://github.com/FXinnovation/azure-health-exporter) (WIP) |
 | 9614 | [NUT upsc Exporter](https://github.com/jzck/prometheus-upsc-exporter) |
-| 9615 | "FREE" |
+| 9615 | [Mellanox mlx5 Exporter] (https://github.com/david-macmahon/prometheus-mlx5-exporter) |
 | 9616 | [Mailgun Exporter](https://github.com/missionlane/prometheus-mailgun-exporter) |
 | 9617 | [PI-Hole Exporter](https://github.com/eko/pihole-exporter) |
 | 9618 | [stellar-account-exporter](https://github.com/stellar/stellar-account-prometheus-exporter) (WIP) |
