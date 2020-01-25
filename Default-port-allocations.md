@@ -541,7 +541,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9618 | [stellar-account-exporter](https://github.com/stellar/stellar-account-prometheus-exporter) (WIP) |
 | 9619 | [stellar-horizon-exporter](https://github.com/stellar/stellar-horizon-prometheus-exporter) (WIP) |
 | 9620 | [rundeck_exporter](https://github.com/phsmith/rundeck_exporter) |
-| 9621 | "FREE" |
+| 9621 | [OpenNebula exporter](https://github.com/jorisdevrede/one_exporter) |
 | 9622 | [BMC exporter](https://github.com/gebn/bmc_exporter) (WIP) |
 | 9623 | [TC4400 exporter](https://github.com/markuslindenberg/tc4400_exporter) |
 | 9624 | [Pact Broker Exporter](https://github.com/pperzyna/pactbroker_exporter) (WIP) |
