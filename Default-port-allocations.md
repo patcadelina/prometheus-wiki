@@ -483,7 +483,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9560 | [SQL queries exporter](https://github.com/albertodonato/query-exporter) | 
 | 9561 | [qBittorrent exporter](https://github.com/fru1tstand/qbittorrent-exporter) | 
 | 9562 | [PTV xServer exporter](https://github.com/concrest/ptv-xserver-exporter) WIP |
-| 9563 | [Kibana exporter](https://github.com/vladvasiliu/kibana-prometheus-exporter-py) WIP |
+| 9563 | [Kibana exporter](https://github.com/vladvasiliu/kibana-prometheus-exporter-py) |
 | 9564 | [PurpleAir exporter](https://github.com/vlowe/purpleair_exporter) |
 | 9565 | [Bminer exporter](https://github.com/hashrabbit/prometheus-bminer-exporter) |
 | 9566 | [RabbitMQ CLI Consumer](https://github.com/corvus-ch/rabbitmq-cli-consumer) |
