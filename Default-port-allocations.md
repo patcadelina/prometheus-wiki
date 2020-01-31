@@ -581,6 +581,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9658 | [SAP Hana SQL Exporter](https://github.com/ulranh/hana_sql_exporter) |
 | 9659 | tcptraceroute exporter (WIP by @jeanfabrice) |
 | 9660 | [Kaiterra Laser Egg Exporter](https://github.com/mhansen/kaiterra_laser_egg_exporter) |
+| 9661 | [Hashpipe Exporter](https://github.com/david-macmahon/rb-hashpipe) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
