@@ -583,6 +583,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9660 | [Kaiterra Laser Egg Exporter](https://github.com/mhansen/kaiterra_laser_egg_exporter) |
 | 9661 | [Hashpipe Exporter](https://github.com/david-macmahon/rb-hashpipe) |
 | 9662 | [PMS5003 Particulate Matter Sensor Exporter](https://github.com/mhansen/breathe) |
+| 9663 | [SAP NWRFC Exporter](https://github.com/ulranh/sapnwrfc_exporter) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
