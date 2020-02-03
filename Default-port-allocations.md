@@ -597,6 +597,7 @@ Add new exporters above. If there's a gap try to fill it, otherwise add 1 to the
 | 7300 | [MidoNet agent](https://github.com/midonet/midonet) |
 | 8080 | [cAdvisor (Container Advisor)](https://github.com/google/cadvisor) |
 | 8082 | [trickster](https://github.com/Comcast/trickster) |
+| 8083 | [ha_cluster_exporter](https://github.com/ClusterLabs/ha_cluster_exporter) |
 | 8088 | [Fawkes](https://www.fawkesrobotics.org) |
 | 8089 | [prom2teams](https://github.com/idealista/prom2teams) |
 | 8292 | [Phabricator webhook for Alertmanager](https://github.com/knyar/phalerts) |
