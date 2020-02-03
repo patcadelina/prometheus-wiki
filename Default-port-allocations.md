@@ -585,6 +585,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9662 | [PMS5003 Particulate Matter Sensor Exporter](https://github.com/mhansen/breathe) |
 | 9663 | [SAP NWRFC Exporter](https://github.com/ulranh/sapnwrfc_exporter) |
 | 9964 | [ha_cluster_exporter](https://github.com/ClusterLabs/ha_cluster_exporter) |
+| 9665 | [Senderscore Exporter](https://github.com/MauveSoftware/senderscore_exporter) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
