@@ -588,6 +588,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9665 | [Senderscore Exporter](https://github.com/MauveSoftware/senderscore_exporter) |
 | 9666 | [Alertmanager Silences Exporter](https://github.com/FXinnovation/alertmanager-silences-exporter) |
 | 9667 | [SMTPD Exporter](https://github.com/xsteadfastx/smtpd_exporter) |
+| 9668 | [hanadb_expoerter](https://github.com/SUSE/hanadb_exporter) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
