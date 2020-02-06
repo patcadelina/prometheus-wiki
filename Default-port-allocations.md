@@ -591,6 +591,7 @@ See https://prometheus.io/docs/instrumenting/writing_exporters/#port-numbers for
 | 9668 | [hanadb_exporter](https://github.com/SUSE/hanadb_exporter) |
 | 9669 | [panopticon native metrics](https://github.com/Feeld/panopticon) |
 | 9670 | [flare native metrics](https://github.com/Feeld/flare) |
+| 9671 | [AWS EC2 Spot Exporter](https://github.com/patcadelina/ec2-spot-exporter) |
 
 **Please look for open ports on this list (Ctrl+F "FREE") before adding a new port. Thanks!**
 
